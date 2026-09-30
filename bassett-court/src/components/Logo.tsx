@@ -40,7 +40,7 @@ export function Logo({ className = '', inverted = false }: { className?: string;
       <img
         src={lockup}
         alt={siteConfig.logo.alt}
-        className={`h-9 w-auto object-contain md:h-10 ${className}`}
+        className={`h-11 w-auto object-contain md:h-12 ${className}`}
       />
     );
   }
@@ -58,12 +58,12 @@ export function Wordmark({
   size?: 'md' | 'lg';
 }) {
   const mark = findMark();
-  const box = size === 'lg' ? 'h-12 w-12' : 'h-9 w-9';
-  const title = size === 'lg' ? 'text-[1.375rem]' : 'text-[1.0625rem]';
-  const sub = size === 'lg' ? 'text-[0.6875rem]' : 'text-[0.5625rem]';
+  const box = size === 'lg' ? 'h-14 w-14' : 'h-11 w-11';
+  const title = size === 'lg' ? 'text-[1.5rem]' : 'text-[1.1875rem]';
+  const sub = size === 'lg' ? 'text-[0.75rem]' : 'text-[0.625rem]';
 
   return (
-    <span className={`flex items-center gap-2.5 ${className}`} aria-label={siteConfig.name}>
+    <span className={`flex items-center gap-3 ${className}`} aria-label={siteConfig.name}>
       {mark ? (
         <span
           aria-hidden="true"
