@@ -31,7 +31,7 @@ export function SiteHeader({ logo }: { logo: React.ReactNode }) {
       }}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center gap-4 px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="shrink-0" aria-label={`${siteConfig.name} — home`}>
+        <Link prefetch={false} href="/" className="shrink-0" aria-label={`${siteConfig.name} — home`}>
           {logo}
         </Link>
 
@@ -39,8 +39,7 @@ export function SiteHeader({ logo }: { logo: React.ReactNode }) {
           {siteConfig.nav.map((item) => {
             const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
             return (
-              <Link
-                key={item.href}
+              <Link prefetch={false} key={item.href}
                 href={item.href}
                 aria-current={active ? 'page' : undefined}
                 className="rounded-lg px-3 py-2 text-[0.8125rem] font-medium transition-colors"
@@ -61,7 +60,7 @@ export function SiteHeader({ logo }: { logo: React.ReactNode }) {
             {siteConfig.contact.phone}
           </a>
           <ThemeToggle />
-          <Link href="/inventory" className="btn btn-primary hidden sm:inline-flex">
+          <Link prefetch={false} href="/inventory" className="btn btn-primary hidden sm:inline-flex">
             Browse Inventory
           </Link>
 
@@ -90,8 +89,7 @@ export function SiteHeader({ logo }: { logo: React.ReactNode }) {
         >
           <div className="mx-auto flex max-w-7xl flex-col gap-1 px-4 py-3 sm:px-6">
             {siteConfig.nav.map((item) => (
-              <Link
-                key={item.href}
+              <Link prefetch={false} key={item.href}
                 href={item.href}
                 className="rounded-lg px-3 py-2.5 text-sm font-medium"
                 style={{ color: 'var(--text-primary)' }}
@@ -99,7 +97,7 @@ export function SiteHeader({ logo }: { logo: React.ReactNode }) {
                 {item.label}
               </Link>
             ))}
-            <Link href="/inventory" className="btn btn-primary mt-2">
+            <Link prefetch={false} href="/inventory" className="btn btn-primary mt-2">
               Browse Inventory
             </Link>
             <a

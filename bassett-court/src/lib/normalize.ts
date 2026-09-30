@@ -174,7 +174,7 @@ function cleanImages(images: unknown): string[] {
     if (seen.has(url)) continue;
     seen.add(url);
     out.push(url);
-    if (out.length >= 30) break;
+    if (out.length >= 12) break;
   }
   return out;
 }

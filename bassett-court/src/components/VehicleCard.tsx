@@ -41,7 +41,7 @@ export function VehicleCard({ vehicle, priority = false }: { vehicle: Vehicle; p
       <div className="flex flex-1 flex-col gap-2.5 p-4">
         <div>
           <h3 className="display-soft text-[1.0625rem] leading-snug">
-            <Link href={`/inventory/${vehicle.slug}`} className="transition-colors hover:text-[var(--accent)]">
+            <Link prefetch={false} href={`/inventory/${vehicle.slug}`} className="transition-colors hover:text-[var(--accent)]">
               {vehicleTitle(vehicle)}
             </Link>
           </h3>
@@ -69,8 +69,7 @@ export function VehicleCard({ vehicle, priority = false }: { vehicle: Vehicle; p
             making the buyer open the listing to find out. */}
         <LocationNote variant="line" vehicle={vehicle} />
 
-        <Link
-          href={`/appointment?vehicle=${encodeURIComponent(vehicle.id)}`}
+        <Link prefetch={false} href={`/appointment?vehicle=${encodeURIComponent(vehicle.id)}`}
           className="btn btn-accent btn-block mt-auto"
         >
           Book a test drive

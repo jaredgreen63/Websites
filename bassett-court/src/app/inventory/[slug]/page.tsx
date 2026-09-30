@@ -51,16 +51,17 @@ export default async function VehiclePage({ params }: { params: Promise<{ slug: 
   if (!vehicle) notFound();
 
   const similar = await getSimilarVehicles(vehicle);
-  const bookable = toBookable(await getVehicles());
+  // Only this vehicle — the catalogue does not belong on a listing page.
+  const bookable = toBookable([vehicle]);
   const title = vehicleFullTitle(vehicle);
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
       <nav aria-label="Breadcrumb" className="mb-7 text-[0.8125rem] text-muted">
         <ol className="flex flex-wrap items-center gap-2">
-          <li><Link href="/" className="transition-colors hover:text-[var(--accent)]">Home</Link></li>
+          <li><Link prefetch={false} href="/" className="transition-colors hover:text-[var(--accent)]">Home</Link></li>
           <li aria-hidden="true">/</li>
-          <li><Link href="/inventory" className="transition-colors hover:text-[var(--accent)]">Inventory</Link></li>
+          <li><Link prefetch={false} href="/inventory" className="transition-colors hover:text-[var(--accent)]">Inventory</Link></li>
           <li aria-hidden="true">/</li>
           <li aria-current="page" style={{ color: 'var(--text-secondary)' }}>{title}</li>
         </ol>

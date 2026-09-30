@@ -74,8 +74,8 @@ export default async function AboutPage() {
         </div>
 
         <div className="flex flex-wrap gap-3">
-          <Link href="/inventory" className="btn btn-accent px-6 py-3">Browse inventory</Link>
-          <Link href="/contact" className="btn btn-outline px-6 py-3">Contact us</Link>
+          <Link prefetch={false} href="/inventory" className="btn btn-accent px-6 py-3">Browse inventory</Link>
+          <Link prefetch={false} href="/contact" className="btn btn-outline px-6 py-3">Contact us</Link>
         </div>
       </section>
     </div>

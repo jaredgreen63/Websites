@@ -47,7 +47,7 @@ export default async function HomePage() {
               <p className="eyebrow">At {siteConfig.location.dealer}</p>
               <h2 className="display-tight mt-2 text-[2.25rem] sm:text-[2.75rem]">What’s on the lot</h2>
             </div>
-            <Link href="/inventory" className="btn btn-outline">
+            <Link prefetch={false} href="/inventory" className="btn btn-outline">
               View all {vehicles.length} vehicles →
             </Link>
           </div>
@@ -114,10 +114,10 @@ function Hero({
           </p>
 
           <div className="mt-9 flex flex-wrap gap-3">
-            <Link href="/inventory" className="btn btn-accent px-6 py-3 text-[0.9375rem]">
+            <Link prefetch={false} href="/inventory" className="btn btn-accent px-6 py-3 text-[0.9375rem]">
               Browse the inventory
             </Link>
-            <Link href="/appointment" className="btn btn-outline px-6 py-3 text-[0.9375rem]">
+            <Link prefetch={false} href="/appointment" className="btn btn-outline px-6 py-3 text-[0.9375rem]">
               Book an appointment
             </Link>
           </div>
@@ -161,8 +161,7 @@ function BodyStyleStrip({ vehicles }: { vehicles: Vehicle[] }) {
     >
       <div className="scroll-slim mx-auto flex max-w-7xl gap-3 overflow-x-auto px-4 py-5 sm:px-6 lg:px-8">
         {styles.map(([style, count]) => (
-          <Link
-            key={style}
+          <Link prefetch={false} key={style}
             href={`/inventory?bodyStyle=${encodeURIComponent(style)}`}
             className="group flex shrink-0 items-center gap-2.5 rounded-full border px-4 py-2 text-[0.8125rem] font-medium transition-colors hover:border-[var(--accent)]"
             style={{ borderColor: 'var(--border-subtle)', backgroundColor: 'var(--surface-raised)' }}
@@ -278,8 +277,7 @@ function EmptyInventoryNotice() {
 function Spotlight({ vehicle }: { vehicle: Vehicle }) {
   return (
     <div className="hidden lg:block">
-      <Link
-        href={`/inventory/${vehicle.slug}`}
+      <Link prefetch={false} href={`/inventory/${vehicle.slug}`}
         className="group relative block overflow-hidden rounded-[var(--radius-card)] transition-transform duration-300 ease-[var(--ease-out-soft)] hover:-translate-y-1"
         style={{
           backgroundColor: 'var(--surface-raised)',

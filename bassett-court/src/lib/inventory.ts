@@ -71,7 +71,8 @@ export async function getSimilarVehicles(vehicle: Vehicle, count = 3): Promise<V
     .filter((entry) => entry.points > 0)
     .sort((a, b) => b.points - a.points)
     .slice(0, count)
-    .map((entry) => entry.candidate);
+    // The card shows a single photo, so ship a single photo.
+    .map((entry) => ({ ...entry.candidate, images: entry.candidate.images.slice(0, 1) }));
 }
 
 export interface InventoryFacets {

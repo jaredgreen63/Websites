@@ -44,13 +44,28 @@ const SORT_LABELS: Record<SortKey, string> = {
 export function InventoryBrowser({
   vehicles,
   facets,
-  initial,
 }: {
   vehicles: Vehicle[];
   facets: InventoryFacets;
-  initial: Partial<Record<string, string>>;
 }) {
-  const [filters, setFilters] = useState<Filters>(() => hydrate(initial));
+  const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
+
+  /*
+   * Filters are seeded from the query string in the browser rather than on the
+   * server. These pages are prerendered to static HTML — on a plain file host
+   * there is no server to read a query string — and reading it after mount
+   * also keeps the first render identical to the markup, so hydration stays
+   * clean either way.
+   */
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if ([...params.keys()].length === 0) return;
+    const seed: Record<string, string> = {};
+    for (const [key, value] of params.entries()) {
+      if (value) seed[key] = value;
+    }
+    setFilters(hydrate(seed));
+  }, []);
   const [visible, setVisible] = useState<number>(siteConfig.inventory.pageSize);
   const [drawerOpen, setDrawerOpen] = useState(false);
 

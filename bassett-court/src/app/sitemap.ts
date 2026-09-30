@@ -1,4 +1,7 @@
 import type { MetadataRoute } from 'next';
+
+// Generated once at build time so it works on a static host.
+export const dynamic = 'force-static';
 import { getSnapshot } from '@/lib/inventory';
 import { siteConfig } from '~/site.config';
 

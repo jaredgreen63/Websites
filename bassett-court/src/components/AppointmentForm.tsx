@@ -39,6 +39,17 @@ export function AppointmentForm({
   const [error, setError] = useState<string | null>(null);
 
   const [vehicleId, setVehicleId] = useState(defaultVehicleId ?? '');
+
+  /*
+   * A listing's "Book a test drive" arrives as ?vehicle=<id>. Read in the
+   * browser because these pages are prerendered and a static host has no
+   * server to parse the query string.
+   */
+  useEffect(() => {
+    if (defaultVehicleId) return;
+    const requested = new URLSearchParams(window.location.search).get('vehicle');
+    if (requested && vehicles.some((v) => v.id === requested)) setVehicleId(requested);
+  }, [defaultVehicleId, vehicles]);
   const [day, setDay] = useState('');
   const [time, setTime] = useState('');
   const [tradeIn, setTradeIn] = useState(siteConfig.booking.tradeInOptions[0]);
@@ -48,6 +59,9 @@ export function AppointmentForm({
   // "Today" for a day that had already passed.
   const [days, setDays] = useState<DayOption[] | null>(null);
   useEffect(() => setDays(buildDays(siteConfig.booking.daysAhead)), []);
+
+  /** Booking one specific car: the caller passed exactly that car. */
+  const singleVehicle = vehicles.length === 1 ? vehicles[0] : null;
 
   const selectedVehicle = useMemo(
     () => vehicles.find((vehicle) => vehicle.id === vehicleId) ?? null,
@@ -62,11 +76,31 @@ export function AppointmentForm({
     const form = event.currentTarget;
     const data = Object.fromEntries(new FormData(form).entries());
 
+    const endpoint = process.env.NEXT_PUBLIC_FORM_ENDPOINT;
+    if (!endpoint) {
+      // Better to say so plainly than to show a thank-you for a request that
+      // went nowhere.
+      setError(
+        `Online booking is not connected yet — please call or text ${siteConfig.contact.name} at ${siteConfig.contact.phone}.`,
+      );
+      setStatus('error');
+      return;
+    }
+
     try {
-      const response = await fetch('/api/appointment', {
+      const response = await fetch(endpoint, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
+          // Web3Forms and friends key the submission off this; harmless to
+          // send to services that ignore it.
+          ...(process.env.NEXT_PUBLIC_FORM_ACCESS_KEY
+            ? { access_key: process.env.NEXT_PUBLIC_FORM_ACCESS_KEY }
+            : {}),
+          subject: selectedVehicle
+            ? `Appointment request — ${selectedVehicle.label}`
+            : 'Appointment request',
+          from_name: String(data.name ?? ''),
           ...data,
           vehicleId,
           vehicleLabel: selectedVehicle?.label ?? '',
@@ -74,12 +108,14 @@ export function AppointmentForm({
           preferredDayLabel: days?.find((d) => d.value === day)?.label ?? '',
           preferredTime: time,
           tradeIn,
+          vehicleLocation: siteConfig.location.oneLine,
+          submittedFrom: typeof window === 'undefined' ? '' : window.location.href,
         }),
       });
 
       if (!response.ok) {
-        const body = (await response.json().catch(() => null)) as { error?: string } | null;
-        throw new Error(body?.error ?? 'We could not send that just now.');
+        const body = (await response.json().catch(() => null)) as { message?: string } | null;
+        throw new Error(body?.message ?? 'We could not send that just now.');
       }
 
       form.reset();
@@ -108,22 +144,42 @@ export function AppointmentForm({
         </Field>
       </div>
 
-      <Field label="Which vehicle?">
-        <select
-          value={vehicleId}
-          onChange={(event) => setVehicleId(event.target.value)}
-          className="field"
-          aria-label="Which vehicle"
-        >
-          <option value="">Select a vehicle</option>
-          {vehicles.map((vehicle) => (
-            <option key={vehicle.id} value={vehicle.id}>
-              {vehicle.label} — {vehicle.price}
-            </option>
-          ))}
-          <option value="__other">Something else / not sure yet</option>
-        </select>
-      </Field>
+      {/*
+        * On a vehicle's own page the car is already known, so the picker is
+        * replaced by a plain statement of what is being booked. That also
+        * keeps the whole catalogue out of the page: rendering a 344-option
+        * dropdown on all 344 listings put 200KB of other people's cars into
+        * every one of them.
+        */}
+      {singleVehicle ? (
+        <div>
+          <span className="eyebrow mb-2 block">Vehicle</span>
+          <p
+            className="rounded-lg px-3 py-2.5 text-[0.875rem] font-medium"
+            style={{ backgroundColor: 'var(--surface-sunken)', border: '1px solid var(--border-subtle)' }}
+          >
+            {singleVehicle.label}
+            <span className="ml-2 text-secondary">{singleVehicle.price}</span>
+          </p>
+        </div>
+      ) : (
+        <Field label="Which vehicle?">
+          <select
+            value={vehicleId}
+            onChange={(event) => setVehicleId(event.target.value)}
+            className="field"
+            aria-label="Which vehicle"
+          >
+            <option value="">Select a vehicle</option>
+            {vehicles.map((vehicle) => (
+              <option key={vehicle.id} value={vehicle.id}>
+                {vehicle.label} — {vehicle.price}
+              </option>
+            ))}
+            <option value="__other">Something else / not sure yet</option>
+          </select>
+        </Field>
+      )}
 
       <fieldset>
         <legend className="eyebrow mb-2.5">Preferred day</legend>

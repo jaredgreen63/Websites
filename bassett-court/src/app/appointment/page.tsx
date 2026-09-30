@@ -11,17 +11,9 @@ export const metadata: Metadata = {
   description: `Book a test drive or appointment with ${siteConfig.contact.name} at ${siteConfig.legalName}. Vehicles are located at ${siteConfig.location.dealer}.`,
 };
 
-export default async function AppointmentPage({
-  searchParams,
-}: {
-  searchParams: Promise<Record<string, string | string[] | undefined>>;
-}) {
+export default async function AppointmentPage() {
   const vehicles = await getVehicles();
   const bookable = toBookable(vehicles);
-
-  const params = await searchParams;
-  const requested = Array.isArray(params.vehicle) ? params.vehicle[0] : params.vehicle;
-  const defaultVehicleId = bookable.some((v) => v.id === requested) ? requested : undefined;
 
   return (
     <div className="pb-24">
@@ -89,7 +81,7 @@ export default async function AppointmentPage({
             <strong style={{ color: 'var(--text-primary)' }}>personally</strong>.
           </p>
           <div className="mt-6">
-            <AppointmentForm vehicles={bookable} defaultVehicleId={defaultVehicleId} />
+            <AppointmentForm vehicles={bookable} />
           </div>
         </div>
       </div>

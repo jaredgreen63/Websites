@@ -31,7 +31,7 @@ export function SiteFooter({ syncedAt, vehicleCount }: { syncedAt: string; vehic
                 { href: '/inventory?bodyStyle=SUV', label: 'SUVs' },
               ].map((item) => (
                 <li key={item.label}>
-                  <Link href={item.href} className="transition-colors hover:text-[var(--accent)]" style={{ color: 'var(--text-secondary)' }}>
+                  <Link prefetch={false} href={item.href} className="transition-colors hover:text-[var(--accent)]" style={{ color: 'var(--text-secondary)' }}>
                     {item.label}
                   </Link>
                 </li>
@@ -50,7 +50,7 @@ export function SiteFooter({ syncedAt, vehicleCount }: { syncedAt: string; vehic
                 { href: '/privacy', label: 'Privacy' },
               ].map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className="transition-colors hover:text-[var(--accent)]" style={{ color: 'var(--text-secondary)' }}>
+                  <Link prefetch={false} href={item.href} className="transition-colors hover:text-[var(--accent)]" style={{ color: 'var(--text-secondary)' }}>
                     {item.label}
                   </Link>
                 </li>

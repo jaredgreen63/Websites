@@ -8,22 +8,9 @@ export const metadata: Metadata = {
   description: `Browse the current ${siteConfig.name} inventory of new and pre-owned vehicles.`,
 };
 
-export default async function InventoryPage({
-  searchParams,
-}: {
-  searchParams: Promise<Record<string, string | string[] | undefined>>;
-}) {
+export default async function InventoryPage() {
   const snapshot = await getSnapshot();
   const facets = buildFacets(snapshot.vehicles);
-
-  // Collapse repeated query params to the first value; the browser owns state
-  // from here, and the URL is only used to seed it.
-  const raw = await searchParams;
-  const initial: Record<string, string> = {};
-  for (const [key, value] of Object.entries(raw)) {
-    const first = Array.isArray(value) ? value[0] : value;
-    if (typeof first === 'string' && first) initial[key] = first;
-  }
 
   return (
     <div className="py-12">
@@ -38,7 +25,7 @@ export default async function InventoryPage({
         </p>
       </div>
 
-      <InventoryBrowser vehicles={snapshot.vehicles} facets={facets} initial={initial} />
+      <InventoryBrowser vehicles={snapshot.vehicles} facets={facets} />
 
       {siteConfig.inventory.sourcingDisclosure ? (
         <p className="mx-auto mt-16 max-w-7xl px-4 text-[0.6875rem] leading-relaxed text-muted sm:px-6 lg:px-8">

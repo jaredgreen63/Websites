@@ -10,8 +10,8 @@ export default function NotFound() {
         our listings come down automatically once a vehicle is no longer available.
       </p>
       <div className="mt-9 flex flex-wrap justify-center gap-3">
-        <Link href="/inventory" className="btn btn-accent px-6 py-3">Browse inventory</Link>
-        <Link href="/contact" className="btn btn-outline px-6 py-3">Tell us what you want</Link>
+        <Link prefetch={false} href="/inventory" className="btn btn-accent px-6 py-3">Browse inventory</Link>
+        <Link prefetch={false} href="/contact" className="btn btn-outline px-6 py-3">Tell us what you want</Link>
       </div>
     </div>
   );

@@ -61,8 +61,8 @@ export default function FinancingPage() {
           </ul>
 
           <div className="mt-9 flex flex-wrap gap-3">
-            <Link href="/contact" className="btn btn-accent px-6 py-3">Start a conversation</Link>
-            <Link href="/inventory" className="btn btn-outline px-6 py-3">Browse inventory</Link>
+            <Link prefetch={false} href="/contact" className="btn btn-accent px-6 py-3">Start a conversation</Link>
+            <Link prefetch={false} href="/inventory" className="btn btn-outline px-6 py-3">Browse inventory</Link>
           </div>
         </div>
 
