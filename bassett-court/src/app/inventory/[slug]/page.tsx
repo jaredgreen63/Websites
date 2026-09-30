@@ -6,6 +6,7 @@ import { getSimilarVehicles, getVehicleBySlug, getVehicles } from '@/lib/invento
 import { toBookable } from '@/lib/booking';
 import { Gallery } from '@/components/Gallery';
 import { AppointmentForm } from '@/components/AppointmentForm';
+import { ShareButton } from '@/components/ShareButton';
 import { LocationNote } from '@/components/LocationNote';
 import { PaymentEstimator } from '@/components/PaymentEstimator';
 import { VehicleCard } from '@/components/VehicleCard';
@@ -104,15 +105,22 @@ export default async function VehiclePage({ params }: { params: Promise<{ slug: 
         <aside className="lg:sticky lg:top-24 lg:self-start">
           <div className="space-y-5">
             <div>
-              <span
-                className="inline-block rounded-full px-2.5 py-1 text-[0.625rem] font-semibold uppercase tracking-[0.1em]"
-                style={{
-                  backgroundColor: vehicle.condition === 'new' ? 'var(--accent)' : 'var(--surface-sunken)',
-                  color: vehicle.condition === 'new' ? 'var(--accent-contrast)' : 'var(--text-secondary)',
-                }}
-              >
-                {conditionLabel(vehicle.condition)}
-              </span>
+              <div className="flex items-start justify-between gap-3">
+                <span
+                  className="inline-block rounded-full px-2.5 py-1 text-[0.625rem] font-semibold uppercase tracking-[0.1em]"
+                  style={{
+                    backgroundColor: vehicle.condition === 'new' ? 'var(--accent)' : 'var(--surface-sunken)',
+                    color: vehicle.condition === 'new' ? 'var(--accent-contrast)' : 'var(--text-secondary)',
+                  }}
+                >
+                  {conditionLabel(vehicle.condition)}
+                </span>
+
+                <ShareButton
+                  title={`${title} — ${formatPrice(vehicle.price, siteConfig.pricing.callForPriceLabel)}`}
+                  text={`${title} at ${siteConfig.name}, ${siteConfig.location.short}.`}
+                />
+              </div>
 
               <h1 className="display-tight mt-3 text-[2rem] leading-[1.08]">{title}</h1>
 
