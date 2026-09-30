@@ -5,9 +5,8 @@ import { VehicleCard } from '@/components/VehicleCard';
 import { AppointmentForm } from '@/components/AppointmentForm';
 import { LocationNote } from '@/components/LocationNote';
 import { PulseDivider } from '@/components/PulseDivider';
-import { VehicleImage } from '@/components/VehicleImage';
 import { formatPrice } from '@/lib/pricing';
-import { relativeTime, vehicleTitle } from '@/lib/format';
+import { relativeTime } from '@/lib/format';
 import { siteConfig } from '~/site.config';
 import type { Vehicle } from '@/lib/types';
 
@@ -33,7 +32,6 @@ export default async function HomePage() {
         usedCount={usedCount}
         lowestPrice={lowestPrice}
         syncedAt={snapshot.generatedAt}
-        spotlight={featured[0] ?? null}
       />
 
       <BodyStyleStrip vehicles={vehicles} />
@@ -69,14 +67,13 @@ export default async function HomePage() {
 }
 
 function Hero({
-  vehicleCount, newCount, usedCount, lowestPrice, syncedAt, spotlight,
+  vehicleCount, newCount, usedCount, lowestPrice, syncedAt,
 }: {
   vehicleCount: number;
   newCount: number;
   usedCount: number;
   lowestPrice: number | null;
   syncedAt: string;
-  spotlight: Vehicle | null;
 }) {
   return (
     <section className="relative overflow-hidden">
@@ -123,7 +120,7 @@ function Hero({
           </div>
           </div>
 
-          {spotlight ? <Spotlight vehicle={spotlight} /> : null}
+          <Spotlight />
         </div>
 
         <dl className="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-[var(--radius-card)] sm:grid-cols-4"
@@ -274,33 +271,30 @@ function EmptyInventoryNotice() {
   );
 }
 
-function Spotlight({ vehicle }: { vehicle: Vehicle }) {
+function Spotlight() {
   return (
-    <div className="hidden lg:block">
-      <Link prefetch={false} href={`/inventory/${vehicle.slug}`}
-        className="group relative block overflow-hidden rounded-[var(--radius-card)] transition-transform duration-300 ease-[var(--ease-out-soft)] hover:-translate-y-1"
-        style={{
-          backgroundColor: 'var(--surface-raised)',
-          border: '1px solid var(--border-subtle)',
-          boxShadow: 'var(--shadow-lift)',
-        }}
+    <div className="hidden justify-center lg:flex">
+      <Link
+        prefetch={false}
+        href="/appointment"
+        className="group relative block"
+        aria-label={`Book an appointment with ${siteConfig.contact.name}`}
       >
-        <div className="aspect-[16/10] overflow-hidden" style={{ backgroundColor: 'var(--surface-sunken)' }}>
-          <div className="h-full w-full transition-transform duration-500 ease-[var(--ease-out-soft)] group-hover:scale-[1.03]">
-            <VehicleImage vehicle={vehicle} priority sizes="45vw" />
-          </div>
-        </div>
-
-        <div className="flex items-end justify-between gap-4 p-5">
-          <div className="min-w-0">
-            <p className="eyebrow">In the showroom</p>
-            <p className="mt-1.5 truncate text-[1.0625rem] font-semibold">{vehicleTitle(vehicle)}</p>
-            {vehicle.trim ? <p className="truncate text-[0.8125rem] text-secondary">{vehicle.trim}</p> : null}
-          </div>
-          <p className="numeric shrink-0 text-[1.25rem] font-semibold tracking-tight">
-            {formatPrice(vehicle.price, siteConfig.pricing.callForPriceLabel)}
-          </p>
-        </div>
+        {/* Soft halo picking up the badge's own blue ring, so it sits on the
+            page rather than floating on top of it. */}
+        <span
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 -z-10 rounded-full blur-3xl transition-opacity duration-500 group-hover:opacity-90"
+          style={{ background: 'radial-gradient(circle, rgba(80,160,255,0.30), transparent 68%)', opacity: 0.65 }}
+        />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/dan-the-man-can.webp"
+          alt={`${siteConfig.contact.name} — ${siteConfig.legalName}`}
+          width={900}
+          height={900}
+          className="h-auto w-full max-w-[26rem] transition-transform duration-500 ease-[var(--ease-out-soft)] group-hover:scale-[1.02]"
+        />
       </Link>
     </div>
   );
