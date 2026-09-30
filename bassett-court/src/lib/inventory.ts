@@ -2,6 +2,7 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import type { InventorySnapshot, Vehicle } from './types';
+import { COLOR_FAMILIES, colorFamilyId } from './colors';
 import { siteConfig } from '~/site.config';
 
 const SNAPSHOT_PATH = resolve(process.cwd(), 'data/inventory.json');
@@ -81,8 +82,29 @@ export interface InventoryFacets {
   drivetrains: { value: string; count: number }[];
   fuelTypes: { value: string; count: number }[];
   years: number[];
+  /** Exterior colours collapsed into families, in palette order. */
+  colors: { id: string; label: string; hex: string; count: number }[];
   priceRange: { min: number; max: number };
   mileageMax: number;
+}
+
+/**
+ * Colour families present in this catalogue, with counts.
+ *
+ * Keeps the declared palette order rather than sorting by count, so the
+ * swatches stay in the same place as inventory turns over — a filter whose
+ * buttons rearrange under you between visits is worse than one that does not.
+ */
+function buildColorFacet(vehicles: Vehicle[]): InventoryFacets['colors'] {
+  const counts = new Map<string, number>();
+  for (const vehicle of vehicles) {
+    const id = colorFamilyId(vehicle.exteriorColor);
+    counts.set(id, (counts.get(id) ?? 0) + 1);
+  }
+  return COLOR_FAMILIES.filter((family) => counts.has(family.id)).map((family) => ({
+    ...family,
+    count: counts.get(family.id)!,
+  }));
 }
 
 function tally(values: (string | null)[]): { value: string; count: number }[] {
@@ -108,6 +130,7 @@ export function buildFacets(vehicles: Vehicle[]): InventoryFacets {
     drivetrains: tally(vehicles.map((v) => v.drivetrain)),
     fuelTypes: tally(vehicles.map((v) => v.fuelType)),
     years: [...new Set(vehicles.map((v) => v.year).filter((y): y is number => y != null))].sort((a, b) => b - a),
+    colors: buildColorFacet(vehicles),
     priceRange: {
       min: prices.length ? Math.floor(Math.min(...prices) / 1000) * 1000 : 0,
       max: prices.length ? Math.ceil(Math.max(...prices) / 1000) * 1000 : 100_000,

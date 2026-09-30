@@ -2,6 +2,7 @@
 
 import { useCallback, useState } from 'react';
 import type { Vehicle } from '@/lib/types';
+import { swatchFor } from '@/lib/colors';
 
 /**
  * Vehicle photography with a designed fallback.
@@ -15,28 +16,6 @@ import type { Vehicle } from '@/lib/types';
  * The fallback draws a silhouette matched to the body style and tinted from
  * the vehicle's own exterior colour, which reads as intentional.
  */
-
-const COLOR_MAP: [RegExp, string][] = [
-  [/summit|white|pearl|ivory/i, '#e8e9ea'],
-  [/black|midnight|onyx/i, '#23272c'],
-  [/silver|sterling|aluminum/i, '#b9bfc5'],
-  [/gray|grey|graphite|meteorite|ash|slate/i, '#7b828b'],
-  [/red|cherry|crimson|garnet|radiant/i, '#a4322f'],
-  [/blue|riptide|lakeshore|navy|cobalt/i, '#2f5a86'],
-  [/green|cacti|forest|sage/i, '#4a6b52'],
-  [/brown|bronze|copper|tan|beige|sand/i, '#8a6e51'],
-  [/orange|amber/i, '#b86a30'],
-  [/yellow|gold/i, '#b99537'],
-  [/purple|violet/i, '#5a4570'],
-];
-
-function paintFor(color: string | null): string {
-  if (!color) return '#6d7885';
-  for (const [pattern, hex] of COLOR_MAP) {
-    if (pattern.test(color)) return hex;
-  }
-  return '#6d7885';
-}
 
 type Silhouette = 'truck' | 'suv' | 'sedan' | 'coupe' | 'van';
 
@@ -174,7 +153,7 @@ export function VehicleSilhouette({
   className?: string;
 }) {
   const kind = silhouetteFor(vehicle);
-  const paint = paintFor(vehicle.exteriorColor);
+  const paint = swatchFor(vehicle.exteriorColor);
   const profile = PROFILES[kind];
   const gradientId = `paint-${kind}-${paint.replace('#', '')}`;
 

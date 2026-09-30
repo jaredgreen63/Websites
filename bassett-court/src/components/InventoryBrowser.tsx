@@ -5,6 +5,7 @@ import type { Vehicle } from '@/lib/types';
 import type { InventoryFacets } from '@/lib/inventory';
 import { VehicleCard } from './VehicleCard';
 import { formatPrice } from '@/lib/pricing';
+import { colorFamilyId, familyLabel } from '@/lib/colors';
 import { siteConfig } from '~/site.config';
 
 type SortKey = 'recommended' | 'price-asc' | 'price-desc' | 'year-desc' | 'mileage-asc' | 'newest';
@@ -17,6 +18,8 @@ interface Filters {
   bodyStyle: string;
   drivetrain: string;
   fuelType: string;
+  /** Colour family id, not a manufacturer colour name. */
+  color: string;
   minPrice: number | null;
   maxPrice: number | null;
   maxMileage: number | null;
@@ -25,7 +28,8 @@ interface Filters {
 
 const EMPTY_FILTERS: Filters = {
   q: '', condition: '', make: '', model: '', bodyStyle: '', drivetrain: '',
-  fuelType: '', minPrice: null, maxPrice: null, maxMileage: null, sort: 'recommended',
+  fuelType: '', color: '', minPrice: null, maxPrice: null, maxMileage: null,
+  sort: 'recommended',
 };
 
 const SORT_LABELS: Record<SortKey, string> = {
@@ -146,6 +150,37 @@ export function InventoryBrowser({
                 options={facets.bodyStyles.map((entry) => ({ value: entry.value, label: entry.value, count: entry.count }))}
                 allLabel="Any body style"
               />
+
+              {facets.colors.length > 1 ? (
+                <fieldset>
+                  <legend className="eyebrow mb-2.5">Colour</legend>
+                  <div className="grid grid-cols-2 gap-2">
+                    {facets.colors.map((entry) => (
+                      <button
+                        key={entry.id}
+                        type="button"
+                        aria-pressed={filters.color === entry.id}
+                        onClick={() => update('color', filters.color === entry.id ? '' : entry.id)}
+                        className="chip justify-start gap-2 px-2.5"
+                      >
+                        <span
+                          aria-hidden="true"
+                          className="h-3.5 w-3.5 shrink-0 rounded-full ring-1"
+                          style={{
+                            backgroundColor: entry.hex,
+                            // A white swatch needs an outline to exist at all
+                            // against a pale card, and a black one against a
+                            // dark card.
+                            '--tw-ring-color': 'var(--border-strong)',
+                          } as React.CSSProperties}
+                        />
+                        <span className="truncate">{entry.label}</span>
+                        <span className="numeric ml-auto text-[0.6875rem] opacity-60">{entry.count}</span>
+                      </button>
+                    ))}
+                  </div>
+                </fieldset>
+              ) : null}
 
               <Field label="Price">
                 <div className="flex items-center gap-2">
@@ -360,6 +395,7 @@ function hydrate(initial: Partial<Record<string, string>>): Filters {
     bodyStyle: initial.bodyStyle ?? '',
     drivetrain: initial.drivetrain ?? '',
     fuelType: initial.fuelType ?? '',
+    color: initial.color ?? '',
     minPrice: initial.minPrice ? Number(initial.minPrice) : null,
     maxPrice: initial.maxPrice ? Number(initial.maxPrice) : null,
     maxMileage: initial.maxMileage ? Number(initial.maxMileage) : null,
@@ -380,6 +416,7 @@ function activeChips(filters: Filters): { key: string; label: string }[] {
   if (filters.bodyStyle) chips.push({ key: 'bodyStyle', label: filters.bodyStyle });
   if (filters.drivetrain) chips.push({ key: 'drivetrain', label: filters.drivetrain });
   if (filters.fuelType) chips.push({ key: 'fuelType', label: filters.fuelType });
+  if (filters.color) chips.push({ key: 'color', label: familyLabel(filters.color) });
   if (filters.minPrice != null) chips.push({ key: 'minPrice', label: `From ${formatPrice(filters.minPrice)}` });
   if (filters.maxPrice != null) chips.push({ key: 'maxPrice', label: `Up to ${formatPrice(filters.maxPrice)}` });
   if (filters.maxMileage != null) chips.push({ key: 'maxMileage', label: `Under ${filters.maxMileage.toLocaleString()} mi` });
@@ -396,6 +433,7 @@ export function applyFilters(vehicles: Vehicle[], filters: Filters): Vehicle[] {
     if (filters.bodyStyle && vehicle.bodyStyle !== filters.bodyStyle) return false;
     if (filters.drivetrain && vehicle.drivetrain !== filters.drivetrain) return false;
     if (filters.fuelType && vehicle.fuelType !== filters.fuelType) return false;
+    if (filters.color && colorFamilyId(vehicle.exteriorColor) !== filters.color) return false;
 
     // Price bounds only exclude vehicles that have a price. A "Call for Price"
     // unit is not evidence that it falls outside the range, so it stays in.
