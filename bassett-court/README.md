@@ -34,6 +34,7 @@ once the source is set up (see below).
 | `npm test` | Unit tests (68 of them, no network) |
 | `npm run typecheck` | TypeScript, no emit |
 | `npm run check` | Typecheck + tests |
+| `npm run build:static` | Build plain HTML into `out/`, ready to upload |
 | `npm run check:responsive` | Fails on horizontal overflow at 10 viewport widths |
 
 ---
@@ -245,37 +246,49 @@ npm run sync -- --fallback-demo  # fall back to sample data if the source is dow
 ## Automating it
 
 [`.github/workflows/sync-inventory.yml`](../.github/workflows/sync-inventory.yml)
-runs the sync once a day at 13:00 UTC (9am Eastern in summer, 8am in winter),
-verifies the site still builds with the new data, and commits `data/` if
-anything changed. The commit is what triggers a
-redeploy on any host wired to this branch.
+runs the whole chain once a day at 13:00 UTC (9am Eastern in summer, 8am in
+winter):
 
-Configure in **Settings → Secrets and variables → Actions**:
+```
+Shiftly  ->  data/inventory.json  ->  357 HTML pages  ->  danthemancan.live
+```
 
-| Name | Kind | Purpose |
-| --- | --- | --- |
-| `INVENTORY_SOURCE_ADAPTER` | Variable | `shiftly`, `feed`, `sitemap-jsonld` or `demo` |
-| `SHIFTLY_API_URL` | Variable | The `get-csv-file` endpoint, with any fixed parameters |
-| `SHIFTLY_API_KEY` | **Secret** | The Shiftly credential |
-| `SHIFTLY_AUTH_STYLE` | Variable | `query` for Shiftly; `bearer` or `header` also supported |
-| `SHIFTLY_AUTH_PARAM` | Variable | `api_key` for Shiftly |
-| `SHIFTLY_DEALER_ID` | Variable | Optional, sent as `dealer_id` |
-| `INVENTORY_SOURCE_URL` | Variable | Dealer site, for the crawl adapter |
-| `INVENTORY_FEED_URL` | Secret | Feed URL, for the `feed` adapter |
-| `DEPLOY_HOOK_URL` | Secret | Optional — only if your host does not redeploy on push |
+New arrivals appear, sold vehicles disappear, and nobody touches anything. The
+timing lands after Shiftly regenerates its export in the early morning Eastern.
 
-You can also run it by hand from the Actions tab, choosing the adapter and
-whether to bypass the shrink guard. The workflow rebases and retries if a
-scheduled run collides with a human push, and writes a summary of every run
-(added / removed / repriced) to the job page.
-
-To change the cadence, edit the `cron` line. The daily timing is chosen to land
-after Shiftly regenerates its export, which it does in the early morning
-Eastern. Needing it sooner than tomorrow is what **Run workflow** is for —
-Actions tab, *Sync inventory*, *Run workflow* — and that also lets you pick a
+Need it sooner than tomorrow — a trade taken in at 2pm, say? Actions tab →
+*Daily inventory update* → **Run workflow**. That also lets you pick a
 different adapter or bypass the shrink guard for one run.
 
----
+### What it needs configured
+
+**Settings → Secrets and variables → Actions**
+
+| Name | Kind | Value |
+| --- | --- | --- |
+| `SHIFTLY_API_URL` | Variable | `https://sag.gemquery.com/api/v1/get-csv-file?466` |
+| `SHIFTLY_API_KEY` | **Secret** | the Shiftly credential |
+| `FTP_SERVER` | **Secret** | the cPanel host |
+| `FTP_USERNAME` | **Secret** | the cPanel FTP user |
+| `FTP_PASSWORD` | **Secret** | that user's password |
+| `NEXT_PUBLIC_FORM_ENDPOINT` | Variable | where booking requests POST |
+| `NEXT_PUBLIC_FORM_ACCESS_KEY` | **Secret** | form service key, if it uses one |
+
+Optional variables: `FTP_PROTOCOL` (defaults to `ftps`; set `ftp` only if the
+host cannot do FTPS, since plain FTP sends the password in the clear) and
+`FTP_REMOTE_DIR` (defaults to `public_html/`).
+
+**Scheduled workflows only run from the repository's default branch.** On any
+other branch the schedule silently never fires.
+
+### How the upload behaves
+
+The deploy keeps a manifest on the server and uploads only what changed, so a
+normal day moves a handful of files rather than all 757. The first run uploads
+everything and takes a few minutes.
+
+If a build fails, the deploy step never runs, so the live site keeps serving
+the last good version rather than a half-written one.
 
 ## Deploying
 
