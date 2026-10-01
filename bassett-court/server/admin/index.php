@@ -2,14 +2,16 @@
 declare(strict_types=1);
 
 /**
- * Appointment admin.
+ * Lead desk.
  *
- * A working list, not a log: every request carries a status so it is obvious
- * what has been answered and what has not. Dark to match the site.
+ * A working list, not a log. Two things land here: requests from the booking
+ * form on the site, and leads typed in by hand after a call or a walk-in.
+ * Both carry a status, so it is always obvious what has been answered.
  */
 
 require __DIR__ . '/../lib/util.php';
 require __DIR__ . '/../lib/db.php';
+require __DIR__ . '/../lib/leads.php';
 
 start_session();
 
@@ -45,9 +47,46 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST' && isset($_POST['password']) &
 }
 
 $authed = !empty($_SESSION['admin']);
+$method = $_SERVER['REQUEST_METHOD'] ?? '';
+$filter = (string) ($_GET['status'] ?? '');
+if (!in_array($filter, statuses(), true)) {
+    $filter = '';
+}
+
+// ------------------------------------------------------------ add a lead ---
+$addError = '';
+$draft = [];
+if ($authed && $method === 'POST' && isset($_POST['add_lead'])) {
+    check_csrf($_POST['csrf'] ?? null);
+
+    $draft = [
+        'name' => clean($_POST['name'] ?? '', 120),
+        'phone' => clean($_POST['phone'] ?? '', 40),
+        'email' => clean($_POST['email'] ?? '', 160),
+        'vehicle_label' => clean($_POST['vehicle_label'] ?? '', 200),
+        'preferred_day_label' => clean($_POST['preferred_day_label'] ?? '', 40),
+        'trade_in' => clean($_POST['trade_in'] ?? '', 60),
+        'message' => clean($_POST['message'] ?? '', 4000),
+    ];
+    $draft['status'] = in_array($_POST['status'] ?? '', statuses(), true)
+        ? (string) $_POST['status']
+        : 'new';
+
+    if ($draft['name'] === '') {
+        $addError = 'Give the lead a name.';
+    } elseif ($draft['phone'] === '' && $draft['email'] === '') {
+        $addError = 'Add a phone number or an email address, so there is a way to reach them.';
+    } elseif ($draft['email'] !== '' && !filter_var($draft['email'], FILTER_VALIDATE_EMAIL)) {
+        $addError = 'That email address does not look right.';
+    } else {
+        $newId = create_lead(db(), $draft, 'manual', $draft['status']);
+        header('Location: ./?' . http_build_query(['id' => $newId, 'added' => 1]));
+        exit;
+    }
+}
 
 // ---------------------------------------------------------------- update ---
-if ($authed && ($_SERVER['REQUEST_METHOD'] ?? '') === 'POST' && isset($_POST['update_id'])) {
+if ($authed && $method === 'POST' && isset($_POST['update_id'])) {
     check_csrf($_POST['csrf'] ?? null);
 
     $status = (string) ($_POST['status'] ?? 'new');
@@ -65,7 +104,7 @@ if ($authed && ($_SERVER['REQUEST_METHOD'] ?? '') === 'POST' && isset($_POST['up
 
     // Redirect after post, so a refresh does not resubmit.
     header('Location: ./?' . http_build_query(array_filter([
-        'status' => $_GET['status'] ?? '',
+        'status' => $filter,
         'saved' => '1',
     ])));
     exit;
@@ -75,11 +114,6 @@ if ($authed && ($_SERVER['REQUEST_METHOD'] ?? '') === 'POST' && isset($_POST['up
 $rows = [];
 $counts = [];
 if ($authed) {
-    $filter = (string) ($_GET['status'] ?? '');
-    if (!in_array($filter, statuses(), true)) {
-        $filter = '';
-    }
-
     $sql = 'SELECT * FROM appointments';
     $params = [];
     if ($filter !== '') {
@@ -97,118 +131,327 @@ if ($authed) {
     }
 }
 
+$total = array_sum($counts);
 $highlight = (int) ($_GET['id'] ?? 0);
+$draftOpen = $addError !== '';
 ?><!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Appointments · Bassett Court Holdings</title>
+<meta name="theme-color" content="#0a0e14">
+<title>Lead desk · Bassett Court Holdings</title>
+<link rel="icon" href="/logo-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
     --page:#0a0e14; --card:#121821; --sunken:#0e131b; --line:#1f2836; --strong:#303c4c;
-    --text:#f2f5f8; --dim:#aab4c2; --muted:#7d8899; --accent:#d4a35f;
+    --text:#f2f5f8; --dim:#aab4c2; --muted:#7d8899;
+    --gold:#d4a35f; --gold-lift:#e8c186;
+    --body:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+    --display:"Plus Jakarta Sans","Inter",ui-sans-serif,system-ui,sans-serif;
     color-scheme: dark;
   }
-  * { box-sizing: border-box; }
+  * { box-sizing:border-box; }
   body {
-    margin:0; background:var(--page); color:var(--text); font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
-    -webkit-font-smoothing:antialiased;
+    margin:0; background:var(--page); color:var(--text);
+    font:15px/1.55 var(--body); -webkit-font-smoothing:antialiased; position:relative;
   }
-  a { color:var(--accent); }
-  .wrap { max-width:1180px; margin:0 auto; padding:24px 16px 72px; }
-  header.bar { display:flex; align-items:center; gap:16px; flex-wrap:wrap; margin-bottom:28px; }
-  h1 { font-size:1.5rem; letter-spacing:-.02em; margin:0; }
-  .muted { color:var(--muted); }
-  .tabs { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:20px; }
-  .tab {
-    display:inline-flex; align-items:center; gap:7px; padding:7px 13px; border-radius:999px;
-    border:1px solid var(--line); background:var(--sunken); color:var(--dim);
-    font-size:.8125rem; font-weight:600; text-decoration:none;
+  /* A soft wash of gold behind the masthead, so the page opens with weight. */
+  body::before {
+    content:''; position:absolute; inset:0 0 auto 0; height:460px; pointer-events:none; z-index:0;
+    background:radial-gradient(900px 320px at 50% -130px, rgba(212,163,95,.14), transparent 72%);
   }
-  .tab[aria-current="true"] { border-color:var(--accent); color:var(--text); background:rgba(212,163,95,.14); }
-  .tab .n { font-variant-numeric:tabular-nums; opacity:.65; font-size:.75rem; }
+  .wrap { position:relative; z-index:1; max-width:1180px; margin:0 auto; padding:0 16px 80px; }
+  a { color:var(--gold); }
+
+  /* ---------------------------------------------------------- masthead --- */
+  .brand {
+    display:flex; align-items:center; gap:14px; padding:20px 0 26px;
+    border-bottom:1px solid var(--line); margin-bottom:30px;
+  }
+  .brand img {
+    height:40px; width:auto; display:block; border-radius:9px;
+    border:1px solid rgba(212,163,95,.38); box-shadow:0 2px 14px -4px rgba(0,0,0,.7);
+  }
+  .brand .names { line-height:1.25; }
+  .brand .eyebrow {
+    font-size:.625rem; text-transform:uppercase; letter-spacing:.22em;
+    color:var(--gold); font-weight:700;
+  }
+  .brand .co { font-family:var(--display); font-size:.9375rem; font-weight:700; letter-spacing:-.01em; }
+  .brand .right { margin-left:auto; display:flex; align-items:center; gap:10px; }
+
+  h1 {
+    font-family:var(--display); font-size:clamp(1.75rem,4vw,2.375rem);
+    letter-spacing:-.035em; margin:0; font-weight:800;
+  }
+  .lede { color:var(--muted); font-size:.9375rem; margin:7px 0 0; }
+  .rule { width:54px; height:3px; border-radius:2px; margin:18px 0 26px;
+          background:linear-gradient(90deg,var(--gold-lift),var(--gold)); }
+
+  /* ------------------------------------------------------------- tiles --- */
+  .tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(132px,1fr)); gap:10px; margin-bottom:28px; }
+  .tile {
+    display:block; text-decoration:none; color:inherit; position:relative; overflow:hidden;
+    background:var(--card); border:1px solid var(--line); border-radius:13px; padding:15px 16px 14px;
+    transition:border-color .16s, transform .16s, background .16s;
+  }
+  .tile:hover { border-color:var(--strong); transform:translateY(-2px); }
+  .tile .n {
+    font-family:var(--display); font-size:1.875rem; font-weight:800;
+    font-variant-numeric:tabular-nums; letter-spacing:-.03em; line-height:1.05; display:block;
+  }
+  .tile .k {
+    font-size:.625rem; text-transform:uppercase; letter-spacing:.17em;
+    color:var(--muted); font-weight:700; margin-top:6px; display:block;
+  }
+  .tile[aria-current="true"] {
+    border-color:var(--gold); background:linear-gradient(180deg,rgba(212,163,95,.13),rgba(212,163,95,.04));
+  }
+  .tile[aria-current="true"]::after {
+    content:''; position:absolute; left:0; top:0; bottom:0; width:3px;
+    background:linear-gradient(180deg,var(--gold-lift),var(--gold));
+  }
+  .tile[aria-current="true"] .k { color:var(--gold); }
+
+  /* --------------------------------------------------------- add panel --- */
+  details.add {
+    border:1px solid var(--line); border-radius:14px; background:var(--card);
+    margin-bottom:26px; overflow:hidden;
+  }
+  details.add[open] { border-color:rgba(212,163,95,.42); }
+  details.add > summary {
+    list-style:none; cursor:pointer; padding:15px 18px; display:flex; align-items:center; gap:11px;
+    font-family:var(--display); font-weight:700; font-size:.9375rem; letter-spacing:-.01em;
+  }
+  details.add > summary::-webkit-details-marker { display:none; }
+  .plus {
+    width:25px; height:25px; flex:none; border-radius:50%; display:grid; place-items:center;
+    background:linear-gradient(140deg,var(--gold-lift),var(--gold)); color:#0a0e14;
+    font-weight:800; font-size:1rem; line-height:1;
+  }
+  details.add > summary .hint { margin-left:auto; color:var(--muted); font:500 .8125rem/1 var(--body); }
+  .addbody { padding:4px 18px 20px; border-top:1px solid var(--line); }
+  .grid {
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr));
+    gap:14px; margin-top:18px;
+  }
+  .grid .wide { grid-column:1/-1; }
+
+  /* --------------------------------------------------------- the cards --- */
   .card {
     background:var(--card); border:1px solid var(--line); border-radius:14px;
-    padding:18px; margin-bottom:14px;
+    padding:18px; margin-bottom:13px; transition:border-color .16s;
   }
-  .card.hi { border-color:var(--accent); box-shadow:0 0 0 1px var(--accent); }
+  .card:hover { border-color:var(--strong); }
+  .card.hi { border-color:var(--gold); box-shadow:0 0 0 1px var(--gold), 0 10px 34px -18px rgba(212,163,95,.6); }
   .top { display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; align-items:flex-start; }
-  .who { font-size:1.0625rem; font-weight:700; }
-  .meta { color:var(--muted); font-size:.8125rem; margin-top:3px; }
-  .pill { font-size:.6875rem; font-weight:700; text-transform:uppercase; letter-spacing:.09em;
-          padding:4px 9px; border-radius:999px; white-space:nowrap; }
-  .s-new{background:var(--accent);color:#0a0e14}
+  .who { font-family:var(--display); font-size:1.125rem; font-weight:700; letter-spacing:-.018em; }
+  .meta { color:var(--muted); font-size:.8125rem; margin-top:4px; }
+  .src {
+    display:inline-block; font-size:.625rem; text-transform:uppercase; letter-spacing:.13em;
+    font-weight:700; padding:2px 7px; border-radius:5px; border:1px solid var(--line);
+    color:var(--muted); vertical-align:1px;
+  }
+  .src.manual { color:var(--gold); border-color:rgba(212,163,95,.4); background:rgba(212,163,95,.09); }
+  .pill {
+    font-size:.625rem; font-weight:800; text-transform:uppercase; letter-spacing:.13em;
+    padding:5px 11px; border-radius:999px; white-space:nowrap;
+  }
+  .s-new{background:linear-gradient(140deg,var(--gold-lift),var(--gold));color:#0a0e14}
   .s-contacted{background:#2f5a86;color:#fff}
   .s-scheduled{background:#4a6b52;color:#fff}
   .s-sold{background:#3c3f46;color:#cbd3dd}
   .s-closed{background:#23272c;color:#8b95a3}
-  dl.facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:12px 20px; margin:16px 0 0; }
-  dl.facts dt { color:var(--muted); font-size:.6875rem; text-transform:uppercase; letter-spacing:.1em; font-weight:700; }
-  dl.facts dd { margin:3px 0 0; font-size:.9375rem; word-break:break-word; }
-  .note { margin-top:14px; padding-top:14px; border-top:1px solid var(--line); color:var(--dim); font-size:.9375rem; white-space:pre-wrap; }
-  form.row { display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end; margin-top:16px; padding-top:16px; border-top:1px solid var(--line); }
-  label.f { display:flex; flex-direction:column; gap:5px; font-size:.6875rem; text-transform:uppercase;
-            letter-spacing:.1em; font-weight:700; color:var(--muted); }
-  select, input[type=text], input[type=password], textarea {
-    background:var(--sunken); border:1px solid var(--line); border-radius:8px; color:var(--text);
-    padding:9px 11px; font:inherit; font-size:.875rem; min-width:150px;
+  dl.facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:13px 20px; margin:17px 0 0; }
+  dl.facts dt { color:var(--muted); font-size:.625rem; text-transform:uppercase; letter-spacing:.15em; font-weight:700; }
+  dl.facts dd { margin:4px 0 0; font-size:.9375rem; word-break:break-word; }
+  .note {
+    margin-top:15px; padding:13px 15px; border-radius:10px; background:var(--sunken);
+    border:1px solid var(--line); color:var(--dim); font-size:.9375rem; white-space:pre-wrap;
   }
-  textarea { min-width:280px; flex:1; resize:vertical; }
+  form.row {
+    display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end;
+    margin-top:16px; padding-top:16px; border-top:1px solid var(--line);
+  }
+
+  /* --------------------------------------------------------- controls --- */
+  label.f {
+    display:flex; flex-direction:column; gap:6px; font-size:.625rem; text-transform:uppercase;
+    letter-spacing:.15em; font-weight:700; color:var(--muted);
+  }
+  select, input[type=text], input[type=tel], input[type=email], input[type=password], textarea {
+    background:var(--sunken); border:1px solid var(--line); border-radius:9px; color:var(--text);
+    padding:10px 12px; font:400 .875rem/1.45 var(--body); min-width:0; width:100%;
+    transition:border-color .14s, box-shadow .14s;
+  }
+  select:focus, input:focus, textarea:focus {
+    outline:none; border-color:var(--gold); box-shadow:0 0 0 3px rgba(212,163,95,.16);
+  }
+  ::placeholder { color:#5e6a7a; }
+  textarea { resize:vertical; }
+  form.row label.f { flex:1; min-width:150px; }
   button {
-    background:var(--accent); color:#0a0e14; border:0; border-radius:8px;
-    padding:10px 18px; font:inherit; font-weight:700; font-size:.875rem; cursor:pointer;
+    background:linear-gradient(140deg,var(--gold-lift),var(--gold)); color:#0a0e14; border:0;
+    border-radius:9px; padding:11px 20px; font:700 .875rem/1 var(--body); cursor:pointer;
+    letter-spacing:.01em; transition:filter .14s, transform .14s;
   }
-  button.ghost { background:transparent; color:var(--dim); border:1px solid var(--strong); }
-  .login { max-width:360px; margin:16vh auto; }
-  .err { color:#ef6d62; font-size:.875rem; margin-top:10px; }
-  .saved { background:rgba(74,107,82,.22); border:1px solid #4a6b52; border-radius:10px;
-           padding:10px 14px; margin-bottom:18px; font-size:.875rem; }
-  .empty { text-align:center; padding:72px 20px; color:var(--muted); }
-  @media (max-width:640px){ .wrap{padding-top:16px} dl.facts{grid-template-columns:1fr 1fr} }
+  button:hover { filter:brightness(1.07); }
+  button:active { transform:translateY(1px); }
+  a.ghost, button.ghost {
+    background:none; color:var(--dim); border:1px solid var(--strong); border-radius:999px;
+    padding:8px 15px; font:600 .8125rem/1 var(--body); text-decoration:none; display:inline-block;
+  }
+  a.ghost:hover, button.ghost:hover { color:var(--text); border-color:var(--dim); }
+
+  /* ----------------------------------------------------------- notices --- */
+  .flash {
+    display:flex; align-items:center; gap:9px; border-radius:11px; padding:11px 15px;
+    margin-bottom:20px; font-size:.875rem; font-weight:500;
+    background:rgba(74,107,82,.2); border:1px solid #4a6b52;
+  }
+  .err { color:#ef6d62; font-size:.875rem; margin:14px 0 0; }
+  .err.box {
+    background:rgba(239,109,98,.12); border:1px solid rgba(239,109,98,.55);
+    border-radius:10px; padding:11px 14px; margin-top:16px;
+  }
+  .empty {
+    text-align:center; padding:66px 24px; border:1px dashed var(--line);
+    border-radius:14px; color:var(--muted);
+  }
+  .empty .big { font-family:var(--display); font-size:1.1875rem; font-weight:700; color:var(--dim); margin:0 0 7px; }
+
+  /* ------------------------------------------------------------- login --- */
+  .login { max-width:392px; margin:13vh auto; }
+  .login .box { background:var(--card); border:1px solid var(--line); border-radius:17px; padding:34px 30px; }
+  .login img {
+    height:58px; width:auto; display:block; margin:0 auto 20px; border-radius:13px;
+    border:1px solid rgba(212,163,95,.38); box-shadow:0 6px 26px -8px rgba(212,163,95,.45);
+  }
+  .login h1 { font-size:1.5rem; text-align:center; }
+  .login .sub { text-align:center; color:var(--muted); font-size:.8125rem; margin:8px 0 26px; }
+  .login button { width:100%; margin-top:17px; padding:13px; font-size:.9375rem; }
+
+  @media (max-width:640px) {
+    .brand { padding-top:16px; }
+    dl.facts { grid-template-columns:1fr 1fr; }
+    form.row label.f { flex-basis:100%; }
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
 
 <?php if (!$authed): ?>
+
   <div class="login">
-    <h1>Appointments</h1>
-    <p class="muted" style="margin:6px 0 20px;font-size:.875rem">Bassett Court Holdings</p>
-    <form method="post">
-      <label class="f" style="width:100%">Password
-        <input type="password" name="password" autocomplete="current-password" autofocus required style="width:100%">
-      </label>
-      <button type="submit" style="margin-top:14px;width:100%">Sign in</button>
-      <?php if ($loginError !== ''): ?><p class="err"><?= e($loginError) ?></p><?php endif; ?>
-    </form>
+    <div class="box">
+      <img src="/logo-mark.png" alt="">
+      <h1>Lead desk</h1>
+      <p class="sub">Bassett Court Holdings</p>
+      <form method="post">
+        <label class="f">Password
+          <input type="password" name="password" autocomplete="current-password" autofocus required>
+        </label>
+        <button type="submit">Sign in</button>
+        <?php if ($loginError !== ''): ?><p class="err"><?= e($loginError) ?></p><?php endif; ?>
+      </form>
+    </div>
   </div>
+
 <?php else: ?>
 
-  <header class="bar">
-    <h1>Appointments</h1>
-    <span class="muted"><?= array_sum($counts) ?> total</span>
-    <a class="tab" href="?logout=1" style="margin-left:auto">Sign out</a>
-  </header>
+  <div class="brand">
+    <img src="/logo-mark.png" alt="">
+    <div class="names">
+      <div class="eyebrow">Bassett Court</div>
+      <div class="co">Holdings</div>
+    </div>
+    <div class="right"><a class="ghost" href="?logout=1">Sign out</a></div>
+  </div>
 
-  <?php if (isset($_GET['saved'])): ?><div class="saved">Saved.</div><?php endif; ?>
+  <h1>Lead desk</h1>
+  <p class="lede">
+    Everyone who has asked about a vehicle — from the website, or added here after a call.
+  </p>
+  <div class="rule"></div>
 
-  <nav class="tabs">
-    <a class="tab" href="./" <?= ($_GET['status'] ?? '') === '' ? 'aria-current="true"' : '' ?>>
-      All <span class="n"><?= array_sum($counts) ?></span>
+  <?php if (isset($_GET['added'])): ?>
+    <div class="flash">Lead added.</div>
+  <?php elseif (isset($_GET['saved'])): ?>
+    <div class="flash">Saved.</div>
+  <?php endif; ?>
+
+  <nav class="tiles">
+    <a class="tile" href="./" <?= $filter === '' ? 'aria-current="true"' : '' ?>>
+      <span class="n"><?= $total ?></span><span class="k">All leads</span>
     </a>
     <?php foreach (statuses() as $s): ?>
-      <a class="tab" href="?status=<?= e($s) ?>" <?= ($_GET['status'] ?? '') === $s ? 'aria-current="true"' : '' ?>>
-        <?= e(ucfirst($s)) ?> <span class="n"><?= (int) ($counts[$s] ?? 0) ?></span>
+      <a class="tile" href="?status=<?= e($s) ?>" <?= $filter === $s ? 'aria-current="true"' : '' ?>>
+        <span class="n"><?= (int) ($counts[$s] ?? 0) ?></span><span class="k"><?= e(ucfirst($s)) ?></span>
       </a>
     <?php endforeach; ?>
   </nav>
 
+  <details class="add"<?= $draftOpen ? ' open' : '' ?>>
+    <summary><span class="plus">+</span> Add a lead <span class="hint">Walk-in, phone call, referral</span></summary>
+    <div class="addbody">
+      <?php if ($addError !== ''): ?><p class="err box"><?= e($addError) ?></p><?php endif; ?>
+      <form method="post">
+        <input type="hidden" name="csrf" value="<?= e(csrf_token()) ?>">
+        <input type="hidden" name="add_lead" value="1">
+        <div class="grid">
+          <label class="f">Name
+            <input type="text" name="name" required maxlength="120" placeholder="Marcus Webb"
+                   value="<?= e($draft['name'] ?? '') ?>">
+          </label>
+          <label class="f">Phone
+            <input type="tel" name="phone" maxlength="40" placeholder="(864) 555-0199"
+                   value="<?= e($draft['phone'] ?? '') ?>">
+          </label>
+          <label class="f">Email
+            <input type="email" name="email" maxlength="160" placeholder="optional"
+                   value="<?= e($draft['email'] ?? '') ?>">
+          </label>
+          <label class="f">Vehicle they want
+            <input type="text" name="vehicle_label" maxlength="200" placeholder="2023 Silverado, or a 3-row SUV"
+                   value="<?= e($draft['vehicle_label'] ?? '') ?>">
+          </label>
+          <label class="f">When they can come in
+            <input type="text" name="preferred_day_label" maxlength="40" placeholder="Thursday afternoon"
+                   value="<?= e($draft['preferred_day_label'] ?? '') ?>">
+          </label>
+          <label class="f">Trade-in
+            <input type="text" name="trade_in" maxlength="60" placeholder="2016 Altima, 110k"
+                   value="<?= e($draft['trade_in'] ?? '') ?>">
+          </label>
+          <label class="f">Status
+            <select name="status">
+              <?php foreach (statuses() as $s): ?>
+                <option value="<?= e($s) ?>" <?= ($draft['status'] ?? 'new') === $s ? 'selected' : '' ?>>
+                  <?= e(ucfirst($s)) ?>
+                </option>
+              <?php endforeach; ?>
+            </select>
+          </label>
+          <label class="f wide">What they said
+            <textarea name="message" rows="3" maxlength="4000"
+                      placeholder="Came by about the Tahoe. Financing through his credit union, wants to bring his wife Saturday."><?= e($draft['message'] ?? '') ?></textarea>
+          </label>
+        </div>
+        <button type="submit" style="margin-top:17px">Add lead</button>
+      </form>
+    </div>
+  </details>
+
   <?php if (!$rows): ?>
     <div class="empty">
-      <p style="font-size:1.125rem;color:var(--dim)">Nothing here yet.</p>
-      <p>Requests from the booking form land on this page.</p>
+      <p class="big"><?= $filter === '' ? 'No leads yet.' : 'Nothing ' . e($filter) . '.' ?></p>
+      <p style="margin:0">Requests from the booking form land here on their own. Anything else, add it above.</p>
     </div>
   <?php endif; ?>
 
@@ -219,7 +462,8 @@ $highlight = (int) ($_GET['id'] ?? 0);
           <div class="who"><?= e($r['name']) ?></div>
           <div class="meta">
             #<?= (int) $r['id'] ?> ·
-            <?= e((new DateTimeImmutable($r['created_at']))->format('D j M Y, g:ia')) ?>
+            <?= e((new DateTimeImmutable($r['created_at']))->format('D j M Y, g:ia')) ?> ·
+            <span class="src<?= ($r['source'] ?? 'web') === 'manual' ? ' manual' : '' ?>"><?= e(lead_source_label($r['source'] ?? 'web')) ?></span>
           </div>
         </div>
         <span class="pill s-<?= e($r['status']) ?>"><?= e($r['status']) ?></span>
@@ -250,14 +494,14 @@ $highlight = (int) ($_GET['id'] ?? 0);
       <form class="row" method="post">
         <input type="hidden" name="csrf" value="<?= e(csrf_token()) ?>">
         <input type="hidden" name="update_id" value="<?= (int) $r['id'] ?>">
-        <label class="f">Status
+        <label class="f" style="flex:0 0 auto;min-width:150px">Status
           <select name="status">
             <?php foreach (statuses() as $s): ?>
               <option value="<?= e($s) ?>" <?= $r['status'] === $s ? 'selected' : '' ?>><?= e(ucfirst($s)) ?></option>
             <?php endforeach; ?>
           </select>
         </label>
-        <label class="f" style="flex:1">Notes
+        <label class="f" style="flex:1 1 280px">Notes
           <textarea name="admin_notes" rows="1" placeholder="What happened on the call…"><?= e($r['admin_notes']) ?></textarea>
         </label>
         <button type="submit">Save</button>

@@ -43,12 +43,21 @@ site. The admin page refuses to load until it is gone, so you cannot forget.
 
 **https://danthemancan.live/admin/** — sign in with the password from step 2.
 
-Every booking request lands here with the vehicle, the day and time they
-asked for, their trade-in and their notes. Tap the phone number to call.
+Two kinds of lead live here, in one list:
 
-Each one carries a status — **new → contacted → scheduled → sold → closed** —
-and a notes field for what happened on the call. The tabs across the top
-filter by status, so "New" is your to-do list.
+- **From the website.** Booking requests arrive on their own, carrying the
+  vehicle, the day and time asked for, the trade-in and the message.
+- **Added by hand.** Open **Add a lead** at the top for a walk-in, a phone
+  call or a referral. Name plus a phone number or an email is all it needs;
+  everything else is optional.
+
+Each lead is tagged with which it was, so you can tell at a glance whether the
+website is earning its keep.
+
+Every lead carries a status — **new → contacted → scheduled → sold → closed** —
+and a notes field for what happened on the call. Tap a phone number to dial it.
+The tiles across the top are the counts and the filters at once, so "New" is
+your to-do list.
 
 ## Text message notifications
 

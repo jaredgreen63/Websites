@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 require __DIR__ . '/../lib/util.php';
 require __DIR__ . '/../lib/db.php';
+require __DIR__ . '/../lib/leads.php';
 
 header('Vary: Origin');
 
@@ -70,67 +71,30 @@ if ($ip !== '') {
     }
 }
 
-$statement = $pdo->prepare('
-    INSERT INTO appointments
-        (created_at, status, name, phone, email, vehicle_id, vehicle_label,
-         preferred_day, preferred_day_label, preferred_time, trade_in, message,
-         vehicle_location, submitted_from, source_ip, user_agent)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-');
+$id = create_lead($pdo, [
+    'name' => $name,
+    'phone' => $phone,
+    'email' => $email,
+    'vehicle_id' => clean($input['vehicleId'] ?? '', 40),
+    'vehicle_label' => clean($input['vehicleLabel'] ?? '', 200),
+    'preferred_day' => clean($input['preferredDay'] ?? '', 20),
+    'preferred_day_label' => clean($input['preferredDayLabel'] ?? '', 40),
+    'preferred_time' => clean($input['preferredTime'] ?? '', 20),
+    'trade_in' => clean($input['tradeIn'] ?? '', 60),
+    'message' => clean($input['message'] ?? '', 4000),
+    'vehicle_location' => clean($input['vehicleLocation'] ?? '', 200),
+    'submitted_from' => clean($input['submittedFrom'] ?? '', 400),
+    'source_ip' => $ip,
+    'user_agent' => clean($_SERVER['HTTP_USER_AGENT'] ?? '', 300),
+], 'web');
 
-$statement->execute([
-    (new DateTimeImmutable())->format('Y-m-d H:i:s'),
-    'new',
-    $name,
-    $phone,
-    $email,
-    clean($input['vehicleId'] ?? '', 40),
-    clean($input['vehicleLabel'] ?? '', 200),
-    clean($input['preferredDay'] ?? '', 20),
-    clean($input['preferredDayLabel'] ?? '', 40),
-    clean($input['preferredTime'] ?? '', 20),
-    clean($input['tradeIn'] ?? '', 60),
-    clean($input['message'] ?? '', 4000),
-    clean($input['vehicleLocation'] ?? '', 200),
-    clean($input['submittedFrom'] ?? '', 400),
-    $ip,
-    clean($_SERVER['HTTP_USER_AGENT'] ?? '', 300),
+notify_new_lead($id, [
+    'name' => $name,
+    'phone' => $phone,
+    'email' => $email,
+    'vehicle_label' => clean($input['vehicleLabel'] ?? '', 200),
+    'preferred_day_label' => clean($input['preferredDayLabel'] ?? '', 40),
+    'preferred_time' => clean($input['preferredTime'] ?? '', 20),
 ]);
-
-$id = (int) $pdo->lastInsertId();
-
-/*
- * Notification hook. Set notify_url in config.php to a Make/Zapier webhook or
- * an SMS service and each new request is pushed to it, carrying a link
- * straight to the record in the admin.
- *
- * Delivery failure is logged, never surfaced: the request is already saved,
- * and telling the visitor it failed would be false.
- */
-$config = config();
-$notify = $config['notify_url'] ?? '';
-if ($notify !== '') {
-    $payload = json_encode([
-        'id' => $id,
-        'name' => $name,
-        'phone' => $phone,
-        'email' => $email,
-        'vehicle' => clean($input['vehicleLabel'] ?? '', 200),
-        'preferred' => trim(clean($input['preferredDayLabel'] ?? '', 40) . ' ' . clean($input['preferredTime'] ?? '', 20)),
-        'admin_url' => rtrim($config['site_url'] ?? '', '/') . '/admin/?id=' . $id,
-    ], JSON_UNESCAPED_SLASHES);
-
-    $context = stream_context_create(['http' => [
-        'method' => 'POST',
-        'header' => "Content-Type: application/json\r\n",
-        'content' => $payload,
-        'timeout' => 5,
-        'ignore_errors' => true,
-    ]]);
-
-    if (@file_get_contents($notify, false, $context) === false) {
-        error_log("[appointments] notify failed for #{$id}");
-    }
-}
 
 ok(['stored' => true, 'id' => $id]);

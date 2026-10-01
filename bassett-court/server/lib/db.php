@@ -59,6 +59,7 @@ function migrate(PDO $pdo): void
             created_at        DATETIME     NOT NULL,
             updated_at        DATETIME     NULL,
             status            VARCHAR(16)  NOT NULL DEFAULT 'new',
+            source            VARCHAR(10)  NOT NULL DEFAULT 'web',
             name              VARCHAR(120) NOT NULL,
             phone             VARCHAR(40)  NULL,
             email             VARCHAR(160) NULL,
@@ -76,6 +77,20 @@ function migrate(PDO $pdo): void
             admin_notes       TEXT         NULL
         ){$engine}
     ");
+
+    // Columns added after the first release. A table created before they
+    // existed gets them here; one created above already has them and the ALTER
+    // fails harmlessly. Neither driver has a portable ADD COLUMN IF NOT EXISTS.
+    $added = [
+        'source' => "VARCHAR(10) NOT NULL DEFAULT 'web'",
+    ];
+    foreach ($added as $column => $definition) {
+        try {
+            $pdo->exec("ALTER TABLE appointments ADD COLUMN {$column} {$definition}");
+        } catch (PDOException) {
+            // Already there.
+        }
+    }
 
     // Indexed because the admin list always sorts by one and filters by the other.
     foreach (['created_at', 'status'] as $column) {
