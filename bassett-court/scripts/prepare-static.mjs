@@ -12,7 +12,7 @@
  * Run after `npm run build:static`.
  */
 import { cpSync, copyFileSync, existsSync, readdirSync, statSync, unlinkSync } from 'node:fs';
-import { join, resolve } from 'node:path';
+import { join, relative, resolve } from 'node:path';
 
 const root = resolve(import.meta.dirname, '..');
 const out = join(root, 'out');
@@ -49,16 +49,33 @@ function walk(dir) {
 }
 
 walk(out);
-copyFileSync(join(root, 'deploy', 'htaccess'), join(out, '.htaccess'));
 
-// The backend. config.php is excluded deliberately — it holds the database
-// password and belongs only on the server, never in a build artifact.
-// make-hash.php IS included: it is needed once during setup, and the admin
-// refuses to run until it has been deleted again.
-cpSync(join(root, 'server'), out, {
+// The backend. server/ is copied so its contents land beside the pages:
+// api/submit.php, admin/, lib/, make-hash.php.
+//
+// Three exclusions:
+//   - config.php holds the database password. It belongs only on the server,
+//     never in a build artifact.
+//   - a .htaccess at the TOP of server/ would land on out/.htaccess and
+//     replace the site's own, silently dropping every rule in it. Site-wide
+//     Apache config belongs in deploy/htaccess. Nested ones are kept: lib/
+//     ships its own deny, which is what keeps the includes unreachable.
+//   - SETUP.md documents the admin URL and the setup files. It is for whoever
+//     installs this, not for visitors.
+//
+// make-hash.php IS included: setup needs it once, and the admin refuses to
+// run until it has been deleted again.
+const serverRoot = join(root, 'server');
+cpSync(serverRoot, out, {
   recursive: true,
-  filter: (src) => !/[\\/]config\.php$/.test(src),
+  filter: (src) => {
+    const rel = relative(serverRoot, src);
+    return !['config.php', '.htaccess', 'SETUP.md'].includes(rel) && !/[\\/]config\.php$/.test(rel);
+  },
 });
+
+// Last, so nothing copied above can overwrite it.
+copyFileSync(join(root, 'deploy', 'htaccess'), join(out, '.htaccess'));
 
 const mb = (n) => `${(n / 1024 / 1024).toFixed(1)}MB`;
 console.log(`Removed ${removed} prefetch file(s), freeing ${mb(freed)}.`);

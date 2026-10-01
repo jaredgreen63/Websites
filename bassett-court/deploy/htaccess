@@ -27,3 +27,14 @@ ErrorDocument 404 /404.html
   Header always set X-Content-Type-Options "nosniff"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
+
+# The backend's configuration and its includes are never pages. Apache runs
+# them as PHP, which emits nothing — but if PHP were ever disabled or
+# misconfigured the raw source would be served instead, and config.php holds
+# the database password. Deny them outright.
+#
+# make-hash.php is deliberately NOT denied: setup step 2 visits it in a
+# browser, and it gets deleted afterwards.
+<FilesMatch "^config(\.sample)?\.php$">
+  Require all denied
+</FilesMatch>
