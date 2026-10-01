@@ -76,7 +76,10 @@ export function AppointmentForm({
     const form = event.currentTarget;
     const data = Object.fromEntries(new FormData(form).entries());
 
-    const endpoint = process.env.NEXT_PUBLIC_FORM_ENDPOINT;
+    // Our own PHP endpoint by default — it stores the request in the database
+    // behind /admin. NEXT_PUBLIC_FORM_ENDPOINT overrides it for a deployment
+    // without PHP, where a form service takes the submission instead.
+    const endpoint = process.env.NEXT_PUBLIC_FORM_ENDPOINT || '/api/submit.php';
     if (!endpoint) {
       // Better to say so plainly than to show a thank-you for a request that
       // went nowhere.

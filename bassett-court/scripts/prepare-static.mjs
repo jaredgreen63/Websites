@@ -5,10 +5,13 @@
  *      nothing requests them; left in place they are more than half the
  *      upload for no benefit.
  *   2. Copy in the Apache config.
+ *   3. Copy in the PHP backend — the booking endpoint and the admin — which
+ *      Apache runs alongside the static pages. config.php is deliberately not
+ *      copied: it holds database credentials and lives only on the server.
  *
  * Run after `npm run build:static`.
  */
-import { copyFileSync, existsSync, readdirSync, statSync, unlinkSync } from 'node:fs';
+import { cpSync, copyFileSync, existsSync, readdirSync, statSync, unlinkSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
 const root = resolve(import.meta.dirname, '..');
@@ -47,6 +50,15 @@ function walk(dir) {
 
 walk(out);
 copyFileSync(join(root, 'deploy', 'htaccess'), join(out, '.htaccess'));
+
+// The backend. config.php is excluded deliberately — it holds the database
+// password and belongs only on the server, never in a build artifact.
+// make-hash.php IS included: it is needed once during setup, and the admin
+// refuses to run until it has been deleted again.
+cpSync(join(root, 'server'), out, {
+  recursive: true,
+  filter: (src) => !/[\\/]config\.php$/.test(src),
+});
 
 const mb = (n) => `${(n / 1024 / 1024).toFixed(1)}MB`;
 console.log(`Removed ${removed} prefetch file(s), freeing ${mb(freed)}.`);
