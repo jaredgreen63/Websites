@@ -23,7 +23,7 @@ export const siteConfig = {
    * Public base URL of the deployed site. Used for canonical tags, sitemap.xml
    * and Open Graph metadata. Set NEXT_PUBLIC_SITE_URL in your host to override.
    */
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.bassettcourtholdings.com',
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://danthemancan.live',
 
   /**
    * Drop your logo at `public/logo.svg` (or .png) and it is picked up

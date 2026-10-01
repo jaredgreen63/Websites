@@ -11,15 +11,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${base}/`, changeFrequency: 'daily', priority: 1 },
-    { url: `${base}/inventory`, changeFrequency: 'hourly', priority: 0.9 },
-    { url: `${base}/financing`, changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${base}/about`, changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${base}/contact`, changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${base}/privacy`, changeFrequency: 'yearly', priority: 0.2 },
+    { url: `${base}/inventory/`, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${base}/appointment/`, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/financing/`, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${base}/about/`, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${base}/contact/`, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${base}/privacy/`, changeFrequency: 'yearly', priority: 0.2 },
   ];
 
   const vehicleRoutes: MetadataRoute.Sitemap = snapshot.vehicles.map((vehicle) => ({
-    url: `${base}/inventory/${vehicle.slug}`,
+    url: `${base}/inventory/${vehicle.slug}/`,
     lastModified: vehicle.lastSeenAt,
     changeFrequency: 'daily',
     priority: 0.7,
