@@ -2,7 +2,11 @@
 # Copied to out/.htaccess by scripts/prepare-static.mjs during the build.
 
 Options -Indexes
-DirectoryIndex index.html
+# index.html first, so every page of the static site wins. index.php is for
+# the PHP admin at /admin/, which has no index.html — without it listed here
+# Apache finds no index, Options -Indexes forbids a listing, and /admin/
+# answers 403.
+DirectoryIndex index.html index.php
 ErrorDocument 404 /404.html
 
 <IfModule mod_deflate.c>
