@@ -1,7 +1,14 @@
 import { strict as assert } from 'node:assert';
 import { describe, it } from 'node:test';
 
-import { applyMarkup, formatMileage, formatPrice, monthlyPayment, roundPrice } from '../src/lib/pricing';
+import {
+  applyMarkup,
+  formatMileage,
+  formatPrice,
+  conditionSurcharge,
+  monthlyPayment,
+  roundPrice,
+} from '../src/lib/pricing';
 
 describe('applyMarkup', () => {
   it('applies a 3% markup', () => {
@@ -84,5 +91,57 @@ describe('monthlyPayment', () => {
   it('returns null for inputs that cannot produce a payment', () => {
     assert.equal(monthlyPayment(0, 5, 60), null);
     assert.equal(monthlyPayment(10_000, 5, 0), null);
+  });
+});
+
+describe('conditionSurcharge', () => {
+  it('applies to a new vehicle', () => {
+    assert.equal(conditionSurcharge('new', 3000), 3000);
+  });
+
+  it('does not apply to used', () => {
+    assert.equal(conditionSurcharge('used', 3000), 0);
+  });
+
+  it('does not apply to certified pre-owned', () => {
+    // Certified is a used vehicle with a warranty, not a new one.
+    assert.equal(conditionSurcharge('certified', 3000), 0);
+  });
+
+  it('does not apply to an unclassified vehicle', () => {
+    assert.equal(conditionSurcharge(null, 3000), 0);
+    assert.equal(conditionSurcharge(undefined, 3000), 0);
+    assert.equal(conditionSurcharge('', 3000), 0);
+    assert.equal(conditionSurcharge('New', 3000), 0);
+  });
+
+  it('switches off at 0', () => {
+    assert.equal(conditionSurcharge('new', 0), 0);
+  });
+});
+
+describe('applyMarkup with a surcharge', () => {
+  it('adds the flat amount to the published price', () => {
+    assert.equal(applyMarkup(30_246, 0, 'none', 3000), 33_246);
+  });
+
+  it('leaves a priced vehicle alone when the surcharge is 0', () => {
+    assert.equal(applyMarkup(30_246, 0, 'none', 0), 30_246);
+  });
+
+  it('never invents a price for a vehicle that has none', () => {
+    // The surcharge must not turn "Call for Price" into $3,000.
+    assert.equal(applyMarkup(null, 0, 'none', 3000), null);
+    assert.equal(applyMarkup(0, 0, 'none', 3000), null);
+    assert.equal(applyMarkup(undefined, 0, 'none', 3000), null);
+  });
+
+  it('applies the percentage first, then the flat amount', () => {
+    // 10,000 + 10% = 11,000, then +3,000.
+    assert.equal(applyMarkup(10_000, 0.1, 'none', 3000), 14_000);
+  });
+
+  it('rounds the whole figure once, after the surcharge', () => {
+    assert.equal(applyMarkup(30_246, 0, 'nearest-25', 3000), 33_250);
   });
 });

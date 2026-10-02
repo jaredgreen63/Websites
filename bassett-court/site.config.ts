@@ -105,6 +105,16 @@ export const siteConfig = {
     rounding: 'none' as PriceRounding,
 
     /**
+     * A flat amount added to every new vehicle. Applied after markupRate and
+     * before rounding, so the published figure is rounded once as a whole.
+     *
+     * Only `new` qualifies — used and certified pre-owned are published at the
+     * source price. Set to 0 to switch it off; `sourcePrice` keeps the
+     * unadjusted figure either way.
+     */
+    newVehicleSurcharge: 3000,
+
+    /**
      * Vehicles arriving without a usable price are published as
      * "Call for Price" rather than being given an invented number.
      */

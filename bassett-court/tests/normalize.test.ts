@@ -53,13 +53,34 @@ describe('normalizeVehicle', () => {
     assert.equal(normalizeVehicle({}, NOW), null);
   });
 
-  it('publishes the source price unchanged while no markup is configured', () => {
+  it('publishes a used vehicle at the source price while no markup is configured', () => {
     // The markup machinery is still in place and covered in pricing.test.ts;
-    // the site is simply configured at 0% today.
-    const vehicle = build({ price: '$40,000' });
+    // the site is simply configured at 0% today. Used stock carries no
+    // surcharge either, so nothing should move it.
+    const vehicle = build({ price: '$40,000', condition: 'used' });
     assert.equal(vehicle.sourcePrice, 40_000);
     assert.equal(vehicle.price, 40_000);
     assert.equal(vehicle.markupRate, 0);
+  });
+
+  it('adds the new-vehicle surcharge to the published price', () => {
+    const vehicle = build({ price: '$40,000', condition: 'new' });
+    assert.equal(vehicle.condition, 'new');
+    // sourcePrice keeps what the lot reported; price is what we publish.
+    assert.equal(vehicle.sourcePrice, 40_000);
+    assert.equal(vehicle.price, 43_000);
+  });
+
+  it('does not surcharge certified pre-owned', () => {
+    const vehicle = build({ price: '$40,000', condition: 'certified' });
+    assert.equal(vehicle.condition, 'certified');
+    assert.equal(vehicle.price, 40_000);
+  });
+
+  it('does not invent a price for an unpriced new vehicle', () => {
+    // The surcharge must never turn "Call for Price" into $3,000.
+    const vehicle = build({ price: null, condition: 'new' });
+    assert.equal(vehicle.price, null);
   });
 
   it('carries an unpriced vehicle through without a price', () => {
