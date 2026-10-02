@@ -105,6 +105,19 @@ export const siteConfig = {
     rounding: 'none' as PriceRounding,
 
     /**
+     * A flat amount added to effectively-new vehicles — ones still carrying
+     * only delivery mileage. Applied after markupRate and before rounding.
+     *
+     * A vehicle whose mileage the feed does not report is never surcharged:
+     * the rule can only fire on a figure we actually have. Set `amount` to 0
+     * to switch it off; `sourcePrice` keeps the unadjusted figure either way.
+     */
+    lowMileageSurcharge: {
+      underMiles: 100,
+      amount: 3000,
+    },
+
+    /**
      * Vehicles arriving without a usable price are published as
      * "Call for Price" rather than being given an invented number.
      */

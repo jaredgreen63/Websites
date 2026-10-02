@@ -1,20 +1,42 @@
 import type { PriceRounding } from '~/site.config';
 
 /**
- * Apply the configured markup to an upstream price.
+ * Apply the configured markup to an upstream price, plus any flat surcharge.
  *
  * Returns null when there is nothing to mark up — a vehicle listed without a
- * price stays without a price rather than acquiring a fabricated one.
+ * price stays without a price rather than acquiring a fabricated one, and a
+ * surcharge never conjures one either.
+ *
+ * The surcharge lands after the percentage and before rounding, so the
+ * published figure is rounded once, as a whole.
  */
 export function applyMarkup(
   sourcePrice: number | null | undefined,
   rate: number,
   rounding: PriceRounding = 'nearest-25',
+  surcharge = 0,
 ): number | null {
   if (sourcePrice == null || !Number.isFinite(sourcePrice) || sourcePrice <= 0) {
     return null;
   }
-  return roundPrice(sourcePrice * (1 + rate), rounding);
+  const adjusted = sourcePrice * (1 + rate) + (Number.isFinite(surcharge) ? surcharge : 0);
+  return roundPrice(adjusted, rounding);
+}
+
+/**
+ * The flat amount a vehicle's mileage earns it, if any.
+ *
+ * Unknown mileage returns 0. The rule describes vehicles that have barely
+ * moved, and a missing reading is not evidence of that — guessing would raise
+ * the price of a vehicle nobody has measured.
+ */
+export function lowMileageSurcharge(
+  mileage: number | null | undefined,
+  rule: { underMiles: number; amount: number },
+): number {
+  if (!Number.isFinite(rule.amount) || rule.amount <= 0) return 0;
+  if (mileage == null || !Number.isFinite(mileage)) return 0;
+  return mileage < rule.underMiles ? rule.amount : 0;
 }
 
 export function roundPrice(value: number, mode: PriceRounding): number {

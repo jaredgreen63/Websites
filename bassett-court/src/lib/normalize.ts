@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import type { RawVehicle, Vehicle } from './types';
-import { applyMarkup } from './pricing';
+import { applyMarkup, lowMileageSurcharge } from './pricing';
 import { siteConfig } from '~/site.config';
 
 const CONDITIONS = new Set(['new', 'used', 'certified']);
@@ -222,6 +222,10 @@ export function normalizeVehicle(
   const sourceMsrp = num(raw.msrp);
   const { markupRate, rounding } = siteConfig.pricing;
 
+  // Needed before the price, since the surcharge is decided by it.
+  const mileage = milesFrom(num(raw.mileage), text(raw.mileageUnit));
+  const surcharge = lowMileageSurcharge(mileage, siteConfig.pricing.lowMileageSurcharge);
+
   const trim = titleCase(text(raw.trim));
   const slugBase = [year, make, model, trim].filter(Boolean).join(' ');
   const slugSuffix = vin ? vin.slice(-6) : id.slice(0, 6);
@@ -245,12 +249,12 @@ export function normalizeVehicle(
     exteriorColor: titleCase(text(raw.exteriorColor)),
     interiorColor: titleCase(text(raw.interiorColor)),
     doors: num(raw.doors),
-    mileage: milesFrom(num(raw.mileage), text(raw.mileageUnit)),
+    mileage,
     availability: normalizeAvailability(raw.availability),
     dealer: buildDealer(raw),
     sourcePrice: sourcePrice != null && sourcePrice > 0 ? Math.round(sourcePrice) : null,
     sourceMsrp: sourceMsrp != null && sourceMsrp > 0 ? Math.round(sourceMsrp) : null,
-    price: applyMarkup(sourcePrice, markupRate, rounding),
+    price: applyMarkup(sourcePrice, markupRate, rounding, surcharge),
     markupRate,
     images: cleanImages(raw.images),
     features: cleanFeatures(raw.features),
