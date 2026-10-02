@@ -1,5 +1,17 @@
 [
   {
+    "at": "2026-10-02T08:52:01.147Z",
+    "adapter": "",
+    "fetched": 0,
+    "published": 350,
+    "added": [],
+    "removed": [],
+    "repriced": [],
+    "unchanged": 350,
+    "ok": false,
+    "note": "Unknown inventory adapter \"\". Available: sitemap-jsonld, feed, shiftly, demo"
+  },
+  {
     "at": "2026-09-30T21:49:45.081Z",
     "adapter": "shiftly",
     "fetched": 350,

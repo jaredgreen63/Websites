@@ -3,6 +3,8 @@
  * Everything an operator normally needs to change lives in this file.
  */
 
+import { envOr } from '@/lib/env';
+
 export type PriceRounding =
   | 'none'        // 42,394.41 -> 42,394
   | 'nearest-5'   // -> 42,395
@@ -23,7 +25,7 @@ export const siteConfig = {
    * Public base URL of the deployed site. Used for canonical tags, sitemap.xml
    * and Open Graph metadata. Set NEXT_PUBLIC_SITE_URL in your host to override.
    */
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://danthemancan.live',
+  url: envOr('NEXT_PUBLIC_SITE_URL', 'https://danthemancan.live'),
 
   /**
    * Drop your logo at `public/logo.svg` (or .png) and it is picked up
@@ -122,17 +124,17 @@ export const siteConfig = {
 
   inventory: {
     /** Upstream site the catalogue is syndicated from. */
-    sourceUrl: process.env.INVENTORY_SOURCE_URL ?? 'https://www.escudechevrolet.com/',
+    sourceUrl: envOr('INVENTORY_SOURCE_URL', 'https://www.escudechevrolet.com/'),
     sourceName: 'Escude Chevrolet',
 
     /** Adapter used by `npm run sync`. See src/lib/sources/. */
-    adapter: (process.env.INVENTORY_SOURCE_ADAPTER ?? 'sitemap-jsonld') as
+    adapter: envOr('INVENTORY_SOURCE_ADAPTER', 'shiftly') as
       | 'sitemap-jsonld'
       | 'feed'
       | 'demo',
 
     /** Optional authorized feed URL for the `feed` adapter. */
-    feedUrl: process.env.INVENTORY_FEED_URL ?? '',
+    feedUrl: envOr('INVENTORY_FEED_URL', ''),
 
     /**
      * Safety valve. If a sync returns fewer than this fraction of the vehicles

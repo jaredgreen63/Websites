@@ -1,3 +1,4 @@
+import { env, envOr } from '@/lib/env';
 import { createApiAdapter } from './api';
 import type { AuthStyle } from './api';
 
@@ -31,23 +32,23 @@ const AUTH_STYLES: AuthStyle[] = ['bearer', 'header', 'query', 'none'];
 
 function authStyle(): AuthStyle {
   // Shiftly authenticates with ?api_key=…, so query is the right default here.
-  const value = (process.env.SHIFTLY_AUTH_STYLE ?? 'query').toLowerCase() as AuthStyle;
+  const value = envOr('SHIFTLY_AUTH_STYLE', 'query').toLowerCase() as AuthStyle;
   return AUTH_STYLES.includes(value) ? value : 'query';
 }
 
 export const shiftlyAdapter = createApiAdapter({
   name: 'shiftly',
   authStyle: authStyle(),
-  headerName: process.env.SHIFTLY_AUTH_HEADER ?? 'X-API-Key',
-  queryParam: process.env.SHIFTLY_AUTH_PARAM ?? 'api_key',
-  params: process.env.SHIFTLY_DEALER_ID ? { dealer_id: process.env.SHIFTLY_DEALER_ID } : {},
+  headerName: envOr('SHIFTLY_AUTH_HEADER', 'X-API-Key'),
+  queryParam: envOr('SHIFTLY_AUTH_PARAM', 'api_key'),
+  params: env('SHIFTLY_DEALER_ID') ? { dealer_id: env('SHIFTLY_DEALER_ID')! } : {},
   // Shiftly returns the whole catalogue as a single CSV export, so there is
   // nothing to paginate. Leaving pageSize unset keeps the adapter from asking
   // for a page 2 that does not exist.
   maxPages: 1,
   resolve: () => {
-    const url = process.env.SHIFTLY_API_URL ?? '';
-    const apiKey = process.env.SHIFTLY_API_KEY ?? '';
+    const url = envOr('SHIFTLY_API_URL', '');
+    const apiKey = envOr('SHIFTLY_API_KEY', '');
     if (!url) {
       throw new Error(
         'The "shiftly" adapter needs SHIFTLY_API_URL (the inventory endpoint). ' +
