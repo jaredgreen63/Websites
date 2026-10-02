@@ -24,19 +24,18 @@ export function applyMarkup(
 }
 
 /**
- * The flat amount a vehicle's mileage earns it, if any.
+ * The flat amount a vehicle's condition earns it, if any.
  *
- * Unknown mileage returns 0. The rule describes vehicles that have barely
- * moved, and a missing reading is not evidence of that — guessing would raise
- * the price of a vehicle nobody has measured.
+ * Only `new` qualifies. `certified` is a used vehicle with a warranty on it,
+ * so it is priced as used, and anything the feed leaves unclassified is left
+ * alone rather than assumed new.
  */
-export function lowMileageSurcharge(
-  mileage: number | null | undefined,
-  rule: { underMiles: number; amount: number },
+export function conditionSurcharge(
+  condition: string | null | undefined,
+  amount: number,
 ): number {
-  if (!Number.isFinite(rule.amount) || rule.amount <= 0) return 0;
-  if (mileage == null || !Number.isFinite(mileage)) return 0;
-  return mileage < rule.underMiles ? rule.amount : 0;
+  if (!Number.isFinite(amount) || amount <= 0) return 0;
+  return condition === 'new' ? amount : 0;
 }
 
 export function roundPrice(value: number, mode: PriceRounding): number {

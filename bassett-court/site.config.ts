@@ -105,17 +105,14 @@ export const siteConfig = {
     rounding: 'none' as PriceRounding,
 
     /**
-     * A flat amount added to effectively-new vehicles — ones still carrying
-     * only delivery mileage. Applied after markupRate and before rounding.
+     * A flat amount added to every new vehicle. Applied after markupRate and
+     * before rounding, so the published figure is rounded once as a whole.
      *
-     * A vehicle whose mileage the feed does not report is never surcharged:
-     * the rule can only fire on a figure we actually have. Set `amount` to 0
-     * to switch it off; `sourcePrice` keeps the unadjusted figure either way.
+     * Only `new` qualifies — used and certified pre-owned are published at the
+     * source price. Set to 0 to switch it off; `sourcePrice` keeps the
+     * unadjusted figure either way.
      */
-    lowMileageSurcharge: {
-      underMiles: 100,
-      amount: 3000,
-    },
+    newVehicleSurcharge: 3000,
 
     /**
      * Vehicles arriving without a usable price are published as

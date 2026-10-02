@@ -5,7 +5,7 @@ import {
   applyMarkup,
   formatMileage,
   formatPrice,
-  lowMileageSurcharge,
+  conditionSurcharge,
   monthlyPayment,
   roundPrice,
 } from '../src/lib/pricing';
@@ -94,31 +94,29 @@ describe('monthlyPayment', () => {
   });
 });
 
-describe('lowMileageSurcharge', () => {
-  const rule = { underMiles: 100, amount: 3000 };
-
-  it('applies below the threshold', () => {
-    assert.equal(lowMileageSurcharge(0, rule), 3000);
-    assert.equal(lowMileageSurcharge(7, rule), 3000);
-    assert.equal(lowMileageSurcharge(99, rule), 3000);
+describe('conditionSurcharge', () => {
+  it('applies to a new vehicle', () => {
+    assert.equal(conditionSurcharge('new', 3000), 3000);
   });
 
-  it('does not apply at or above the threshold', () => {
-    // "under 100" is exclusive: 100 itself is not under it.
-    assert.equal(lowMileageSurcharge(100, rule), 0);
-    assert.equal(lowMileageSurcharge(101, rule), 0);
-    assert.equal(lowMileageSurcharge(48_000, rule), 0);
+  it('does not apply to used', () => {
+    assert.equal(conditionSurcharge('used', 3000), 0);
   });
 
-  it('does not apply when mileage is unknown', () => {
-    // A missing reading is not evidence the vehicle has barely moved.
-    assert.equal(lowMileageSurcharge(null, rule), 0);
-    assert.equal(lowMileageSurcharge(undefined, rule), 0);
-    assert.equal(lowMileageSurcharge(Number.NaN, rule), 0);
+  it('does not apply to certified pre-owned', () => {
+    // Certified is a used vehicle with a warranty, not a new one.
+    assert.equal(conditionSurcharge('certified', 3000), 0);
   });
 
-  it('switches off at amount 0', () => {
-    assert.equal(lowMileageSurcharge(5, { underMiles: 100, amount: 0 }), 0);
+  it('does not apply to an unclassified vehicle', () => {
+    assert.equal(conditionSurcharge(null, 3000), 0);
+    assert.equal(conditionSurcharge(undefined, 3000), 0);
+    assert.equal(conditionSurcharge('', 3000), 0);
+    assert.equal(conditionSurcharge('New', 3000), 0);
+  });
+
+  it('switches off at 0', () => {
+    assert.equal(conditionSurcharge('new', 0), 0);
   });
 });
 
