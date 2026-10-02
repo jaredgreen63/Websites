@@ -1,0 +1,44 @@
+# Bassett Court Holdings — static site
+# Copied to out/.htaccess by scripts/prepare-static.mjs during the build.
+
+Options -Indexes
+# index.html first, so every page of the static site wins. index.php is for
+# the PHP admin at /admin/, which has no index.html — without it listed here
+# Apache finds no index, Options -Indexes forbids a listing, and /admin/
+# answers 403.
+DirectoryIndex index.html index.php
+ErrorDocument 404 /404.html
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  # Build assets carry a content hash in the filename, so a given name never
+  # changes and can be cached indefinitely.
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/webp "access plus 30 days"
+  # HTML must revalidate every time, or a sold vehicle keeps showing in
+  # someone's browser for days after it left the lot.
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# The backend's configuration and its includes are never pages. Apache runs
+# them as PHP, which emits nothing — but if PHP were ever disabled or
+# misconfigured the raw source would be served instead, and config.php holds
+# the database password. Deny them outright.
+#
+# make-hash.php is deliberately NOT denied: setup step 2 visits it in a
+# browser, and it gets deleted afterwards.
+<FilesMatch "^config(\.sample)?\.php$">
+  Require all denied
+</FilesMatch>

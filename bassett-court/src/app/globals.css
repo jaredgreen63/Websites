@@ -1,0 +1,273 @@
+@import 'tailwindcss';
+
+/* Theme is attribute-driven so the toggle can override the OS preference. */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: var(--font-display), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Ink — the structural navy the brand is built on. */
+  --color-ink-50: #f4f6f8;
+  --color-ink-100: #e6eaef;
+  --color-ink-200: #c9d2dc;
+  --color-ink-300: #9caabb;
+  --color-ink-400: #6b7d93;
+  --color-ink-500: #4c5f77;
+  --color-ink-600: #3a4b5f;
+  --color-ink-700: #2b3a4b;
+  --color-ink-800: #1d2836;
+  --color-ink-900: #141c27;
+  --color-ink-950: #0b1118;
+
+  /* Brass — the single accent. Used sparingly, never for large fills. */
+  --color-brass-100: #f7eddc;
+  --color-brass-200: #ecd7b4;
+  --color-brass-300: #dcbb85;
+  --color-brass-400: #cc9f5c;
+  --color-brass-500: #b8863f;
+  --color-brass-600: #9a6d31;
+  --color-brass-700: #7a5528;
+  --color-brass-800: #5c3f1f;
+
+  --radius-card: 0.875rem;
+  --ease-out-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/*
+ * Semantic surface tokens. Components reference these rather than palette
+ * steps, so light and dark stay in sync from one place.
+ */
+/*
+ * Dark is the default. Light stays a first-class option behind the toggle and
+ * is selected by [data-theme='light'] or by an OS light preference.
+ */
+:root {
+  --surface-page: #0a0e14;
+  --surface-raised: #121821;
+  --surface-sunken: #0e131b;
+  --surface-inverse: #f4f6f8;
+  --text-primary: #f2f5f8;
+  --text-secondary: #aab4c2;
+  --text-muted: #7d8899;
+  --border-subtle: #1f2836;
+  --border-strong: #303c4c;
+  --accent: #d4a35f;
+  --accent-contrast: #0a0e14;
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.45), 0 10px 28px -14px rgb(0 0 0 / 0.7);
+  --shadow-lift: 0 2px 4px rgb(0 0 0 / 0.55), 0 28px 56px -28px rgb(0 0 0 / 0.85);
+  color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --surface-page: #fbfaf8;
+  --surface-raised: #ffffff;
+  --surface-sunken: #f2f1ed;
+  --surface-inverse: #0a0e14;
+  --text-primary: #141c27;
+  --text-secondary: #56616f;
+  --text-muted: #7d8794;
+  --border-subtle: #e5e3dd;
+  --border-strong: #d2cfc7;
+  --accent: #9a6d31;
+  --accent-contrast: #ffffff;
+  --shadow-card: 0 1px 2px rgb(20 28 39 / 0.04), 0 8px 24px -12px rgb(20 28 39 / 0.14);
+  --shadow-lift: 0 2px 4px rgb(20 28 39 / 0.06), 0 20px 40px -20px rgb(20 28 39 / 0.26);
+  color-scheme: light;
+}
+
+@layer base {
+  * {
+    border-color: var(--border-subtle);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--surface-page);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: var(--accent-contrast);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .surface-raised {
+    background-color: var(--surface-raised);
+    border: 1px solid var(--border-subtle);
+  }
+
+  .text-secondary { color: var(--text-secondary); }
+  .text-muted { color: var(--text-muted); }
+
+  /* Tabular figures keep price and mileage columns from jittering. */
+  .numeric {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum' 1;
+  }
+
+  /* Headings carry real weight now — the old high-contrast serif went thin
+     and washed out against a dark background. */
+  .display-tight {
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    line-height: 1.02;
+  }
+
+  .display-soft {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.022em;
+    line-height: 1.12;
+  }
+
+  .eyebrow {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  /* Listing cards wear an accent cap, the way the house cards do. */
+  .card-capped {
+    position: relative;
+  }
+  .card-capped::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 3px;
+    background: var(--accent);
+    border-radius: var(--radius-card) var(--radius-card) 0 0;
+    z-index: 1;
+  }
+
+  .price {
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.015em;
+  }
+
+  /* Day / time chips in the booking form. */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.625rem 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-subtle);
+    background-color: var(--surface-page);
+    color: var(--text-secondary);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 1.2;
+    transition: border-color 150ms var(--ease-out-soft), color 150ms var(--ease-out-soft),
+      background-color 150ms var(--ease-out-soft);
+  }
+  .chip:hover { border-color: var(--border-strong); color: var(--text-primary); }
+  .chip[aria-pressed='true'] {
+    border-color: var(--accent);
+    background-color: color-mix(in srgb, var(--accent) 16%, transparent);
+    color: var(--text-primary);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    padding: 0.625rem 1.125rem;
+    transition: background-color 180ms var(--ease-out-soft), color 180ms var(--ease-out-soft),
+      border-color 180ms var(--ease-out-soft), transform 180ms var(--ease-out-soft);
+    white-space: nowrap;
+  }
+  .btn:active { transform: translateY(1px); }
+
+  .btn-primary {
+    background-color: var(--text-primary);
+    color: var(--surface-page);
+    border: 1px solid transparent;
+  }
+  .btn-primary:hover { background-color: var(--accent); color: var(--accent-contrast); }
+
+  /* Full-width action on a listing card. */
+  .btn-block { width: 100%; }
+
+  .btn-accent {
+    background-color: var(--accent);
+    color: var(--accent-contrast);
+    border: 1px solid transparent;
+  }
+  .btn-accent:hover { filter: brightness(1.08); }
+
+  .btn-outline {
+    background-color: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--border-strong);
+  }
+  .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
+
+  .field {
+    width: 100%;
+    background-color: var(--surface-raised);
+    border: 1px solid var(--border-subtle);
+    border-radius: 0.5rem;
+    padding: 0.5625rem 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-primary);
+    transition: border-color 160ms var(--ease-out-soft);
+  }
+  .field::placeholder { color: var(--text-muted); }
+  .field:hover { border-color: var(--border-strong); }
+
+  .hairline { border-color: var(--border-subtle); }
+}
+
+/* Hide the native number-input spinners on the estimator fields. */
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] { -moz-appearance: textfield; }
+
+/* Slim scrollbar for the filter rail. */
+.scroll-slim { scrollbar-width: thin; scrollbar-color: var(--border-strong) transparent; }
+.scroll-slim::-webkit-scrollbar { width: 8px; height: 8px; }
+.scroll-slim::-webkit-scrollbar-thumb {
+  background-color: var(--border-strong);
+  border-radius: 999px;
+}
+.scroll-slim::-webkit-scrollbar-track { background: transparent; }
