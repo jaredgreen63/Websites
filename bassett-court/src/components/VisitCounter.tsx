@@ -25,7 +25,21 @@ export function VisitCounter() {
       signal: controller.signal,
       headers: { 'Content-Type': 'application/json' },
     })
-      .then((response) => (response.ok ? response.json() : null))
+      .then(async (response) => {
+        // Read the body on every path, including the error ones. A response
+        // left undrained keeps its request open in the browser, so the page
+        // never reaches network idle — which breaks anything measuring load
+        // time, and is what the responsive check caught.
+        const body = await response.text();
+        if (!response.ok) {
+          return null;
+        }
+        try {
+          return JSON.parse(body) as { ok?: boolean; visits?: number };
+        } catch {
+          return null;
+        }
+      })
       .then((data) => {
         if (data?.ok && typeof data.visits === 'number') {
           setVisits(data.visits);
