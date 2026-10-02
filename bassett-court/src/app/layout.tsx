@@ -3,6 +3,7 @@ import { Inter, Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
 
 import { SiteHeader } from '@/components/SiteHeader';
+import { VisitCounter } from '@/components/VisitCounter';
 import { SiteFooter } from '@/components/SiteFooter';
 import { Logo } from '@/components/Logo';
 import { themeScript } from '@/components/ThemeToggle';
@@ -65,6 +66,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         >
           Skip to content
         </a>
+
+        {/* Above the sticky header, so it scrolls away and never competes
+            with the navigation for room. */}
+        <VisitCounter />
 
         {/* The logo is resolved on the server (it checks the filesystem), then
             handed to the client header as a prop. */}

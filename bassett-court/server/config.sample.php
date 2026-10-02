@@ -30,4 +30,10 @@ return [
 
     // Used to build that admin_url.
     'site_url' => 'https://danthemancan.live',
+
+    // --- Visit counter ------------------------------------------------------
+    // Added to the real count before it is displayed. The database stores only
+    // the genuine number of visits, so this offset can be lowered or set to 0
+    // at any time and the real figure is still there underneath.
+    'visit_offset' => 5000,
 ];
