@@ -1,5 +1,27 @@
 [
   {
+    "at": "2026-10-02T15:35:28.114Z",
+    "adapter": "shiftly",
+    "fetched": 526,
+    "published": 345,
+    "added": [],
+    "removed": [
+      "1GC3YLE77RF396659",
+      "1GCPSBEK7T1285213",
+      "1GCPTEEK5T1323598",
+      "1GNS6DKD4TR444407",
+      "1GNS6TKL4TR454159",
+      "3GCUDEED2NG580384",
+      "3GCUKCED2TG464741",
+      "3GNAXSEG6VL139777",
+      "5TFCZ5ANXLX228271",
+      "KL77LKEP3TC253546"
+    ],
+    "repriced": [],
+    "unchanged": 345,
+    "ok": true
+  },
+  {
     "at": "2026-10-02T10:01:14.520Z",
     "adapter": "shiftly",
     "fetched": 355,
