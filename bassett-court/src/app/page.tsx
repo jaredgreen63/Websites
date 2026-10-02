@@ -6,7 +6,8 @@ import { AppointmentForm } from '@/components/AppointmentForm';
 import { LocationNote } from '@/components/LocationNote';
 import { PulseDivider } from '@/components/PulseDivider';
 import { formatPrice } from '@/lib/pricing';
-import { relativeTime } from '@/lib/format';
+import { formatDateTime } from '@/lib/format';
+import { RefreshedAt } from '@/components/RefreshedAt';
 import { siteConfig } from '~/site.config';
 import type { Vehicle } from '@/lib/types';
 
@@ -96,7 +97,7 @@ function Hero({
               className="inline-block h-1.5 w-1.5 rounded-full"
               style={{ backgroundColor: 'var(--accent)' }}
             />
-            Inventory refreshed {relativeTime(syncedAt)}
+            Inventory refreshed <RefreshedAt iso={syncedAt} absolute={formatDateTime(syncedAt)} />
           </p>
 
           <h1 className="display-tight mt-5 text-[2.75rem] sm:text-[4rem] lg:text-[4.75rem]">
