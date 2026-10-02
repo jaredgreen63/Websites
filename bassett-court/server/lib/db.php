@@ -78,6 +78,17 @@ function migrate(PDO $pdo): void
         ){$engine}
     ");
 
+    // A visit counter, and room for any other single number worth keeping.
+    // Separate from appointments because it is written on every visit and read
+    // on every page, while that table is written rarely and read by one person.
+    $pdo->exec("
+        CREATE TABLE IF NOT EXISTS counters (
+            name       VARCHAR(40) NOT NULL PRIMARY KEY,
+            value      BIGINT NOT NULL DEFAULT 0,
+            updated_at DATETIME NULL
+        ){$engine}
+    ");
+
     // Columns added after the first release. A table created before they
     // existed gets them here; one created above already has them and the ALTER
     // fails harmlessly. Neither driver has a portable ADD COLUMN IF NOT EXISTS.
@@ -106,4 +117,34 @@ function migrate(PDO $pdo): void
 function statuses(): array
 {
     return ['new', 'contacted', 'scheduled', 'sold', 'closed'];
+}
+
+/**
+ * Add one to a counter and return its new value.
+ *
+ * The increment happens inside the database, not by reading then writing, so
+ * two visitors landing at the same moment cannot both read 41 and both write
+ * 42. MySQL and SQLite spell the upsert differently; the names are literals
+ * from this file, never from a request.
+ */
+function bump_counter(PDO $pdo, string $name): int
+{
+    $now = (new DateTimeImmutable())->format('Y-m-d H:i:s');
+
+    $sql = $pdo->getAttribute(PDO::ATTR_DRIVER_NAME) === 'sqlite'
+        ? 'INSERT INTO counters (name, value, updated_at) VALUES (?, 1, ?)
+           ON CONFLICT(name) DO UPDATE SET value = value + 1, updated_at = excluded.updated_at'
+        : 'INSERT INTO counters (name, value, updated_at) VALUES (?, 1, ?)
+           ON DUPLICATE KEY UPDATE value = value + 1, updated_at = VALUES(updated_at)';
+
+    $pdo->prepare($sql)->execute([$name, $now]);
+    return read_counter($pdo, $name);
+}
+
+/** The counter's current value, or 0 if it has never been written. */
+function read_counter(PDO $pdo, string $name): int
+{
+    $statement = $pdo->prepare('SELECT value FROM counters WHERE name = ?');
+    $statement->execute([$name]);
+    return (int) $statement->fetchColumn();
 }
