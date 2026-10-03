@@ -12,6 +12,7 @@ declare(strict_types=1);
 require __DIR__ . '/../lib/util.php';
 require __DIR__ . '/../lib/db.php';
 require __DIR__ . '/../lib/leads.php';
+require __DIR__ . '/../lib/notify.php';
 
 start_session();
 
@@ -51,6 +52,28 @@ $method = $_SERVER['REQUEST_METHOD'] ?? '';
 $filter = (string) ($_GET['status'] ?? '');
 if (!in_array($filter, statuses(), true)) {
     $filter = '';
+}
+
+// ----------------------------------------------------- test a notification ---
+$testResults = null;
+if ($authed && $method === 'POST' && isset($_POST['test_notify'])) {
+    check_csrf($_POST['csrf'] ?? null);
+
+    // Aim the link at a real record when there is one, so the test proves the
+    // deep link as well as the delivery.
+    $latest = (int) db()->query('SELECT COALESCE(MAX(id), 0) FROM appointments')->fetchColumn();
+
+    $testResults = deliver_lead($latest, [
+        'name' => 'Test message — no action needed',
+        'phone' => (string) ($config['sms']['to'] ?? ''),
+        'vehicle_label' => 'Checking notifications',
+        'preferred_day_label' => '',
+        'preferred_time' => '',
+    ], $config);
+
+    if ($testResults === []) {
+        $testResults = [['channel' => 'none', 'target' => '', 'error' => 'No channels are configured in config.php.']];
+    }
 }
 
 // ------------------------------------------------------------ add a lead ---
@@ -242,6 +265,30 @@ $draftOpen = $addError !== '';
   }
   .grid .wide { grid-column:1/-1; }
 
+  /* ------------------------------------------------------ notifications --- */
+  .notify { border:1px solid var(--line); border-radius:14px; background:var(--card);
+            margin-bottom:26px; overflow:hidden; }
+  .notify > summary { list-style:none; cursor:pointer; padding:15px 18px; display:flex;
+            align-items:center; gap:11px; font-family:var(--display); font-weight:700;
+            font-size:.9375rem; letter-spacing:-.01em; }
+  .notify > summary::-webkit-details-marker { display:none; }
+  .notify > summary .hint { margin-left:auto; color:var(--muted); font:500 .8125rem/1 var(--body); }
+  .bell { width:25px; height:25px; flex:none; border-radius:50%; display:grid; place-items:center;
+          background:rgba(212,163,95,.16); color:var(--gold); font-size:.8125rem; }
+  .notifybody { padding:4px 18px 20px; border-top:1px solid var(--line); }
+  .chan { display:flex; gap:10px; align-items:baseline; padding:9px 0; border-bottom:1px solid var(--line);
+          font-size:.875rem; }
+  .chan:last-of-type { border-bottom:0; }
+  .chan .k { flex:0 0 82px; color:var(--muted); font-size:.625rem; text-transform:uppercase;
+             letter-spacing:.15em; font-weight:700; }
+  .chan .v { word-break:break-all; }
+  .chan .off { color:var(--muted); }
+  .res { margin-top:4px; }
+  .res li { list-style:none; padding:7px 0; font-size:.875rem; }
+  .res .good::before { content:'✓ '; color:#7fb089; font-weight:700; }
+  .res .bad::before  { content:'✕ '; color:#ef6d62; font-weight:700; }
+  .res .bad { color:#ef6d62; }
+
   /* --------------------------------------------------------- the cards --- */
   .card {
     background:var(--card); border:1px solid var(--line); border-radius:14px;
@@ -396,6 +443,49 @@ $draftOpen = $addError !== '';
       </a>
     <?php endforeach; ?>
   </nav>
+
+  <details class="notify"<?= $testResults !== null ? ' open' : '' ?>>
+    <summary><span class="bell">!</span> Notifications <span class="hint">Where new bookings are sent</span></summary>
+    <div class="notifybody">
+      <?php
+        $smsTo = implode(', ', recipients($config['sms']['to'] ?? ''));
+        $mailTo = implode(', ', recipients($config['notify_email'] ?? ''));
+        $hook = trim((string) ($config['notify_url'] ?? ''));
+      ?>
+      <div class="chan"><span class="k">Text</span>
+        <span class="v<?= $smsTo === '' ? ' off' : '' ?>"><?= $smsTo === '' ? 'off' : e($smsTo) ?></span></div>
+      <div class="chan"><span class="k">Email</span>
+        <span class="v<?= $mailTo === '' ? ' off' : '' ?>"><?= $mailTo === '' ? 'off' : e($mailTo) ?></span></div>
+      <div class="chan"><span class="k">Webhook</span>
+        <span class="v<?= $hook === '' ? ' off' : '' ?>"><?= $hook === '' ? 'off' : e(mask_url($hook)) ?></span></div>
+
+      <?php if ($testResults !== null): ?>
+        <ul class="res">
+          <?php foreach ($testResults as $r): ?>
+            <?php
+              // The webhook URL is a credential, and a failing result line is
+              // exactly what gets screenshotted. Mask it here too, not just in
+              // the summary above.
+              $shown = $r['channel'] === 'webhook' ? mask_url((string) $r['target']) : (string) $r['target'];
+            ?>
+            <li class="<?= $r['error'] === '' ? 'good' : 'bad' ?>">
+              <?= e($r['channel']) ?><?= $shown !== '' ? ' to ' . e($shown) : '' ?>
+              — <?= $r['error'] === '' ? 'sent' : e($r['error']) ?>
+            </li>
+          <?php endforeach; ?>
+        </ul>
+      <?php endif; ?>
+
+      <form method="post" style="margin-top:14px">
+        <input type="hidden" name="csrf" value="<?= e(csrf_token()) ?>">
+        <input type="hidden" name="test_notify" value="1">
+        <button type="submit">Send a test</button>
+      </form>
+      <p style="margin:12px 0 0;color:var(--muted);font-size:.8125rem">
+        Edit <strong>config.php</strong> on the server to change any of these.
+      </p>
+    </div>
+  </details>
 
   <details class="add"<?= $draftOpen ? ' open' : '' ?>>
     <summary><span class="plus">+</span> Add a lead <span class="hint">Walk-in, phone call, referral</span></summary>

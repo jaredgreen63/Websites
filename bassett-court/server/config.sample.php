@@ -23,9 +23,31 @@ return [
     'admin_password_hash' => 'REPLACE_with_the_generated_hash',
 
     // --- Notifications ------------------------------------------------------
-    // Optional. Each new request is POSTed here as JSON, including an admin_url
-    // pointing straight at the record. Point it at a Make or Zapier webhook to
-    // get a text message.
+    // Every channel below is optional and they can run together. Leave a value
+    // empty to switch that channel off. A booking is stored before any of them
+    // run, so a failed notification never loses the lead.
+
+    // Text messages, through Twilio. 'to' takes one number, or several
+    // separated by commas. Numbers are in +1XXXXXXXXXX form.
+    'sms' => [
+        'to'          => '',
+        'from'        => '',   // the Twilio number you bought
+        'account_sid' => '',   // from the Twilio console
+        'auth_token'  => '',   // treat this like a password
+    ],
+
+    // Email. Also the free way to get a text: address it to your carrier's
+    // gateway instead of an inbox —
+    //   Verizon  8645551234@vtext.com
+    //   AT&T     8645551234@txt.att.net
+    //   T-Mobile 8645551234@tmomail.net
+    // Carrier gateways are free but unreliable; Twilio is worth it for leads.
+    'notify_email' => '',
+    'notify_email_from' => '',   // defaults to no-reply@<your domain>
+
+    // A JSON POST, for Make, Zapier or anything else. The payload carries a
+    // ready-made 'message' field, so the scenario needs no message built by
+    // hand, and an 'admin_url' pointing straight at the record.
     'notify_url' => '',
 
     // Used to build that admin_url.
