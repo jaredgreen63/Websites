@@ -59,25 +59,68 @@ and a notes field for what happened on the call. Tap a phone number to dial it.
 The tiles across the top are the counts and the filters at once, so "New" is
 your to-do list.
 
-## Text message notifications
+## Getting told about a new booking
 
-Set `notify_url` in `config.php` to a webhook (Make.com or Zapier) and every
-new request is POSTed to it as JSON:
+Open **Notifications** at the top of the admin to see which channels are on,
+and press **Send a test** to prove it before relying on it. Each channel
+reports back on its own line, with the reason when one fails.
 
-```json
-{
-  "id": 42,
-  "name": "Marcus Webb",
-  "phone": "8645550199",
-  "vehicle": "2026 Chevrolet Tahoe Premier",
-  "preferred": "Thu 10/2 Afternoon",
-  "admin_url": "https://danthemancan.live/admin/?id=42"
-}
+All of this is optional and the channels can run together. A booking is saved
+*before* any of them run, so a text that fails — or one you miss or delete —
+never loses the lead. The admin is always the record.
+
+### A text message (recommended)
+
+Through Twilio, roughly a cent a message plus about $1.15/month for the number.
+
+1. Sign up at **twilio.com** and buy a phone number with SMS.
+2. From the console copy the **Account SID** and **Auth Token**.
+3. Put them in `config.php`:
+
+```php
+'sms' => [
+    'to'          => '+18647071563',   // Dan's phone
+    'from'        => '+1XXXXXXXXXX',   // the Twilio number you bought
+    'account_sid' => 'ACxxxxxxxx',
+    'auth_token'  => 'your token',
+],
 ```
 
-Point that at an SMS action and the text arrives with a link straight to the
-record. The request is saved first either way — a text you miss or delete
-never loses the lead.
+`to` takes several numbers separated by commas if more than one person should
+get them. On a trial account Twilio only sends to numbers you have verified.
+
+Treat `auth_token` like a password. It lives only in `config.php`, which is
+never committed and never uploaded by a deploy.
+
+### A text message, free
+
+Most carriers accept email at a gateway address and turn it into a text. No
+account and no cost, but delivery is unreliable and carriers keep retiring
+these, so it is a stopgap rather than something to run a business on.
+
+```php
+'notify_email' => '8647071563@vtext.com',   // Verizon
+```
+
+AT&T is `@txt.att.net`, T-Mobile `@tmomail.net`.
+
+### Email
+
+Same setting, pointed at an inbox instead:
+
+```php
+'notify_email' => 'danholbrook08@gmail.com',
+```
+
+### Make, Zapier or anything else
+
+```php
+'notify_url' => 'https://hook.us1.make.com/...',
+```
+
+Each booking is POSTed there as JSON. The payload carries a ready-made
+`message` field — the same text the SMS channel sends — so the scenario needs
+no message assembled by hand, plus `admin_url` pointing straight at the record.
 
 ## Notes
 

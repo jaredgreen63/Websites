@@ -81,41 +81,16 @@ function create_lead(PDO $pdo, array $data, string $source = 'web', string $stat
 }
 
 /**
- * Push a new lead to the configured webhook.
+ * Announce a new lead on every channel configured in config.php.
  *
  * Only the booking form calls this: a lead typed into the admin by hand needs
  * no text message about itself.
  *
- * Delivery failure is logged, never surfaced. The lead is already stored, and
- * telling the visitor their request failed would be false.
+ * The lead is already stored by the time this runs, so a failed send is logged
+ * and nothing more. Telling the visitor their request failed would be false.
  */
 function notify_new_lead(int $id, array $row): void
 {
-    $config = config();
-    $url = (string) ($config['notify_url'] ?? '');
-    if ($url === '') {
-        return;
-    }
-
-    $payload = json_encode([
-        'id' => $id,
-        'name' => $row['name'] ?? '',
-        'phone' => $row['phone'] ?? '',
-        'email' => $row['email'] ?? '',
-        'vehicle' => $row['vehicle_label'] ?? '',
-        'preferred' => trim(($row['preferred_day_label'] ?? '') . ' ' . ($row['preferred_time'] ?? '')),
-        'admin_url' => rtrim((string) ($config['site_url'] ?? ''), '/') . '/admin/?id=' . $id,
-    ], JSON_UNESCAPED_SLASHES);
-
-    $context = stream_context_create(['http' => [
-        'method' => 'POST',
-        'header' => "Content-Type: application/json\r\n",
-        'content' => $payload,
-        'timeout' => 5,
-        'ignore_errors' => true,
-    ]]);
-
-    if (@file_get_contents($url, false, $context) === false) {
-        error_log("[appointments] notify failed for #{$id}");
-    }
+    require_once __DIR__ . '/notify.php';
+    deliver_lead($id, $row, config());
 }
