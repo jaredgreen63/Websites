@@ -1,5 +1,226 @@
 [
   {
+    "at": "2026-10-04T17:15:05.584Z",
+    "adapter": "shiftly",
+    "fetched": 344,
+    "published": 344,
+    "added": [
+      "1C4HJXDG8MW768702",
+      "3GCPDCED2NG616060"
+    ],
+    "removed": [
+      "1GCUKEED2TZ470244",
+      "1GNS5GKL8TR450707",
+      "3GNARHEG0VL164249",
+      "3GNKBERS6MS586164",
+      "KL77LFEP4TC257080"
+    ],
+    "repriced": [
+      {
+        "id": "1C3EL55R84N330709",
+        "from": 6980,
+        "to": 6700
+      },
+      {
+        "id": "1FMEE5DP2NLB38863",
+        "from": 38228,
+        "to": 37714
+      },
+      {
+        "id": "1FTFW1E57PKE62234",
+        "from": 35304,
+        "to": 34996
+      },
+      {
+        "id": "1FTFW1RG2SFB70861",
+        "from": 76585,
+        "to": 76127
+      },
+      {
+        "id": "1G1YB2D72K5105508",
+        "from": 42998,
+        "to": 42668
+      },
+      {
+        "id": "1GCPKBEK1TZ281241",
+        "from": 40222,
+        "to": 39995
+      },
+      {
+        "id": "1GCPKBEK6TZ395171",
+        "from": 41493,
+        "to": 41000
+      },
+      {
+        "id": "1GCPTFEK9T1108196",
+        "from": 46256,
+        "to": 45932
+      },
+      {
+        "id": "1GCUDEEL6RZ254553",
+        "from": 50163,
+        "to": 49813
+      },
+      {
+        "id": "1GCUDJEL7PZ330920",
+        "from": 45422,
+        "to": 44742
+      },
+      {
+        "id": "1GKENRKS3RJ167295",
+        "from": 47413,
+        "to": 46781
+      },
+      {
+        "id": "1GNERGKS3RJ152551",
+        "from": 33500,
+        "to": 33105
+      },
+      {
+        "id": "1GNERGKS3TJ115765",
+        "from": 37767,
+        "to": 37280
+      },
+      {
+        "id": "1GNERGKS3TJ128774",
+        "from": 38263,
+        "to": 37807
+      },
+      {
+        "id": "1GNERGKS5TJ175319",
+        "from": 38914,
+        "to": 38403
+      },
+      {
+        "id": "1GNERGKS7TJ132973",
+        "from": 36714,
+        "to": 36445
+      },
+      {
+        "id": "1GNS6FRD5SR311347",
+        "from": 69269,
+        "to": 68526
+      },
+      {
+        "id": "1GNSKFKD3NR199495",
+        "from": 38239,
+        "to": 37699
+      },
+      {
+        "id": "1GNSKPKL5PR390934",
+        "from": 53650,
+        "to": 53241
+      },
+      {
+        "id": "1GNSKRKD5RR274933",
+        "from": 61198,
+        "to": 60837
+      },
+      {
+        "id": "1GNSKTKL6PR558749",
+        "from": 58552,
+        "to": 58192
+      },
+      {
+        "id": "1GT49PEY5RF417526",
+        "from": 71503,
+        "to": 70920
+      },
+      {
+        "id": "1GTUUGE86SZ327062",
+        "from": 57463,
+        "to": 56862
+      },
+      {
+        "id": "1GTUUGEDXRZ158736",
+        "from": 54528,
+        "to": 53971
+      },
+      {
+        "id": "1V2DC2CA5NC228556",
+        "from": 17260,
+        "to": 17097
+      },
+      {
+        "id": "2C3CDZFJ3NH117276",
+        "from": 40897,
+        "to": 40493
+      },
+      {
+        "id": "2GC4YPEY0N1219943",
+        "from": 49675,
+        "to": 49162
+      },
+      {
+        "id": "2GC4YREY4P1702687",
+        "from": 54289,
+        "to": 53524
+      },
+      {
+        "id": "2HKRS3H25RH313893",
+        "from": 26996,
+        "to": 26832
+      },
+      {
+        "id": "3GCUKFED9SG111025",
+        "from": 50970,
+        "to": 50273
+      },
+      {
+        "id": "3GNAXMEG2RS109084",
+        "from": 25775,
+        "to": 25392
+      },
+      {
+        "id": "3GNKBCR4XNS121636",
+        "from": 21289,
+        "to": 21152
+      },
+      {
+        "id": "3GNKBFRS8LS576580",
+        "from": 19980,
+        "to": 19880
+      },
+      {
+        "id": "3GTUUDEL9SG174843",
+        "from": 50332,
+        "to": 49858
+      },
+      {
+        "id": "4S4BTAPC5P3214234",
+        "from": 28579,
+        "to": 28731
+      },
+      {
+        "id": "5N1BT3BA7TC844249",
+        "from": 27998,
+        "to": 27781
+      },
+      {
+        "id": "5N1DR3DV4TC235501",
+        "from": 42897,
+        "to": 42303
+      },
+      {
+        "id": "5NMS54AL4PH490382",
+        "from": 24719,
+        "to": 24494
+      },
+      {
+        "id": "7FARW1H87JE004351",
+        "from": 16272,
+        "to": 16021
+      },
+      {
+        "id": "KM8JF3AE3PU199400",
+        "from": 20759,
+        "to": 20449
+      }
+    ],
+    "unchanged": 302,
+    "ok": true
+  },
+  {
     "at": "2026-10-03T18:20:28.392Z",
     "adapter": "shiftly",
     "fetched": 347,
