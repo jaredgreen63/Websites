@@ -229,3 +229,43 @@ function mask_url(string $url): string
     $tail = $path === '' ? '' : '/…' . mb_substr(rtrim($path, '/'), -4);
     return $scheme . '://' . $host . $tail;
 }
+
+/**
+ * Send an operational alert on the same channels a lead uses.
+ *
+ * Deliberately not deliver_lead(): an alert has no record to link to and no
+ * webhook payload shaped like a booking. Sharing the senders is the point;
+ * sharing the lead shape would not be.
+ */
+function deliver_alert(string $text, string $subject, array $config): array
+{
+    $results = [];
+
+    $sms = is_array($config['sms'] ?? null) ? $config['sms'] : [];
+    foreach (recipients($sms['to'] ?? '') as $to) {
+        $results[] = ['channel' => 'sms', 'target' => $to, 'error' => send_sms($sms, $to, mb_strimwidth($text, 0, SMS_MAX, '…'))];
+    }
+
+    $siteUrl = (string) ($config['site_url'] ?? '');
+    $from = (string) ($config['notify_email_from'] ?? ('no-reply@' . (parse_url($siteUrl, PHP_URL_HOST) ?: 'localhost')));
+    foreach (recipients($config['notify_email'] ?? '') as $to) {
+        $results[] = ['channel' => 'email', 'target' => $to, 'error' => send_email($to, $subject, $text, $from)];
+    }
+
+    $webhook = trim((string) ($config['notify_url'] ?? ''));
+    if ($webhook !== '') {
+        $results[] = [
+            'channel' => 'webhook',
+            'target' => $webhook,
+            'error' => send_webhook($webhook, ['kind' => 'alert', 'subject' => $subject, 'message' => $text]),
+        ];
+    }
+
+    foreach ($results as $r) {
+        if ($r['error'] !== '') {
+            error_log("[alert] {$r['channel']} failed: {$r['error']}");
+        }
+    }
+
+    return $results;
+}

@@ -53,6 +53,13 @@ return [
     // Used to build that admin_url.
     'site_url' => 'https://danthemancan.live',
 
+    // --- Operational alerts -------------------------------------------------
+    // A shared secret the deploy workflow sends with X-Alert-Token so it can
+    // tell you a run failed. Generate any long random string and store the
+    // same value as the ALERT_TOKEN repository secret on GitHub. Leave empty
+    // and the endpoint refuses everything, which is the safe default.
+    'alert_token' => '',
+
     // --- Visit counter ------------------------------------------------------
     // Added to the real count before it is displayed. The database stores only
     // the genuine number of visits, so this offset can be lowered or set to 0
