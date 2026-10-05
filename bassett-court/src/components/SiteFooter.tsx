@@ -117,9 +117,24 @@ export function SiteFooter({ syncedAt, vehicleCount }: { syncedAt: string; vehic
           style={{ borderTop: '1px solid var(--border-subtle)' }}
         >
           <p>© {year} {siteConfig.legalName} All rights reserved.</p>
-          <p className="numeric">
-            {vehicleCount} vehicle{vehicleCount === 1 ? '' : 's'} listed · inventory updated {formatDateTime(syncedAt)}
-          </p>
+          <div className="flex items-center gap-5 md:flex-row-reverse">
+            {/*
+              A plain anchor, not next/link: /admin/ is a PHP page Apache
+              serves, not a route in this app, so a client-side navigation
+              would 404. This needs a real page load.
+            */}
+            <a
+              href="/admin/"
+              rel="nofollow"
+              className="inline-flex shrink-0 items-center rounded-full px-3 py-1.5 text-[0.75rem] font-semibold transition-colors"
+              style={{ border: '1px solid var(--border-subtle)', color: 'var(--text-secondary)' }}
+            >
+              Admin
+            </a>
+            <p className="numeric">
+              {vehicleCount} vehicle{vehicleCount === 1 ? '' : 's'} listed · inventory updated {formatDateTime(syncedAt)}
+            </p>
+          </div>
         </div>
 
         <p className="mt-5 max-w-4xl text-[0.6875rem] leading-relaxed text-muted">
