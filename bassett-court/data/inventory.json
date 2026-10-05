@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T16:28:52.758Z",
+  "generatedAt": "2026-10-05T16:38:24.025Z",
   "sourceUrl": "https://www.escudechevrolet.com/",
   "sourceName": "Escude Chevrolet",
   "adapter": "shiftly",
@@ -49,7 +49,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chrysler/2004-Chrysler-Sebring-4d8be4b0ac184fb5b994269cb09f2164.htm",
       "slug": "2004-chrysler-sebring-lxi-330709",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1C4HJXDG8MW768702",
@@ -83,7 +83,7 @@
       "sourceUrl": null,
       "slug": "2021-jeep-wrangler-unlimited-sport-s-768702",
       "firstSeenAt": "2026-10-04T17:15:05.584Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1C4RJYD60P8788243",
@@ -126,7 +126,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Jeep/2023-Jeep-Grand-Cherokee-4xe-af2b57d7ac180452334db88b7a262732.htm",
       "slug": "2023-jeep-grand-cherokee-overland-4xe-788243",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1FMCU0HDXJUD54638",
@@ -169,7 +169,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2018-Ford-Escape-47f75b49ac183ebb689d7c6da4e48584.htm",
       "slug": "2018-ford-escape-sel-d54638",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1FMEE5DP2NLB38863",
@@ -214,7 +214,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2022-Ford-Bronco-b2d4ecc2ac18065879bcb5eb0be987c6.htm",
       "slug": "2022-ford-bronco-badlands-b38863",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1FMEE5DP9MLA88462",
@@ -259,7 +259,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2021-Ford-Bronco-2981f97eac185c30491eeacbd818eb0b.htm",
       "slug": "2021-ford-bronco-base-a88462",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1FT7W2BT2REF29658",
@@ -304,7 +304,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2024-Ford-Super-Duty-F-250-SRW-9a8f7e1fac183203311d4ef26c8f473b.htm",
       "slug": "2024-ford-f-250sd-xlt-f29658",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1FTFW1E57PKE62234",
@@ -349,7 +349,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2023-Ford-F-150-9cf1b192ac18152ec7ee5973e3093223.htm",
       "slug": "2023-ford-f-150-xl-e62234",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1FTFW1RG2SFB70861",
@@ -392,7 +392,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2025-Ford-F-150-6f393a6fac1813b262e6ac10db1cbed9.htm",
       "slug": "2025-ford-f-150-raptor-b70861",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1G1FY6EV3VF124013",
@@ -437,7 +437,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Bolt-95a0b24aac185bc6fc1af9b529dc5b91.htm",
       "slug": "2027-chevrolet-bolt-ev-lt-124013",
       "firstSeenAt": "2026-10-02T10:01:14.520Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1G1YB2D72K5105508",
@@ -480,7 +480,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2019-Chevrolet-Corvette-Stingray-e7d070e2ac181130db090a68ba0bbb8f.htm",
       "slug": "2019-chevrolet-corvette-stingray-105508",
       "firstSeenAt": "2026-10-02T10:01:14.520Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1G1YV2D55V5302456",
@@ -525,7 +525,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Corvette-Grand-Sport-76849e70ac185b7043adb35bb65f93be.htm",
       "slug": "2027-chevrolet-corvette-grand-sport-302456",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1G1ZG5ST6SF134916",
@@ -570,7 +570,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Malibu-2f5184f4ac184763418292456d8e33ad.htm",
       "slug": "2025-chevrolet-malibu-rs-134916",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4K0C85GF280504",
@@ -605,7 +605,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2016-Chevrolet-Silverado-3500-HD-0191eb51ac1854fcdbbb733620f9bfe6.htm",
       "slug": "2016-chevrolet-silverado-3500hd-ltz-280504",
       "firstSeenAt": "2026-10-03T16:56:32.827Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4KNEY6TF313370",
@@ -650,7 +650,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-92d81cf9ac1822a711278b17bde68f1f.htm",
       "slug": "2026-chevrolet-silverado-2500hd-lt-313370",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4KNEY9TF313380",
@@ -695,7 +695,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-92d820eaac18253135a6da027b71a5dd.htm",
       "slug": "2026-chevrolet-silverado-2500hd-lt-313380",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4KNEYXTF313355",
@@ -740,7 +740,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-8debee39ac181b1b4ac2fb7f235080f9.htm",
       "slug": "2026-chevrolet-silverado-2500hd-lt-313355",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4KNEYXTF313372",
@@ -785,7 +785,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-c6209457ac181e22457d1d2059868d4c.htm",
       "slug": "2026-chevrolet-silverado-2500hd-lt-313372",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4KPEY4TF292076",
@@ -830,7 +830,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-079cb3f9ac18162810ccf9e74972c336.htm",
       "slug": "2026-chevrolet-silverado-2500hd-ltz-292076",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4KPEY5TF309712",
@@ -875,7 +875,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-b71daf58ac182b914f32918687040db0.htm",
       "slug": "2026-chevrolet-silverado-2500hd-ltz-309712",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4KREY3TF308358",
@@ -920,7 +920,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-73f42f6bac183429101b921fdd26bc21.htm",
       "slug": "2026-chevrolet-silverado-2500hd-high-country-308358",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4KREY4TF303458",
@@ -965,7 +965,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-4fe95d90ac184db46fa63ee4ee05b681.htm",
       "slug": "2026-chevrolet-silverado-2500hd-high-country-303458",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4KREY5TF224736",
@@ -1010,7 +1010,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-75ecb22cac183eb7e49cde9ce0e34f08.htm",
       "slug": "2026-chevrolet-silverado-2500hd-high-country-224736",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4KTEY3TF355743",
@@ -1055,7 +1055,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-3500-HD-a3992807ac18083a2914417f62f6e5fe.htm",
       "slug": "2026-chevrolet-silverado-3500hd-lt-355743",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GC4KTEY8TF310880",
@@ -1100,7 +1100,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-3500-HD-8debeb55ac1829269b877107c7d7a216.htm",
       "slug": "2026-chevrolet-silverado-3500hd-lt-310880",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCGSBEA0L1108476",
@@ -1143,7 +1143,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2020-Chevrolet-Colorado-d37017b8ac184b985b31168a0168a01d.htm",
       "slug": "2020-chevrolet-colorado-work-truck-108476",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCGSDEN4M1145742",
@@ -1186,7 +1186,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2021-Chevrolet-Colorado-bea0b2e2ac1820874a57f05d206c62d3.htm",
       "slug": "2021-chevrolet-colorado-z71-145742",
       "firstSeenAt": "2026-10-02T10:01:14.520Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCGTDEN0J1161865",
@@ -1229,7 +1229,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2018-Chevrolet-Colorado-e4cfc1c4ac185b5f61b2aa792c23c2c9.htm",
       "slug": "2018-chevrolet-colorado-z71-161865",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCGTDEN1K1174979",
@@ -1274,7 +1274,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2019-Chevrolet-Colorado-8d0d03b3ac1849bfafd15ef5282db815.htm",
       "slug": "2019-chevrolet-colorado-z71-174979",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPABEK0SZ260642",
@@ -1309,7 +1309,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Silverado-1500-0191ea3fac1831418a026fd33ad02b26.htm",
       "slug": "2025-chevrolet-silverado-1500-custom-260642",
       "firstSeenAt": "2026-10-03T16:56:32.827Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPADE89TZ439053",
@@ -1354,7 +1354,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-56592ddaac180d0fb6e73ed9ca4c7e5a.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-439053",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPAFE83TZ463103",
@@ -1399,7 +1399,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-d299acf2ac183327c49f3a7e037dbb46.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-463103",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPKBEK0TZ409226",
@@ -1444,7 +1444,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-c0c36d29ac180302593716fcbd03b2c8.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-409226",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPKBEK1TZ281241",
@@ -1489,7 +1489,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Silverado-1500-9492b166ac1839ba6a4280d52da883b2.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-281241",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPKBEK3TZ172733",
@@ -1534,7 +1534,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Silverado-1500-0c8b1644ac1829bdac25aaf1fef65b4b.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-172733",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPKBEK6TZ395171",
@@ -1579,7 +1579,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Silverado-1500-791b9940ac182bd95ba357c711189384.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-395171",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPKDEK3TZ444628",
@@ -1624,7 +1624,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-7ad2cc82ac1825bc039c152781ed8753.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-444628",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPKDEK3TZ447268",
@@ -1669,7 +1669,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-8f6bddceac1839ba6a4280d567be6645.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-447268",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPKDEK4TZ444623",
@@ -1714,7 +1714,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-7ad2cb76ac1804b19b597a951d64ad27.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-444623",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSBEK4T1300380",
@@ -1759,7 +1759,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-c2800d44ac1809a92caa6c0763da3895.htm",
       "slug": "2026-chevrolet-colorado-work-truck-300380",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSBEK8T1284636",
@@ -1804,7 +1804,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-4c796579ac183b168f093f169f4e4bf0.htm",
       "slug": "2026-chevrolet-colorado-work-truck-284636",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK1T1268431",
@@ -1849,7 +1849,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-c133ff12ac1803025b1c582c51c2872d.htm",
       "slug": "2026-chevrolet-colorado-lt-268431",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK2T1317653",
@@ -1894,7 +1894,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-52b12787ac185c308f227df7c06bb363.htm",
       "slug": "2026-chevrolet-colorado-lt-317653",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK3T1107112",
@@ -1939,7 +1939,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-23cc4639ac18501b4ea5d13e079f12a2.htm",
       "slug": "2026-chevrolet-colorado-lt-107112",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK3T1282380",
@@ -1984,7 +1984,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-d299ae09ac1813b9d062c368aab9a482.htm",
       "slug": "2026-chevrolet-colorado-lt-282380",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK3T1318441",
@@ -2029,7 +2029,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-6c722b8fac184bccd6d58c5b5639d630.htm",
       "slug": "2026-chevrolet-colorado-lt-318441",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK5T1317680",
@@ -2074,7 +2074,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-52b12e28ac1844a9f44e1f60e79745b9.htm",
       "slug": "2026-chevrolet-colorado-lt-317680",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK6T1274340",
@@ -2119,7 +2119,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-daf3f678ac185eec877513051bb65859.htm",
       "slug": "2026-chevrolet-colorado-lt-274340",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK6T1317199",
@@ -2164,7 +2164,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-6714b953ac18112af6f1abec16cd1af9.htm",
       "slug": "2026-chevrolet-colorado-lt-317199",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK7T1295374",
@@ -2209,7 +2209,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-b344b417ac18065879bcb5eb3a67ab3f.htm",
       "slug": "2026-chevrolet-colorado-lt-295374",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK8T1295738",
@@ -2254,7 +2254,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-b8331e17ac1809a22d742423a7e12509.htm",
       "slug": "2026-chevrolet-colorado-lt-295738",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK9T1290712",
@@ -2299,7 +2299,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-7ad2cebcac18083a2914417f4d751122.htm",
       "slug": "2026-chevrolet-colorado-lt-290712",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEK9T1318444",
@@ -2344,7 +2344,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-6714c6e9ac1806566e6ba94969fd3e16.htm",
       "slug": "2026-chevrolet-colorado-lt-318444",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPSCEKXT1304360",
@@ -2389,7 +2389,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-004c31c5ac185c3035c89e239fcca61b.htm",
       "slug": "2026-chevrolet-colorado-lt-304360",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPTCEK8T1216551",
@@ -2434,7 +2434,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-8d7cdd92ac1822a711278b176f5103dd.htm",
       "slug": "2026-chevrolet-colorado-lt-216551",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPTDE1XG1298995",
@@ -2477,7 +2477,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2016-Chevrolet-Colorado-9a8f7cf8ac18004e1d0db14e1af08a9c.htm",
       "slug": "2016-chevrolet-colorado-z71-298995",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPTDEK3T1308740",
@@ -2522,7 +2522,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-33ce8bd4ac185c30e41528d4c51780b7.htm",
       "slug": "2026-chevrolet-colorado-z71-308740",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPTDEK4S1246473",
@@ -2567,7 +2567,7 @@
       "sourceUrl": null,
       "slug": "2025-chevrolet-colorado-z71-246473",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPTDEK8S1227652",
@@ -2610,7 +2610,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Colorado-b48986a3ac185e19df2a9b9264c0da44.htm",
       "slug": "2025-chevrolet-colorado-z71-227652",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPTEEK0T1299324",
@@ -2655,7 +2655,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-d299af3dac183327c49f3a7e8155de16.htm",
       "slug": "2026-chevrolet-colorado-trail-boss-299324",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCPTFEK9T1108196",
@@ -2700,7 +2700,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Colorado-da861723ac185d4ec22c0a386c17d25d.htm",
       "slug": "2026-chevrolet-colorado-zr2-108196",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCRKBEK2TZ334943",
@@ -2743,7 +2743,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Silverado-1500-2ff5241dac1857715e05f4fd4b54a9a1.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-334943",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCRYCEFXKZ420250",
@@ -2786,7 +2786,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2019-Chevrolet-Silverado-1500-f77b0dafac185176b72bbf844300a2f6.htm",
       "slug": "2019-chevrolet-silverado-1500-custom-trail-boss-420250",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUACE83TZ481814",
@@ -2831,7 +2831,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-2e70ac3aac185a95ef3e7a70526a8ba3.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-481814",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUACE85TZ478509",
@@ -2876,7 +2876,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1a0dab6bac180771c28b0c0e3be9baaf.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-478509",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUACE87TZ478608",
@@ -2921,7 +2921,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1a0dada3ac181da0dd1bebc3ca9929a0.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-478608",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUDEED7NZ524022",
@@ -2964,7 +2964,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Silverado-1500-f77b09fcac184d71689b1a51c2dea4ca.htm",
       "slug": "2022-chevrolet-silverado-1500-rst-524022",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUDEEL6RZ254553",
@@ -3009,7 +3009,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Silverado-1500-3965923dac185bde89873740aef0ff81.htm",
       "slug": "2024-chevrolet-silverado-1500-rst-254553",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUDGED8NZ530861",
@@ -3052,7 +3052,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Silverado-1500-af2b5573ac1812be80b66b4f613c323c.htm",
       "slug": "2022-chevrolet-silverado-1500-ltz-530861",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUDGEL3RZ294567",
@@ -3095,7 +3095,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Silverado-1500-fca4816dac184769a7e64763757c45f3.htm",
       "slug": "2024-chevrolet-silverado-1500-ltz-294567",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUDJEL7PZ330920",
@@ -3140,7 +3140,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Silverado-1500-fe623a33ac1823d859b5afaed07f261d.htm",
       "slug": "2023-chevrolet-silverado-1500-high-country-330920",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKDE81TZ422506",
@@ -3185,7 +3185,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-042b6288ac1817a20da93820939e5d33.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-422506",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKDED2TZ463532",
@@ -3230,7 +3230,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-d751befdac1820f392fe2f00396c5331.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-463532",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKDED6TZ452047",
@@ -3275,7 +3275,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-ae1c51acac18065879bcb5eb217f48d6.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-452047",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKDEDXTZ461690",
@@ -3320,7 +3320,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-d299b077ac1856a98c1d5bcf3406b911.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-461690",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKEED7TZ426191",
@@ -3365,7 +3365,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1a442502ac185abe565e24b0bab3e46d.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-426191",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKEEL1TZ475605",
@@ -3410,7 +3410,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1f02bbb8ac181bbdf7ea827070f43f0f.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-475605",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKEEL2TZ431807",
@@ -3455,7 +3455,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-2d268e8cac183768508a175fb932ed15.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-431807",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKEEL8TZ474600",
@@ -3500,7 +3500,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-0a61a593ac18490df754131436ce0448.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-474600",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKJE81TZ445427",
@@ -3545,7 +3545,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-9e7223fcac1851c1f80656ffbd42feed.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-445427",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKJE87TZ473331",
@@ -3590,7 +3590,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-054043f7ac180706beba79985cade5fc.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-473331",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKJEL2TZ439740",
@@ -3635,7 +3635,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-6638bdc9ac1804b19b597a95de1ddd85.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-439740",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKJEL5TZ439747",
@@ -3680,7 +3680,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-8b8f0f88ac1825bc039c15279ff3ea85.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-439747",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUKJELXTZ334847",
@@ -3725,7 +3725,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-2f857e73ac18107eb3503fd10e755a26.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-334847",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUYHEL4NZ177391",
@@ -3770,7 +3770,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Silverado-1500-LTD-e7d073acac1844aa370ddd9ec603fa9b.htm",
       "slug": "2022-chevrolet-silverado-1500-ltd-high-country-177391",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCUYHEL7LZ290104",
@@ -3815,7 +3815,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2020-Chevrolet-Silverado-1500-b975fa13ac1817c99dfd0f5c9b8434ba.htm",
       "slug": "2020-chevrolet-silverado-1500-high-country-290104",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GCVKPEH3JZ323267",
@@ -3851,7 +3851,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2018-Chevrolet-Silverado-1500-f77b0b51ac185289c130f4e67338a31b.htm",
       "slug": "2018-chevrolet-silverado-1500-custom-323267",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GKENRKS3RJ167295",
@@ -3896,7 +3896,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2024-GMC-Acadia-fe95ccbbac18131a5dcf4e6a01c17760.htm",
       "slug": "2024-gmc-acadia-denali-167295",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GKS2BKD1MR124508",
@@ -3941,7 +3941,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2021-GMC-Yukon-00f0bbf7ac185c3035c89e23af8a2a91.htm",
       "slug": "2021-gmc-yukon-slt-124508",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GKS2GRD2SR251722",
@@ -3984,7 +3984,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2025-GMC-Yukon-XL-b975f90dac185e19df2a9b92a897e2fd.htm",
       "slug": "2025-gmc-yukon-xl-elevation-251722",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS2VJ117025",
@@ -4029,7 +4029,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-dc3ed00eac18341fab2e75cb0509c71e.htm",
       "slug": "2027-chevrolet-traverse-lt-117025",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS3RJ152551",
@@ -4074,7 +4074,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Traverse-27c6b64fac182cb3bb801ee424121356.htm",
       "slug": "2024-chevrolet-traverse-lt-152551",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS3TJ115765",
@@ -4119,7 +4119,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Traverse-4e35a943ac181d0a4090da90a23dae49.htm",
       "slug": "2026-chevrolet-traverse-lt-115765",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS3TJ128774",
@@ -4164,7 +4164,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Traverse-b2d4e636ac183c5b5fb7bc259748afa7.htm",
       "slug": "2026-chevrolet-traverse-lt-128774",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS3TJ274608",
@@ -4209,7 +4209,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-traverse-lt-274608",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS3VJ117678",
@@ -4254,7 +4254,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-e68de695ac180771dd7429cb32f2da29.htm",
       "slug": "2027-chevrolet-traverse-lt-117678",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS4VJ118368",
@@ -4299,7 +4299,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2027-Chevrolet-Traverse-e68ddf8cac1849ee428c30af5cf2286c.htm",
       "slug": "2027-chevrolet-traverse-lt-118368",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS5TJ175319",
@@ -4344,7 +4344,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Traverse-7506eedcac181c46cdfd0dfeddb2894e.htm",
       "slug": "2026-chevrolet-traverse-lt-175319",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS7TJ132973",
@@ -4389,7 +4389,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Traverse-a37302daac182114930ff9948649709c.htm",
       "slug": "2026-chevrolet-traverse-lt-132973",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS7VJ117019",
@@ -4434,7 +4434,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-dc3ed148ac180771dd7429cb724d0fe0.htm",
       "slug": "2027-chevrolet-traverse-lt-117019",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS9TJ390489",
@@ -4479,7 +4479,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-traverse-lt-390489",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNERGKS9VJ117698",
@@ -4524,7 +4524,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-e12e7a17ac18388e567ff3a806e0445f.htm",
       "slug": "2027-chevrolet-traverse-lt-117698",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNEVJKS0VJ140960",
@@ -4569,7 +4569,7 @@
       "sourceUrl": null,
       "slug": "2027-chevrolet-traverse-z71-140960",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNEVLKS6RJ212276",
@@ -4612,7 +4612,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Traverse-d37019f3ac185fa6e5f523fcdbd06c4f.htm",
       "slug": "2024-chevrolet-traverse-rs-212276",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNKRGKD1FJ134775",
@@ -4657,7 +4657,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2015-Chevrolet-Traverse-8d0d0112ac184d75e32c2e109ad27491.htm",
       "slug": "2015-chevrolet-traverse-lt-134775",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5CKD5TR450231",
@@ -4702,7 +4702,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-suburban-lt-450231",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5EKD6TR450508",
@@ -4747,7 +4747,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-suburban-rst-450508",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5FKD0TR354508",
@@ -4792,7 +4792,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-215b2f40ac1807a071b3d78d8745c202.htm",
       "slug": "2026-chevrolet-suburban-premier-354508",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5FKD9TR472377",
@@ -4837,7 +4837,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-62261d44ac182022507f28bf29e9d4ad.htm",
       "slug": "2026-chevrolet-suburban-premier-472377",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5FRD9SR393537",
@@ -4882,7 +4882,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-7fa42058ac1812f8737f819eb6f97124.htm",
       "slug": "2025-chevrolet-suburban-premier-393537",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5FRD9SR409316",
@@ -4927,7 +4927,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-7c58ecd6ac182ff5053b2af1d6710785.htm",
       "slug": "2025-chevrolet-suburban-premier-409316",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5GKLXTR376920",
@@ -4972,7 +4972,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-8db45eb0ac183919421268d74d5ab43c.htm",
       "slug": "2026-chevrolet-suburban-high-country-376920",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5MKD1TR464164",
@@ -5017,7 +5017,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-2e70af6eac183e12886ddde56d79f0a9.htm",
       "slug": "2026-chevrolet-tahoe-ls-464164",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5SKD0TR360513",
@@ -5062,7 +5062,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-2ba4b8f7ac1809880458fcbaaa9f49ca.htm",
       "slug": "2026-chevrolet-tahoe-premier-360513",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5SKD4TR360739",
@@ -5107,7 +5107,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-2ba4c1a8ac18535243d143727f5b8fba.htm",
       "slug": "2026-chevrolet-tahoe-premier-360739",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5SKD5TR105646",
@@ -5152,7 +5152,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-a7b2a1dfac185b54f99274c2cfae77af.htm",
       "slug": "2026-chevrolet-tahoe-premier-105646",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5SKD6TR113237",
@@ -5197,7 +5197,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-a28f3a62ac18383f9fb5848f667f8382.htm",
       "slug": "2026-chevrolet-tahoe-premier-113237",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5SKL2TR461320",
@@ -5242,7 +5242,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-2e70ad49ac185a95ef3e7a7056aa38ab.htm",
       "slug": "2026-chevrolet-tahoe-premier-461320",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5SKL2TR464153",
@@ -5287,7 +5287,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-33ce885eac181da0dd1bebc32ad0f8ac.htm",
       "slug": "2026-chevrolet-tahoe-premier-464153",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5SKL2TR464878",
@@ -5332,7 +5332,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-33ce8ab8ac180b4132bfb57139c924b3.htm",
       "slug": "2026-chevrolet-tahoe-premier-464878",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5SKL3TR452111",
@@ -5377,7 +5377,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-fb25455fac185c3035c89e23dec6ea4b.htm",
       "slug": "2026-chevrolet-tahoe-premier-452111",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5SKL3TR453680",
@@ -5422,7 +5422,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-004c3323ac18003fe20877a2615cbf82.htm",
       "slug": "2026-chevrolet-tahoe-premier-453680",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5SKL6TR461238",
@@ -5467,7 +5467,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-33ce8966ac18090da9ed9f9da11df276.htm",
       "slug": "2026-chevrolet-tahoe-premier-461238",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5SRL2SR176234",
@@ -5512,7 +5512,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Tahoe-a93035ceac1833326061e30c63db4295.htm",
       "slug": "2025-chevrolet-tahoe-premier-176234",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5TKL0TR101517",
@@ -5557,7 +5557,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-54a02b89ac184db46fa63ee4ed7ae19c.htm",
       "slug": "2026-chevrolet-tahoe-high-country-101517",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5TKL1TR348187",
@@ -5602,7 +5602,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-fd842e6eac1828a5147488390c65d78c.htm",
       "slug": "2026-chevrolet-tahoe-high-country-348187",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5TKL4TR450003",
@@ -5647,7 +5647,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-fb255106ac184a64f5d1c0fee5233955.htm",
       "slug": "2026-chevrolet-tahoe-high-country-450003",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS5TKL8TR450439",
@@ -5692,7 +5692,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-fb254e67ac18341fab2e75cb4aa16905.htm",
       "slug": "2026-chevrolet-tahoe-high-country-450439",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6CKD9TR430366",
@@ -5737,7 +5737,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-suburban-lt-430366",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6EKD7TR441622",
@@ -5782,7 +5782,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-c2800e2fac1834a791521c6bf4443cb5.htm",
       "slug": "2026-chevrolet-suburban-rst-441622",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6ERL6SR205961",
@@ -5827,7 +5827,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-a40c0545ac1837f53f8606c6ae4c5c15.htm",
       "slug": "2025-chevrolet-suburban-rst-205961",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6FKD4TR372510",
@@ -5872,7 +5872,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-73f42b4bac185c10b24baea3c8ae2493.htm",
       "slug": "2026-chevrolet-suburban-premier-372510",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6FKDXTR371958",
@@ -5917,7 +5917,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-73f42d71ac1808e420067eb1879a3cc4.htm",
       "slug": "2026-chevrolet-suburban-premier-371958",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6FKL4TR451084",
@@ -5962,7 +5962,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-f5fed410ac18099670a9b7d5819b9ff0.htm",
       "slug": "2026-chevrolet-suburban-premier-451084",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6FRD4SR178919",
@@ -6007,7 +6007,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-6299760cac181a931376e49a4e943524.htm",
       "slug": "2025-chevrolet-suburban-premier-178919",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6FRD5SR311347",
@@ -6052,7 +6052,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Suburban-6b604fa4ac1824b1018118ba7c7068fe.htm",
       "slug": "2025-chevrolet-suburban-premier-311347",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6FRD5SR363254",
@@ -6097,7 +6097,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-9cb7d361ac181a3dcd6e49c36847a37f.htm",
       "slug": "2025-chevrolet-suburban-premier-363254",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6FRD6SR383612",
@@ -6142,7 +6142,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-ae89f999ac184067335a66bedf785dce.htm",
       "slug": "2025-chevrolet-suburban-premier-383612",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6FRDXSR411489",
@@ -6187,7 +6187,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-629974f0ac182ff5053b2af17a9e0570.htm",
       "slug": "2025-chevrolet-suburban-premier-411489",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6FRL0SR379207",
@@ -6232,7 +6232,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-51a51b8eac183dd22c32649ecf56084c.htm",
       "slug": "2025-chevrolet-suburban-premier-379207",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6FRL5SR256017",
@@ -6277,7 +6277,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-629973c8ac1857715e05f4fd73a4349b.htm",
       "slug": "2025-chevrolet-suburban-premier-256017",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6GKL3TR455214",
@@ -6322,7 +6322,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-1a0dac91ac181fb201976db0fce300e0.htm",
       "slug": "2026-chevrolet-suburban-high-country-455214",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6GKL3TR455438",
@@ -6367,7 +6367,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-38f57f9cac181da0dd1bebc3efd34364.htm",
       "slug": "2026-chevrolet-suburban-high-country-455438",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6GKL5TR141435",
@@ -6412,7 +6412,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-c4722f4cac18162841248f68053f258c.htm",
       "slug": "2026-chevrolet-suburban-high-country-141435",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6GRL7SR159908",
@@ -6457,7 +6457,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Suburban-b4897dc8ac1812d29292c3deb6d60359.htm",
       "slug": "2025-chevrolet-suburban-high-country-159908",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6MKD3TR253738",
@@ -6502,7 +6502,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-3856a5d5ac18160793fbd89082ae2946.htm",
       "slug": "2026-chevrolet-tahoe-ls-253738",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6NKD8TR451379",
@@ -6547,7 +6547,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-f5fedb2aac1849ee428c30af1ccfac8a.htm",
       "slug": "2026-chevrolet-tahoe-lt-451379",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6RK80TR423358",
@@ -6592,7 +6592,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-75e64ed3ac181c46cdfd0dfe4cb8bc35.htm",
       "slug": "2026-chevrolet-tahoe-rst-423358",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6RKL2TR436360",
@@ -6637,7 +6637,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-ae1c52ceac1834a791521c6b57dcffa5.htm",
       "slug": "2026-chevrolet-tahoe-rst-436360",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6SK89TR449612",
@@ -6682,7 +6682,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-fb2548ffac18003fe20877a2d617fd5b.htm",
       "slug": "2026-chevrolet-tahoe-premier-449612",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6SRL3SR371255",
@@ -6727,7 +6727,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Tahoe-7d07a449ac184139e850d70d6c51371f.htm",
       "slug": "2025-chevrolet-tahoe-premier-371255",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6TKL0TR379945",
@@ -6772,7 +6772,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-92d81e03ac1829269b877107bf781f61.htm",
       "slug": "2026-chevrolet-tahoe-high-country-379945",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6TKL2TR453754",
@@ -6817,7 +6817,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-004c3427ac18341fab2e75cb88e7fa8d.htm",
       "slug": "2026-chevrolet-tahoe-high-country-453754",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6TKL4TR417029",
@@ -6862,7 +6862,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-5b7e5525ac180898774eb9b5c1142b54.htm",
       "slug": "2026-chevrolet-tahoe-high-country-417029",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6TKL8TR333246",
@@ -6907,7 +6907,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-bf7f35b7ac184c418849c2b5496a498b.htm",
       "slug": "2026-chevrolet-tahoe-high-country-333246",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6TKL8TR450213",
@@ -6952,7 +6952,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-f5fed98eac185184d8a067b1e7cb5de8.htm",
       "slug": "2026-chevrolet-tahoe-high-country-450213",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNS6TKL9TR449622",
@@ -6997,7 +6997,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-fb254d2fac180936a0a72ed8514d832e.htm",
       "slug": "2026-chevrolet-tahoe-high-country-449622",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNSCHKC4FR274884",
@@ -7040,7 +7040,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2015-Chevrolet-Suburban-7198687eac181ba235d0c042567fc206.htm",
       "slug": "2015-chevrolet-suburban-ls-274884",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNSCNKD8MR110705",
@@ -7083,7 +7083,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2021-Chevrolet-Tahoe-f251e579ac185176b72bbf8401367096.htm",
       "slug": "2021-chevrolet-tahoe-lt-110705",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNSCSKD6NR330215",
@@ -7126,7 +7126,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Tahoe-e7d06fa2ac18038d55a59b13dadc2cb0.htm",
       "slug": "2022-chevrolet-tahoe-premier-330215",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNSKCKD3NR290202",
@@ -7171,7 +7171,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Suburban-af2b547dac1804415d9b37e0caede6f4.htm",
       "slug": "2022-chevrolet-suburban-lt-290202",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNSKFKD3NR199495",
@@ -7216,7 +7216,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Suburban-dfb07795ac180d900968ba8ef988adf9.htm",
       "slug": "2022-chevrolet-suburban-premier-199495",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNSKPKL5PR390934",
@@ -7261,7 +7261,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Tahoe-eda24d00ac18028b91c6a7b6bd7fe53e.htm",
       "slug": "2023-chevrolet-tahoe-z71-390934",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNSKRKD5RR274933",
@@ -7306,7 +7306,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Tahoe-f7ef3ca9ac185184d8a067b1553638bd.htm",
       "slug": "2024-chevrolet-tahoe-rst-274933",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNSKRKD6MR368330",
@@ -7341,7 +7341,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2021-Chevrolet-Tahoe-f77b0c93ac182dab8fe58866d72e28f6.htm",
       "slug": "2021-chevrolet-tahoe-rst-368330",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GNSKTKL6PR558749",
@@ -7386,7 +7386,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Tahoe-9cb7a649ac18475ffbc3f7c735fe9b4e.htm",
       "slug": "2023-chevrolet-tahoe-high-country-558749",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GT49PEY5RF417526",
@@ -7431,7 +7431,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2024-GMC-Sierra-2500-HD-dc097cf5ac18388e567ff3a86175ca85.htm",
       "slug": "2024-gmc-sierra-2500hd-at4-417526",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GTUUEEL6PZ325036",
@@ -7465,7 +7465,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2023-GMC-Sierra-1500-0191ec72ac18551004d3805d2463ead3.htm",
       "slug": "2023-gmc-sierra-1500-at4-325036",
       "firstSeenAt": "2026-10-02T10:01:14.520Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GTUUGE86SZ327062",
@@ -7510,7 +7510,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2025-GMC-Sierra-1500-eb7ab946ac184a64f5d1c0fec03ec9fa.htm",
       "slug": "2025-gmc-sierra-1500-denali-327062",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1GTUUGEDXRZ158736",
@@ -7555,7 +7555,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2024-GMC-Sierra-1500-50fc5b4aac180898774eb9b5d955bdeb.htm",
       "slug": "2024-gmc-sierra-1500-denali-158736",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "1V2DC2CA5NC228556",
@@ -7600,7 +7600,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Volkswagen/2022-Volkswagen-Atlas-Cross-Sport-da8613c5ac185eec87751305e1431ea3.htm",
       "slug": "2022-volkswagen-atlas-cross-sport-2-0t-se-228556",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2C3CDZBT9JH288342",
@@ -7643,7 +7643,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Dodge/2018-Dodge-Challenger-f251e464ac18436083e27fb6e77058ba.htm",
       "slug": "2018-dodge-challenger-r-t-288342",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2C3CDZFJ3NH117276",
@@ -7688,7 +7688,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Dodge/2022-Dodge-Challenger-bd58fb27ac1809a22d742423aa7d50ac.htm",
       "slug": "2022-dodge-challenger-r-t-scat-pack-117276",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2C3CDZJG7NH174799",
@@ -7733,7 +7733,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Dodge/2022-Dodge-Challenger-67158379ac1813b262e6ac10195b7a54.htm",
       "slug": "2022-dodge-challenger-gt-174799",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2FMPK3J81JBB48166",
@@ -7776,7 +7776,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2018-Ford-Edge-d37018d6ac1822ed3b294cb023868445.htm",
       "slug": "2018-ford-edge-sel-b48166",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4AMEY6T1203343",
@@ -7821,7 +7821,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-6ecd5d38ac185f04cd770b9f227aba4c.htm",
       "slug": "2026-chevrolet-silverado-2500hd-custom-203343",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4KMEY4T1204259",
@@ -7866,7 +7866,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-78e549bcac182edcb3e07e9629375063.htm",
       "slug": "2026-chevrolet-silverado-2500hd-custom-204259",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4KMEY5T1200270",
@@ -7911,7 +7911,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-2ba4ba3dac183f2ca9d7d4814ce153e1.htm",
       "slug": "2026-chevrolet-silverado-2500hd-custom-200270",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4KNE71S1184046",
@@ -7954,7 +7954,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Silverado-2500-HD-85590248ac183734b94f3a4a3e893a45.htm",
       "slug": "2025-chevrolet-silverado-2500hd-lt-184046",
       "firstSeenAt": "2026-10-02T10:01:14.520Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4KNEY5T1141131",
@@ -7999,7 +7999,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-a678ce3dac180732d0125ed4276ff34d.htm",
       "slug": "2026-chevrolet-silverado-2500hd-lt-141131",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4KPE74T1227517",
@@ -8044,7 +8044,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-0540465eac180512e887ce9cfff31425.htm",
       "slug": "2026-chevrolet-silverado-2500hd-ltz-227517",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4KPEY2S1215938",
@@ -8089,7 +8089,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Silverado-2500-HD-51a51f66ac180995da141b64e981bdfe.htm",
       "slug": "2025-chevrolet-silverado-2500hd-ltz-215938",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4KREY3T1203066",
@@ -8134,7 +8134,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-8db45b96ac182108bf40a726abbb944a.htm",
       "slug": "2026-chevrolet-silverado-2500hd-high-country-203066",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4KREYXT1201718",
@@ -8179,7 +8179,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-54d62c15ac18449e036c6424deaa3f9e.htm",
       "slug": "2026-chevrolet-silverado-2500hd-high-country-201718",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4KYEY8T1228992",
@@ -8224,7 +8224,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-2e70ae5dac1827bd9540ac6703afe7c2.htm",
       "slug": "2026-chevrolet-silverado-2500hd-zr2-228992",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4YME76R1194249",
@@ -8267,7 +8267,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Silverado-2500-HD-67158202ac184bccd6d58c5bf3ed98b7.htm",
       "slug": "2024-chevrolet-silverado-2500hd-custom-194249",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4YMEY1R1202122",
@@ -8310,7 +8310,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Silverado-2500-HD-d894af98ac181a98f5666e530fa5b432.htm",
       "slug": "2024-chevrolet-silverado-2500hd-custom-202122",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4YPEY0N1219943",
@@ -8355,7 +8355,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Silverado-2500-HD-93ececa8ac184d2b5dd6c1628aa69308.htm",
       "slug": "2022-chevrolet-silverado-2500hd-ltz-219943",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GC4YREY4P1702687",
@@ -8400,7 +8400,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Silverado-2500-HD-dabeb7e9ac18101fae2fc558f97f268a.htm",
       "slug": "2023-chevrolet-silverado-2500hd-high-country-702687",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GCUKDED1T1191712",
@@ -8445,7 +8445,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-bf7f36d7ac1845457ae37be8f09e568e.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-191712",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GCUKDED2T1214107",
@@ -8490,7 +8490,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-094f4458ac1848577d092645b9629572.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-214107",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GCUKDED5T1214067",
@@ -8535,7 +8535,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-18fb6c64ac183768508a175f9722409f.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-214067",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2GCUKDEDXT1217658",
@@ -8580,7 +8580,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-8b8f0e0dac180aac8449eac6d66ac099.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-217658",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2HKRS3H25RH313893",
@@ -8625,7 +8625,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Honda/2024-Honda-CR-V-50fc596cac1814b5a599b79d53abfbdc.htm",
       "slug": "2024-honda-cr-v-lx-313893",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2T3C1RFV8RC279080",
@@ -8670,7 +8670,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2024-Toyota-RAV4-61efb437ac1830f8c0647a55e95e2925.htm",
       "slug": "2024-toyota-rav4-xle-premium-279080",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "2T3H1RFV5SC351722",
@@ -8715,7 +8715,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2025-Toyota-RAV4-e4cfc046ac183e1692c7be593e28713f.htm",
       "slug": "2025-toyota-rav4-le-351722",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3C6UR5FL0RG231504",
@@ -8760,7 +8760,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ram/2024-Ram-2500-cdda3ce7ac182e060860d9a82877bf4b.htm",
       "slug": "2024-ram-2500-laramie-231504",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCPDBEK9PG212331",
@@ -8794,7 +8794,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Silverado-1500-0191e80fac180d50c4c90ee103a5f61f.htm",
       "slug": "2023-chevrolet-silverado-1500-custom-212331",
       "firstSeenAt": "2026-10-03T16:56:32.827Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCPDCED2NG616060",
@@ -8829,7 +8829,7 @@
       "sourceUrl": null,
       "slug": "2022-chevrolet-silverado-1500-custom-trail-boss-616060",
       "firstSeenAt": "2026-10-04T17:15:05.584Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCPDKEK9RG303747",
@@ -8872,7 +8872,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Silverado-1500-6c3ca0b7ac1849bfafd15ef5136c80b3.htm",
       "slug": "2024-chevrolet-silverado-1500-lt-303747",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCPKCEK3TG457583",
@@ -8917,7 +8917,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-99831bcdac18083a2914417fcb8c0b72.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-trail-boss-457583",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCPYFEDXMG302631",
@@ -8960,7 +8960,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2021-Chevrolet-Silverado-1500-d894b0c2ac181130db090a68b1679d74.htm",
       "slug": "2021-chevrolet-silverado-1500-lt-trail-boss-302631",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUDFED5PG200284",
@@ -9005,7 +9005,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Silverado-1500-b975fb4bac1812d225eec517fbc5ef4a.htm",
       "slug": "2023-chevrolet-silverado-1500-lt-trail-boss-200284",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUDHEL2PG307800",
@@ -9050,7 +9050,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Silverado-1500-671584aaac1849bfafd15ef55ddbf30b.htm",
       "slug": "2023-chevrolet-silverado-1500-zr2-307800",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKCE83TG480840",
@@ -9095,7 +9095,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-05403f65ac18003fe20877a202ce8bbe.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-trail-boss-480840",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKCED8TG419481",
@@ -9140,7 +9140,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1e8bf0f1ac181b397f50d7acb70ee48b.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-trail-boss-419481",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKCED9TG483500",
@@ -9185,7 +9185,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-054047d5ac185184d8a067b1a2651105.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-trail-boss-483500",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKDE82TG481435",
@@ -9230,7 +9230,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-054041a1ac180512e887ce9ce98bd339.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-481435",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKEED0TG447044",
@@ -9275,7 +9275,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-6671bf1aac1824b1018118ba0a3adf21.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-447044",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKEELXTG319899",
@@ -9320,7 +9320,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-2503438eac1823e7f450582953b6582a.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-319899",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKFE80TG431970",
@@ -9365,7 +9365,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-3cce36c0ac182381677b0ba9119e699c.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-431970",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKFED9SG111025",
@@ -9410,7 +9410,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Silverado-1500-38c1b534ac1807f687c9b8fab3fad878.htm",
       "slug": "2025-chevrolet-silverado-1500-lt-trail-boss-111025",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKFEL0TG507580",
@@ -9455,7 +9455,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-8d43be0fac184d75e32c2e1088fd88c7.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-507580",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKFEL2TG314198",
@@ -9500,7 +9500,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-314198",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKFEL3TG314291",
@@ -9545,7 +9545,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-738e65c0ac182ff5053b2af11c3c5852.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-314291",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKFEL3TG442840",
@@ -9590,7 +9590,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-56592b2aac182381677b0ba93de80bbf.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-442840",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKFEL4TG442846",
@@ -9635,7 +9635,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-7ad2cd99ac1804b19b597a9576c19703.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-442846",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKFEL6TG442539",
@@ -9680,7 +9680,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-7ad2cfbeac1825bc039c1527d56fdbeb.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-442539",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKFEL9TG507576",
@@ -9725,7 +9725,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-8d43bab3ac185b7043adb35b2817dfaa.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-507576",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHE83TG458995",
@@ -9770,7 +9770,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-a8bcdf50ac184b2fa8c895f9243d3061.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-458995",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHE87TG457560",
@@ -9815,7 +9815,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-a399293cac184d2b5dd6c1624ea2787c.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-457560",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHE88TG454912",
@@ -9860,7 +9860,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-851ebbc6ac1814e012e1fffc17cf519c.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-454912",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHEL0TG342027",
@@ -9905,7 +9905,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-8bcde218ac1852f701569dec9f8b69d4.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-342027",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHEL3TG364250",
@@ -9950,7 +9950,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-e9598a63ac18162841248f687716b21d.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-364250",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHEL3TG475493",
@@ -9995,7 +9995,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-e12e7c61ac185c8404187ace827e6324.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-475493",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHEL3TG476482",
@@ -10040,7 +10040,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-fb2547b4ac18490df7541314c8edde0f.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-476482",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHEL5TG318063",
@@ -10085,7 +10085,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-25a58239ac185bde89873740289f403d.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-318063",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHEL7TG460527",
@@ -10130,7 +10130,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-48677e53ac18090da9ed9f9d155edfbe.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-460527",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHEL8TG435426",
@@ -10175,7 +10175,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-429a214fac18541152113ed63094e9ac.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-435426",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHEL9TG341135",
@@ -10220,7 +10220,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-a09b8e0eac184c418849c2b558cf011d.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-341135",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHEL9TG476776",
@@ -10265,7 +10265,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-054042d6ac18490df75413147aa0b37e.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-476776",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKHELXTG291457",
@@ -10310,7 +10310,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-c3600e6cac1807bdc045851112fbbecf.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-291457",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKJE81TG497141",
@@ -10355,7 +10355,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-2423a2a4ac1826798ad94e3bf0b7002e.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-497141",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKJE86TG497152",
@@ -10400,7 +10400,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1f02be05ac1840bc3dde7e439e0a1de5.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-497152",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKJE88TG497198",
@@ -10445,7 +10445,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1f02bf52ac1832e951f5fea7751cbce9.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-497198",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUKSEJ5JG347197",
@@ -10481,7 +10481,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2018-Chevrolet-Silverado-1500-06ee7357ac183bd6400d388c51f71508.htm",
       "slug": "2018-chevrolet-silverado-1500-ltz-347197",
       "firstSeenAt": "2026-10-03T16:56:32.827Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GCUYEED1LG108064",
@@ -10519,7 +10519,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2020-Chevrolet-Silverado-1500-f251e693ac184d71689b1a511cecb01d.htm",
       "slug": "2020-chevrolet-silverado-1500-rst-108064",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNARHEG1VL163028",
@@ -10564,7 +10564,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-8666c577ac1849bfafd15ef5d33ce86c.htm",
       "slug": "2027-chevrolet-equinox-lt-163028",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNARHEG2VL196071",
@@ -10609,7 +10609,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-8666c416ac183d20eebe8ad11e32029b.htm",
       "slug": "2027-chevrolet-equinox-lt-196071",
       "firstSeenAt": "2026-10-02T10:01:14.520Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNARHEG3VL185676",
@@ -10654,7 +10654,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-62261877ac183e4132cdba36b033b0ec.htm",
       "slug": "2027-chevrolet-equinox-lt-185676",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNARHEG7VL160845",
@@ -10699,7 +10699,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-cddb5369ac183e1692c7be59b1c63c73.htm",
       "slug": "2027-chevrolet-equinox-lt-160845",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNARKEG5VL198149",
@@ -10744,7 +10744,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-8d43c653ac18112a41dc78aedd382c85.htm",
       "slug": "2027-chevrolet-equinox-activ-198149",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNARKEGXVL198888",
@@ -10789,7 +10789,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-8d43c96fac1813b262e6ac10b8948b49.htm",
       "slug": "2027-chevrolet-equinox-activ-198888",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNAXHEG0PL182355",
@@ -10832,7 +10832,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Equinox-ddbc3e34ac18317c333ce9bd125a3d12.htm",
       "slug": "2023-chevrolet-equinox-ls-182355",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNAXHEG0RL213641",
@@ -10877,7 +10877,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Equinox-43b3372aac184f13ca20cd183bda2854.htm",
       "slug": "2024-chevrolet-equinox-ls-213641",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNAXHEGXTL503392",
@@ -10922,7 +10922,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Equinox-dc0cd785ac18028bdbc4543e4556c6dd.htm",
       "slug": "2026-chevrolet-equinox-lt-503392",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNAXKEG6TL432124",
@@ -10967,7 +10967,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Equinox-e20f3219ac18168603616055dd835e86.htm",
       "slug": "2026-chevrolet-equinox-activ-432124",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNAXLEG8SL124845",
@@ -11010,7 +11010,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Equinox-527b2cb9ac181e63234f4fee8ecb0a11.htm",
       "slug": "2025-chevrolet-equinox-rs-124845",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNAXUEV1KS518939",
@@ -11055,7 +11055,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2019-Chevrolet-Equinox-907bc574ac183203311d4ef206a9be74.htm",
       "slug": "2019-chevrolet-equinox-lt-518939",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNKBCR4XNS121636",
@@ -11100,7 +11100,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Blazer-7506f151ac183586ac64e56a1c9b0c9a.htm",
       "slug": "2022-chevrolet-blazer-lt-121636",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNKBCR4XSS225409",
@@ -11145,7 +11145,7 @@
       "sourceUrl": null,
       "slug": "2025-chevrolet-blazer-lt-225409",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNKBER48TS197803",
@@ -11190,7 +11190,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Blazer-62261e4aac182022507f28bf1bcbb653.htm",
       "slug": "2026-chevrolet-blazer-rs-197803",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GNKBFRS8LS576580",
@@ -11235,7 +11235,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2020-Chevrolet-Blazer-b2d4ea7cac1810ac5033d1c686b28034.htm",
       "slug": "2020-chevrolet-blazer-premier-576580",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3GTUUDEL9SG174843",
@@ -11280,7 +11280,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2025-GMC-Sierra-1500-1a4649f3ac1827bd9540ac6764031ec2.htm",
       "slug": "2025-gmc-sierra-1500-slt-174843",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3MVDMABL3MM201315",
@@ -11325,7 +11325,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Mazda/2021-Mazda-CX-30-b2d4e3daac184067335a66be432519e5.htm",
       "slug": "2021-mazda-cx-30-select-201315",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3MVDMBBL3TM115149",
@@ -11370,7 +11370,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Mazda/2026-Mazda-CX-30-24236898ac1827bd9540ac67d5925c4e.htm",
       "slug": "2026-mazda-cx-30-2-5-s-select-sport-115149",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3N1AB8CV9NY254293",
@@ -11413,7 +11413,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Nissan/2022-Nissan-Sentra-b4897f0bac182087478a876589a91ddd.htm",
       "slug": "2022-nissan-sentra-sv-254293",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "3N1CP5BV4PL471194",
@@ -11458,7 +11458,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Nissan/2023-Nissan-Kicks-3e19c0eeac184f13ca20cd188eae4c77.htm",
       "slug": "2023-nissan-kicks-s-471194",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "4S4BTAPC5P3214234",
@@ -11503,7 +11503,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Subaru/2023-Subaru-Outback-9492b555ac1851c1f80656ff03a9ab32.htm",
       "slug": "2023-subaru-outback-touring-214234",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5FNRL6H74PB029208",
@@ -11548,7 +11548,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Honda/2023-Honda-Odyssey-af2b58f3ac1804415d9b37e066153bf8.htm",
       "slug": "2023-honda-odyssey-sport-029208",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5FNRL6H92KB050780",
@@ -11593,7 +11593,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Honda/2019-Honda-Odyssey-61efb2c3ac180b7620d871aee164ee09.htm",
       "slug": "2019-honda-odyssey-elite-050780",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5FNYG2H71SB009547",
@@ -11629,7 +11629,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Honda/2025-Honda-Pilot-0191e926ac18551004d3805de86f465e.htm",
       "slug": "2025-honda-pilot-touring-009547",
       "firstSeenAt": "2026-10-03T16:56:32.827Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5J6RW1H59KA023604",
@@ -11674,7 +11674,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Honda/2019-Honda-CR-V-6c3ca1c6ac184d75e32c2e10d03448ee.htm",
       "slug": "2019-honda-cr-v-ex-023604",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5N1AT3BA6MC793209",
@@ -11708,7 +11708,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Nissan/2021-Nissan-Rogue-fca47f42ac18167d1794b1d5c2771e45.htm",
       "slug": "2021-nissan-rogue-sv-793209",
       "firstSeenAt": "2026-10-02T10:01:14.520Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5N1BT3BA7TC844249",
@@ -11753,7 +11753,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Nissan/2026-Nissan-Rogue-0c8b0e3aac180512e887ce9c36e9b796.htm",
       "slug": "2026-nissan-rogue-dark-armor-844249",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5N1DR3DV4TC235501",
@@ -11798,7 +11798,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Nissan/2026-Nissan-Pathfinder-93ece67dac1851c1f80656ff668c5be9.htm",
       "slug": "2026-nissan-pathfinder-platinum-235501",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5NMJE3DE9RH342525",
@@ -11841,7 +11841,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Hyundai/2024-Hyundai-Tucson-ddbc3b72ac185fa6e5f523fc01dbad3c.htm",
       "slug": "2024-hyundai-tucson-limited-342525",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5NMS54AL4PH490382",
@@ -11886,7 +11886,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Hyundai/2023-Hyundai-Santa-Fe-bc89c53dac180a17026d32f3098b3f38.htm",
       "slug": "2023-hyundai-santa-fe-calligraphy-490382",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5TDAAAB64TS060440",
@@ -11920,7 +11920,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/LEXUS/2026-LEXUS-TX-fca48063ac1814899b591c8090806373.htm",
       "slug": "2026-lexus-tx-350-luxury-060440",
       "firstSeenAt": "2026-10-02T10:01:14.520Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5TFCZ5AN8KX173463",
@@ -11965,7 +11965,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2019-Toyota-Tacoma-4WD-61efb77cac180b7620d871aea37f1230.htm",
       "slug": "2019-toyota-tacoma-trd-off-road-173463",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5TFDY5F14LX911449",
@@ -12009,7 +12009,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2020-Toyota-Tundra-4WD-ddbc3cb9ac185fa6e5f523fc546ad642.htm",
       "slug": "2020-toyota-tundra-sr5-911449",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5TFDY5F19JX679962",
@@ -12054,7 +12054,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2018-Toyota-Tundra-4WD-61efb0a0ac180b7620d871ae7a268ae6.htm",
       "slug": "2018-toyota-tundra-sr5-679962",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5TFLA5DB2PX073858",
@@ -12099,7 +12099,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2023-Toyota-Tundra-4WD-b48987b2ac1812d29292c3de9287e1d0.htm",
       "slug": "2023-toyota-tundra-sr5-073858",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "5XYP64GC1SG647038",
@@ -12144,7 +12144,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Kia/2025-Kia-Telluride-8d0d0a0fac182baebfa1745179f58915.htm",
       "slug": "2025-kia-telluride-s-647038",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "7FARW1H87JE004351",
@@ -12189,7 +12189,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Honda/2018-Honda-CR-V-d6e3b93cac1834518ae217d68a80d1ad.htm",
       "slug": "2018-honda-cr-v-ex-l-004351",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "JN8AY2DB1P9830243",
@@ -12234,7 +12234,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Nissan/2023-Nissan-Armada-9a8f803fac18431504067597532eb2c0.htm",
       "slug": "2023-nissan-armada-platinum-830243",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "JN8BT3BA3RW353645",
@@ -12279,7 +12279,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Nissan/2024-Nissan-Rogue-b4898457ac182087478a8765540e4772.htm",
       "slug": "2024-nissan-rogue-sv-353645",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "JTDACAAJXT3039402",
@@ -12324,7 +12324,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2026-Toyota-Crown-Signia-3e19bd38ac180b4132bfb5714dc7190e.htm",
       "slug": "2026-toyota-crown-signia-limited-039402",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "JTNKHMBX6K1027389",
@@ -12369,7 +12369,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2019-Toyota-C-HR-907bc69dac18431504067597a0f3de0d.htm",
       "slug": "2019-toyota-c-hr-xle-027389",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LFEP1TC257103",
@@ -12414,7 +12414,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-71982962ac18278e4c624aba802b3b18.htm",
       "slug": "2026-chevrolet-trax-ls-257103",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LFEP6TC257906",
@@ -12459,7 +12459,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-907df40eac184a05714d921d86aff353.htm",
       "slug": "2026-chevrolet-trax-ls-257906",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LGEP0TC253520",
@@ -12504,7 +12504,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-7684a442ac1838ffae3a022a27397621.htm",
       "slug": "2026-chevrolet-trax-1rs-253520",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LGEP1TC253008",
@@ -12549,7 +12549,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-7684a05fac1806568f439d17fa79c915.htm",
       "slug": "2026-chevrolet-trax-1rs-253008",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LGEP4TC253584",
@@ -12594,7 +12594,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76849b45ac185ca9e7e2cb7f4d47e484.htm",
       "slug": "2026-chevrolet-trax-1rs-253584",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LGEP6TC253523",
@@ -12639,7 +12639,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb771bac1813b262e6ac107eeb0cf6.htm",
       "slug": "2026-chevrolet-trax-1rs-253523",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LGEP7TC253174",
@@ -12684,7 +12684,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb7605ac18112a917d9609eedce448.htm",
       "slug": "2026-chevrolet-trax-1rs-253174",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LGEP9TC253287",
@@ -12729,7 +12729,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb7813ac184d75e32c2e1054bbe04c.htm",
       "slug": "2026-chevrolet-trax-1rs-253287",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LHEP2TC257252",
@@ -12774,7 +12774,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-907e05e0ac18279fa3a7553b8b82c194.htm",
       "slug": "2026-chevrolet-trax-lt-257252",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LHEP3TC257289",
@@ -12819,7 +12819,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-907df1e0ac185fef39d0f00f149324e1.htm",
       "slug": "2026-chevrolet-trax-lt-257289",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LHEP5TC257889",
@@ -12864,7 +12864,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb7508ac1806568f439d1704a330fb.htm",
       "slug": "2026-chevrolet-trax-lt-257889",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LHEP6TC148048",
@@ -12909,7 +12909,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-trax-lt-148048",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LHEP8TC232825",
@@ -12954,7 +12954,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-b344ad34ac184b2fa8c895f9214db17f.htm",
       "slug": "2026-chevrolet-trax-lt-232825",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LHEP8TC257305",
@@ -12999,7 +12999,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-907df51fac180452357e7dbb759914a7.htm",
       "slug": "2026-chevrolet-trax-lt-257305",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LHEPXTC148084",
@@ -13044,7 +13044,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-d9e2b3eaac1802a42ccf9a90ef7bd8a7.htm",
       "slug": "2026-chevrolet-trax-lt-148084",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LJEP1TC232477",
@@ -13089,7 +13089,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-c7a7ec8aac183c5b5fb7bc255c1a9575.htm",
       "slug": "2026-chevrolet-trax-2rs-232477",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LJEP2TC255122",
@@ -13134,7 +13134,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-6714c02cac1813b262e6ac10a56d6035.htm",
       "slug": "2026-chevrolet-trax-2rs-255122",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LJEP3TC255520",
@@ -13179,7 +13179,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb7a10ac183b721f3e0223745cb4f5.htm",
       "slug": "2026-chevrolet-trax-2rs-255520",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LJEP6TC233785",
@@ -13224,7 +13224,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-b344a594ac18065879bcb5eb1215c9a8.htm",
       "slug": "2026-chevrolet-trax-2rs-233785",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LJEP7TC255231",
@@ -13269,7 +13269,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-6714c271ac183b721f3e022385bc3b55.htm",
       "slug": "2026-chevrolet-trax-2rs-255231",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LJEP8TC256629",
@@ -13314,7 +13314,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-6714b833ac183b721f3e0223dff3cfce.htm",
       "slug": "2026-chevrolet-trax-2rs-256629",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LJEP9TC256705",
@@ -13359,7 +13359,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-62261532ac18460669bf321077847b49.htm",
       "slug": "2026-chevrolet-trax-2rs-256705",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LKEP0TC231570",
@@ -13404,7 +13404,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-b4faf739ac1809a22d742423e8d2a836.htm",
       "slug": "2026-chevrolet-trax-activ-231570",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LKEP2TC253439",
@@ -13449,7 +13449,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb7e31ac1838ffae3a022a320038a0.htm",
       "slug": "2026-chevrolet-trax-activ-253439",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LKEP6TC039750",
@@ -13492,7 +13492,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Trax-c0d66d13ac1837d0dfe2868dcc391566.htm",
       "slug": "2026-chevrolet-trax-activ-039750",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LKEP7TC253453",
@@ -13537,7 +13537,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb8133ac184d75e32c2e105bee6508.htm",
       "slug": "2026-chevrolet-trax-activ-253453",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL77LKEP9TC253499",
@@ -13582,7 +13582,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb73f5ac1806568f439d17f7496fd8.htm",
       "slug": "2026-chevrolet-trax-activ-253499",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MMSL2TB277054",
@@ -13627,7 +13627,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c72251eac18112a917d960949c550aa.htm",
       "slug": "2026-chevrolet-trailblazer-ls-277054",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MMSL3TB251501",
@@ -13672,7 +13672,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-7f8a9f44ac18083a2914417f64aaecfe.htm",
       "slug": "2026-chevrolet-trailblazer-ls-251501",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MMSL7TB276661",
@@ -13717,7 +13717,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-e68de3efac18326561807f76ba6bab97.htm",
       "slug": "2026-chevrolet-trailblazer-ls-276661",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MMSL7TB280970",
@@ -13762,7 +13762,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c722779ac180e99be2ff67dff6d1d30.htm",
       "slug": "2026-chevrolet-trailblazer-ls-280970",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MMSL7TB288776",
@@ -13807,7 +13807,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-95a0b045ac183203311d4ef2f540b22d.htm",
       "slug": "2026-chevrolet-trailblazer-ls-288776",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MMSLXTB296581",
@@ -13852,7 +13852,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-62261310ac180b7620d871ae10f8ddae.htm",
       "slug": "2026-chevrolet-trailblazer-ls-296581",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSL0TB278446",
@@ -13897,7 +13897,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-8d43c878ac181ba235d0c042285c7506.htm",
       "slug": "2026-chevrolet-trailblazer-lt-278446",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSL3TB241276",
@@ -13942,7 +13942,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-94922780ac182bafa05e7feef3bf3f8c.htm",
       "slug": "2026-chevrolet-trailblazer-lt-241276",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSL3TB291417",
@@ -13987,7 +13987,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6714c3a4ac185b7043adb35b447cda21.htm",
       "slug": "2026-chevrolet-trailblazer-lt-291417",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSL3TB294432",
@@ -14032,7 +14032,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c722677ac185ca9e7e2cb7f0fd3364d.htm",
       "slug": "2026-chevrolet-trailblazer-lt-294432",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSL4TB285531",
@@ -14077,7 +14077,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c722a7eac180e99be2ff67df565bc21.htm",
       "slug": "2026-chevrolet-trailblazer-lt-285531",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSL4TB287876",
@@ -14122,7 +14122,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-62261770ac18518ba815d9f2d2cea356.htm",
       "slug": "2026-chevrolet-trailblazer-lt-287876",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSL4TB288297",
@@ -14167,7 +14167,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-8d43c327ac1849bfafd15ef5231a14d3.htm",
       "slug": "2026-chevrolet-trailblazer-lt-288297",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSL4TB290132",
@@ -14212,7 +14212,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6714bb80ac18155969bd56a954cc4347.htm",
       "slug": "2026-chevrolet-trailblazer-lt-290132",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSL4TB294892",
@@ -14257,7 +14257,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c722876ac180e99be2ff67dcd6aeac4.htm",
       "slug": "2026-chevrolet-trailblazer-lt-294892",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSL6TB281528",
@@ -14302,7 +14302,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-9ac7f518ac1851979897d8865ff7f74e.htm",
       "slug": "2026-chevrolet-trailblazer-lt-281528",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSL6TB283781",
@@ -14347,7 +14347,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c722412ac1813b262e6ac10801eb805.htm",
       "slug": "2026-chevrolet-trailblazer-lt-283781",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MPSLXTB296310",
@@ -14392,7 +14392,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6714c5cdac184d75e32c2e10e924982e.htm",
       "slug": "2026-chevrolet-trailblazer-lt-296310",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MTSL1TB296902",
@@ -14437,7 +14437,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c72297dac1849bfafd15ef576cd11e6.htm",
       "slug": "2026-chevrolet-trailblazer-rs-296902",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MTSL4PB117225",
@@ -14480,7 +14480,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Trailblazer-9a8f7bd6ac180452357e7dbbe1a14439.htm",
       "slug": "2023-chevrolet-trailblazer-rs-117225",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MTSL7PB212698",
@@ -14523,7 +14523,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Trailblazer-671587ecac180e99ae17174695513750.htm",
       "slug": "2023-chevrolet-trailblazer-rs-212698",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MVSL8TB196582",
@@ -14568,7 +14568,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-2684471dac183bfdace2606ea6aec752.htm",
       "slug": "2026-chevrolet-trailblazer-activ-196582",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL79MVSL9TB203118",
@@ -14613,7 +14613,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-0cc31d67ac18162810ccf9e71377df27.htm",
       "slug": "2026-chevrolet-trailblazer-activ-203118",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KL7CJKSB2LB090701",
@@ -14658,7 +14658,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2020-Chevrolet-Trax-527b2b71ac18090da9ed9f9de224c3f9.htm",
       "slug": "2020-chevrolet-trax-ls-090701",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KM8J33AL4MU305761",
@@ -14693,7 +14693,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Hyundai/2021-Hyundai-Tucson-e7d06eaeac183f99147218d12533ff13.htm",
       "slug": "2021-hyundai-tucson-limited-305761",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     },
     {
       "id": "KM8JF3AE3PU199400",
@@ -14738,7 +14738,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Hyundai/2023-Hyundai-Tucson-7506edc7ac18083a2914417fa5691ad4.htm",
       "slug": "2023-hyundai-tucson-xrt-199400",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-05T16:28:52.758Z"
+      "lastSeenAt": "2026-10-05T16:38:24.025Z"
     }
   ]
 }
