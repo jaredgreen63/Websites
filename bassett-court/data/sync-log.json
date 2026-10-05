@@ -1,5 +1,16 @@
 [
   {
+    "at": "2026-10-05T16:28:52.758Z",
+    "adapter": "shiftly",
+    "fetched": 332,
+    "published": 332,
+    "added": [],
+    "removed": [],
+    "repriced": [],
+    "unchanged": 332,
+    "ok": true
+  },
+  {
     "at": "2026-10-05T15:59:04.100Z",
     "adapter": "shiftly",
     "fetched": 332,
