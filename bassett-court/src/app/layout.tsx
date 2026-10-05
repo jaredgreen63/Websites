@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Inter, Plus_Jakarta_Sans } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 
 import { SiteHeader } from '@/components/SiteHeader';
@@ -10,17 +10,31 @@ import { themeScript } from '@/components/ThemeToggle';
 import { getSnapshot } from '@/lib/inventory';
 import { siteConfig } from '~/site.config';
 
-const inter = Inter({
-  subsets: ['latin'],
+/*
+ * The fonts ship with the repository rather than being fetched from Google at
+ * build time.
+ *
+ * next/font/google downloads the files during the build, which made every
+ * deploy depend on Google answering. On 3 October it did not, and the build
+ * died — after the sync had already committed fresh inventory. The data moved,
+ * the site did not, and nothing said so.
+ *
+ * These are the same latin variable files next/font/google was fetching, byte
+ * for byte. Characters outside the latin range fall back per-glyph to the
+ * system stack, which is what the browser does anyway.
+ */
+const inter = localFont({
+  src: './fonts/inter-latin-var.woff2',
+  weight: '100 900',
   variable: '--font-inter',
   display: 'swap',
 });
 
 // Headings want weight and tight tracking to hold up on a dark page; a light
 // high-contrast serif does neither.
-const display = Plus_Jakarta_Sans({
-  subsets: ['latin'],
-  weight: ['700', '800'],
+const display = localFont({
+  src: './fonts/plus-jakarta-sans-latin-var.woff2',
+  weight: '200 800',
   variable: '--font-display',
   display: 'swap',
 });

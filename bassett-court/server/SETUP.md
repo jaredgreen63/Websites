@@ -122,6 +122,37 @@ Each booking is POSTed there as JSON. The payload carries a ready-made
 `message` field — the same text the SMS channel sends — so the scenario needs
 no message assembled by hand, plus `admin_url` pointing straight at the record.
 
+## Knowing when a deploy fails
+
+The site rebuilds and uploads itself once a day. If that run fails, the sync
+has usually already committed the new inventory — so the data moves, the site
+does not, and nothing says so. It happened on 3 October: Google Fonts was
+briefly unreachable and the build died. The fonts now ship with the site, so
+that particular cause is gone, but something else will fail eventually.
+
+To be told when it does:
+
+1. Make up a long random string — any password generator will do.
+2. Put it in `config.php` as `alert_token`.
+3. On GitHub: **Settings → Secrets and variables → Actions → New repository
+   secret**, named `ALERT_TOKEN`, with the same string.
+
+A failed run then sends you the same way a new lead does:
+
+```
+Inventory sync failed
+The site was not updated. It is still serving the previous build.
+https://github.com/.../actions/runs/123456
+```
+
+Until the secret is set the step does nothing, and with `alert_token` empty
+the endpoint refuses every request. Alerts are capped at six an hour so a
+leaked token cannot run up a phone bill.
+
+GitHub also emails the repository owner when a scheduled run fails. That costs
+nothing to rely on, but it is email to whoever owns the repo rather than a text
+to whoever is selling the cars.
+
 ## Notes
 
 - `config.php` is never committed and never uploaded by the deploy. It lives

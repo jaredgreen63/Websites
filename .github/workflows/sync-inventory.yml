@@ -147,6 +147,33 @@ jobs:
             **/.git*/**
             **/node_modules/**
 
+      # A failed run is otherwise silent: the sync has already committed fresh
+      # inventory, the upload is skipped, and the site serves yesterday's
+      # vehicles with nothing but a red tick on a page nobody is watching.
+      # This routes it to whatever channel reaches Dan for a new lead.
+      #
+      # Needs the ALERT_TOKEN secret, matching alert_token in config.php. With
+      # no token set the step does nothing, so the workflow is unchanged until
+      # it is configured. It never fails the run — the run has already failed,
+      # and a broken alert must not bury the real error.
+      - name: Say that the run failed
+        if: failure() && env.ALERT_TOKEN != ''
+        continue-on-error: true
+        env:
+          ALERT_TOKEN: ${{ secrets.ALERT_TOKEN }}
+          SITE: ${{ vars.NEXT_PUBLIC_SITE_URL || 'https://danthemancan.live' }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          curl -sS --max-time 20 -X POST "$SITE/api/alert.php" \
+            -H 'Content-Type: application/json' \
+            -H "X-Alert-Token: $ALERT_TOKEN" \
+            -d "$(jq -nc \
+                  --arg t 'Inventory sync failed' \
+                  --arg d 'The site was not updated. It is still serving the previous build.' \
+                  --arg u "$RUN_URL" \
+                  '{title:$t, detail:$d, url:$u}')" \
+            || echo 'Could not reach the alert endpoint.'
+
       - name: Summary
         if: always()
         run: |
