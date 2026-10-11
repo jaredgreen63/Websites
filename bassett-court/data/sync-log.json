@@ -1,5 +1,36 @@
 [
   {
+    "at": "2026-10-11T17:53:09.686Z",
+    "adapter": "shiftly",
+    "fetched": 327,
+    "published": 327,
+    "added": [
+      "KL77LGEP4TC226031"
+    ],
+    "removed": [
+      "1GCPKBEK0TZ409226",
+      "3MVDMBBL3TM115149",
+      "3N1CP5BV4PL471194",
+      "KL77LHEP2TC257252",
+      "KL77LHEP8TC257305",
+      "KL79MMSLXTB296581"
+    ],
+    "repriced": [
+      {
+        "id": "1GNSCNKD8MR110705",
+        "from": 39656,
+        "to": 39995
+      },
+      {
+        "id": "5TDABAA51TS003652",
+        "from": 47980,
+        "to": 48920
+      }
+    ],
+    "unchanged": 324,
+    "ok": true
+  },
+  {
     "at": "2026-10-10T17:36:30.954Z",
     "adapter": "shiftly",
     "fetched": 332,
