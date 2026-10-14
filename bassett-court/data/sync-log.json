@@ -1,5 +1,25 @@
 [
   {
+    "at": "2026-10-14T17:45:22.193Z",
+    "adapter": "shiftly",
+    "fetched": 328,
+    "published": 328,
+    "added": [],
+    "removed": [
+      "1C3EL55R84N330709",
+      "1GCUDGEL3RZ294567",
+      "1GNSCNKD8MR110705",
+      "2T3H1RFV5SC351722",
+      "3GCUKFED9SG111025",
+      "3GCUKFEL2TG314198",
+      "3GNAXHEV0KSS18168",
+      "5TFDY5F14LX911449"
+    ],
+    "repriced": [],
+    "unchanged": 328,
+    "ok": true
+  },
+  {
     "at": "2026-10-13T19:43:16.829Z",
     "adapter": "shiftly",
     "fetched": 336,
