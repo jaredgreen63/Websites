@@ -1,5 +1,29 @@
 [
   {
+    "at": "2026-10-16T17:09:11.667Z",
+    "adapter": "shiftly",
+    "fetched": 329,
+    "published": 329,
+    "added": [
+      "1FT7W2BT3KED34304"
+    ],
+    "removed": [
+      "1V2DC2CA5NC228556",
+      "3GCUKCE83TG480840",
+      "3GCUKFEL4TG442846",
+      "7FARW1H87JE004351"
+    ],
+    "repriced": [
+      {
+        "id": "1C4RJKBG8N8583114",
+        "from": 24171,
+        "to": 24370
+      }
+    ],
+    "unchanged": 327,
+    "ok": true
+  },
+  {
     "at": "2026-10-15T17:34:09.310Z",
     "adapter": "shiftly",
     "fetched": 332,
