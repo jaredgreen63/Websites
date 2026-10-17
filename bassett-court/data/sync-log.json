@@ -1,5 +1,25 @@
 [
   {
+    "at": "2026-10-17T16:05:55.000Z",
+    "adapter": "shiftly",
+    "fetched": 327,
+    "published": 327,
+    "added": [],
+    "removed": [
+      "1GNSKCKD3NR290202",
+      "3GCPKCEK3TG457583"
+    ],
+    "repriced": [
+      {
+        "id": "1GNSKEKD1RR120373",
+        "from": 57330,
+        "to": 58330
+      }
+    ],
+    "unchanged": 326,
+    "ok": true
+  },
+  {
     "at": "2026-10-16T17:09:11.667Z",
     "adapter": "shiftly",
     "fetched": 329,
