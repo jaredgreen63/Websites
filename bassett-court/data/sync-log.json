@@ -1,5 +1,18 @@
 [
   {
+    "at": "2026-10-20T17:44:08.115Z",
+    "adapter": "shiftly",
+    "fetched": 307,
+    "published": 307,
+    "added": [],
+    "removed": [
+      "3GNAXLEG8SL124845"
+    ],
+    "repriced": [],
+    "unchanged": 307,
+    "ok": true
+  },
+  {
     "at": "2026-10-19T18:57:24.386Z",
     "adapter": "shiftly",
     "fetched": 308,
