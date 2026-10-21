@@ -1,5 +1,97 @@
 [
   {
+    "at": "2026-10-21T17:50:41.192Z",
+    "adapter": "shiftly",
+    "fetched": 309,
+    "published": 309,
+    "added": [
+      "1GCPKBEK7SZ199951",
+      "1GCVKREC1HZ142310",
+      "1GNERLKS2RJ163999",
+      "1GNS6SKD9TR161070",
+      "1GNSKPKDXPR530517",
+      "1GTP2DEKXT1164686",
+      "2GC4KNE72T1241159",
+      "3GCPWDEDXMG124827",
+      "3GCUKREC3JG159207",
+      "5TFUM5F12KX081628"
+    ],
+    "removed": [
+      "1GC4K0C85GF280504",
+      "1GNS6RKL2TR436360",
+      "5FNRL6H92KB050780",
+      "5J6RW1H59KA023604",
+      "5N1DR3DV4TC235501",
+      "5TDAAAB64TS060440",
+      "JTMRFREV7FD172834",
+      "KL77LGEP6TC253523"
+    ],
+    "repriced": [
+      {
+        "id": "1GNERGKS7TJ132973",
+        "from": 36332,
+        "to": 35714
+      },
+      {
+        "id": "1GNSCHKC4FR274884",
+        "from": 11700,
+        "to": 12000
+      },
+      {
+        "id": "2C3CDZJG7NH174799",
+        "from": 22413,
+        "to": 20935
+      },
+      {
+        "id": "2GC4YME76R1194249",
+        "from": 46130,
+        "to": 45621
+      },
+      {
+        "id": "2GC4YPEY0N1219943",
+        "from": 48636,
+        "to": 47314
+      },
+      {
+        "id": "2T3C1RFV8RC279080",
+        "from": 32624,
+        "to": 32172
+      },
+      {
+        "id": "3GCUDHEL2PG307800",
+        "from": 50847,
+        "to": 50124
+      },
+      {
+        "id": "3GNKBCR4XNS121636",
+        "from": 20965,
+        "to": 20776
+      },
+      {
+        "id": "5TFDY5F19JX679962",
+        "from": 31997,
+        "to": 31965
+      },
+      {
+        "id": "5XYP64GC1SG647038",
+        "from": 32426,
+        "to": 31586
+      },
+      {
+        "id": "KL77LKEP6TC039750",
+        "from": 24297,
+        "to": 24162
+      },
+      {
+        "id": "KL79MTSL7PB212698",
+        "from": 22725,
+        "to": 22422
+      }
+    ],
+    "unchanged": 287,
+    "ok": true
+  },
+  {
     "at": "2026-10-20T17:44:08.115Z",
     "adapter": "shiftly",
     "fetched": 307,
