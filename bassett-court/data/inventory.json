@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-25T16:56:35.043Z",
+  "generatedAt": "2026-10-26T18:59:52.754Z",
   "sourceUrl": "https://www.escudechevrolet.com/",
   "sourceName": "Escude Chevrolet",
   "adapter": "shiftly",
   "markupRate": 0,
-  "vehicleCount": 312,
+  "vehicleCount": 305,
   "vehicles": [
     {
       "id": "1C4HJXDG8MW768702",
@@ -49,7 +49,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Jeep/2021-Jeep-Wrangler-c5e9779dac181e22457d1d200ae937c1.htm",
       "slug": "2021-jeep-wrangler-unlimited-sport-s-768702",
       "firstSeenAt": "2026-10-04T17:15:05.584Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1C4RJHBR1T8552515",
@@ -92,7 +92,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Jeep/2026-Jeep-Grand-Cherokee-3f950675ac185fd0f33972f3486139f0.htm",
       "slug": "2026-jeep-grand-cherokee-limited-552515",
       "firstSeenAt": "2026-10-15T17:34:09.310Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1C4RJKAG7S8756599",
@@ -137,7 +137,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Jeep/2025-Jeep-Grand-Cherokee-L-44bea6d4ac184f76278c9caf6f324b41.htm",
       "slug": "2025-jeep-grand-cherokee-l-altitude-x-756599",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1C4RJKBG2S8635574",
@@ -182,7 +182,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Jeep/2025-Jeep-Grand-Cherokee-L-259d75d5ac18389b1a4a37bb54f6172b.htm",
       "slug": "2025-jeep-grand-cherokee-l-limited-635574",
       "firstSeenAt": "2026-10-07T19:11:03.415Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1C4RJKBG8N8583114",
@@ -217,7 +217,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Jeep/2022-Jeep-Grand-Cherokee-L-5430bb7bac18461540c11b254f0bbf97.htm",
       "slug": "2022-jeep-grand-cherokee-l-limited-583114",
       "firstSeenAt": "2026-10-15T17:34:09.310Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1C4RJYD60P8788243",
@@ -262,7 +262,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Jeep/2023-Jeep-Grand-Cherokee-4xe-af2b57d7ac180452334db88b7a262732.htm",
       "slug": "2023-jeep-grand-cherokee-overland-4xe-788243",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1FMCU0J94HUF10284",
@@ -305,7 +305,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2017-Ford-Escape-20f684caac181bdb9ee3abf5ace3b38c.htm",
       "slug": "2017-ford-escape-titanium-f10284",
       "firstSeenAt": "2026-10-09T18:37:43.053Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1FMEE5DP2NLB38863",
@@ -350,7 +350,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2022-Ford-Bronco-b2d4ecc2ac18065879bcb5eb0be987c6.htm",
       "slug": "2022-ford-bronco-badlands-b38863",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1FMJK2ATXMEA87459",
@@ -395,7 +395,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2021-Ford-Expedition-Max-259d7754ac1845a2c588d9a5ef1e8909.htm",
       "slug": "2021-ford-expedition-max-limited-a87459",
       "firstSeenAt": "2026-10-06T18:44:43.036Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1FT7W2BT3KED34304",
@@ -425,11 +425,11 @@
         "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/535d50f2-9ddc-47d1-b2e5-2bc8c9e232e6.jpg"
       ],
       "features": [],
-      "description": "Check out all these great option's 5th Wheel/Gooseneck Hitch Prep Package, FX4 Off-Road Package (Hill Descent Control, Off-Road Specifically Tuned Shock Absorbers, and Unique FX4 Off-Road Box Decal), GVWR: 10,000 lb Payload Package, High Capacity Trailer Tow Package, 4WD, 10 Speakers, 110V/400W Outlet, 4-Wheel Disc Brakes, ABS brakes, Adjustable pedals, Air Conditioning, All-Weather Floor Mats, Alloy wheels, AM/FM radio: SiriusXM, AppLink/Apple CarPlay and Android Auto, Auto-dimming Rear-View mirror, Automatic temperature control, Brake assist, Compass, Delay-off headlights, Driver door bin, Driver vanity mirror, Dual Extra Heavy-Duty Alternators (Total 377-Amps), Dual front impact airbags, Dual front side impact airbags, Electronic Stability Control, Emergency communication system: SYNC 3 911 Assist, Engine Block Heater, Exterior Parking Camera Rear, Flow-Through Console, Front & Rear Wheel Well Liners (Pre-Installed), Front anti-roll bar, Front Bucket Seats, Front Center Armrest, Front dual zone A/C, Front fog lights, Front reading lights, Fully automatic headlights, Heated door mirrors, Illuminated entry, Leather steering wheel, Low tire pressure warning, Outside temperature display, Overhead airbag, Overhead console, Panic alarm, Passenger door bin, Passenger vanity mirror, Power door mirrors, Power driver seat, Power passenger seat, Power steering, Power windows, Radio data system, Radio: B&O Sound System by Bang & Olufsen, Rapid-Heat Supplemental Cab Heater, Rear Parking Sensors, Rear reading lights, Rear seat center armrest, Rear step bumper, Rear window defroster, Remote keyless entry, Security system, SiriusXM Radio, Speed control, Split folding rear seat, Steering wheel mounted audio controls, SYNC 3 Communications & Entertainment System, Tachometer, Telescoping steering wheel, Tilt steering wheel, Tough Bed Spray-In Bedliner, Traction control, Trip computer, Turn signal indicator mirrors, Upfitter Switches (6), Variably intermittent wipers, and Vehicle Safe by Console Vault (Pre-Installed) Due to our amazing pricing, please call before coming down to ensure the vehicle is still available!4WD. Odometer is 2528 miles below market average! Features:GVWR: 10,000 lb Payload Package|FX4 Off-Road Package|High Capacity Trailer Tow Package|Transfer Case & Fuel Tank Skid Plates|Engine Block Heater|Dual Extra Heavy-Duty Alternators (Total 377-Amps)|5th Wheel/Gooseneck Hitch Prep Package|Tough Bed Spray-In Bedliner|110V/400W Outlet|All-Weather Floor Mats|Rapid-Heat Supplemental Cab Heater|Upfitter Switches (6)|Radio: B&O Sound System by Bang & Olufsen|SYNC 3 Communications & Entertainment System|SiriusXM Radio|Front & Rear Wheel Well Liners (Pre-Installed)|Vehicle Safe by Console Vault (Pre-Installed)|Unique FX4 Off-Road Box Decal|Hill Descent Control|Off-Road Specifically Tuned Shock Absorbers|Flow-Through Console|4-Wheel Disc Brakes|AppLink/Apple CarPlay and Android Auto|Emergency communication system: SYNC 3 911 Assist|Exterior Parking Camera Rear|AM/FM radio: SiriusXM|Compass|10 Speakers|Auto-dimming Rear-View mirror|Variably intermittent wipers|Turn signal indicator mirrors|Trip computer|Traction control|Tilt steering wheel|Telescoping steering wheel|Steering wheel mounted audio controls|Split folding rear seat|Speed control|Security system|Remote keyless entry|Rear window defroster|Rear step bumper|Rear seat center armrest|Rear reading lights|Radio data system|Power windows|Power steering|Power passenger seat|Power driver seat|Power door mirrors|Passenger vanity mirror|Passenger door bin|Panic alarm|Overhead console|Overhead airbag|Outside temperature display|Low tire pressure warning|Leather steering wheel|Illuminated entry|Heated door mirrors|Fully automatic headlights|Front reading lights|Front fog lights|Front dual zone A/C|Front anti-roll bar|Dual front side impact airbags|Dual front impact airbags|Driver vanity mirror|Driver door bin|Delay-off headlights|Brake assist|Automatic temperature control|Alloy wheels|Adjustable pedals|Adjustable head restraints: driver and passenger w/tilt|ABS brakes|Tachometer|Rear Parking Sensors|Front Center Armrest|Front Bucket Seats|Electronic Stability Control|Air Conditioning",
+      "description": "Check out all these great option's 5th Wheel/Gooseneck Hitch Prep Package, FX4 Off-Road Package (Hill Descent Control, Off-Road Specifically Tuned Shock Absorbers, and Unique FX4 Off-Road Box Decal), GVWR: 10,000 lb Payload Package, High Capacity Trailer Tow Package, 4WD, 10 Speakers, 110V/400W Outlet, 4-Wheel Disc Brakes, ABS brakes, Adjustable pedals, Air Conditioning, All-Weather Floor Mats, Alloy wheels, AM/FM radio: SiriusXM, AppLink/Apple CarPlay and Android Auto, Auto-dimming Rear-View mirror, Automatic temperature control, Brake assist, Compass, Delay-off headlights, Driver door bin, Driver vanity mirror, Dual Extra Heavy-Duty Alternators (Total 377-Amps), Dual front impact airbags, Dual front side impact airbags, Electronic Stability Control, Emergency communication system: SYNC 3 911 Assist, Engine Block Heater, Exterior Parking Camera Rear, Flow-Through Console, Front & Rear Wheel Well Liners (Pre-Installed), Front anti-roll bar, Front Bucket Seats, Front Center Armrest, Front dual zone A/C, Front fog lights, Front reading lights, Fully automatic headlights, Heated door mirrors, Illuminated entry, Leather steering wheel, Low tire pressure warning, Outside temperature display, Overhead airbag, Overhead console, Panic alarm, Passenger door bin, Passenger vanity mirror, Power door mirrors, Power driver seat, Power passenger seat, Power steering, Power windows, Radio data system, Radio: B&O Sound System by Bang & Olufsen, Rapid-Heat Supplemental Cab Heater, Rear Parking Sensors, Rear reading lights, Rear seat center armrest, Rear step bumper, Rear window defroster, Remote keyless entry, Security system, SiriusXM Radio, Speed control, Split folding rear seat, Steering wheel mounted audio controls, SYNC 3 Communications & Entertainment System, Tachometer, Telescoping steering wheel, Tilt steering wheel, Tough Bed Spray-In Bedliner, Traction control, Trip computer, Turn signal indicator mirrors, Upfitter Switches (6), Variably intermittent wipers, and Vehicle Safe by Console Vault (Pre-Installed) Due to our amazing pricing, please call before coming down to ensure the vehicle is still available!4WD. Odometer is 10523 miles below market average! Features:GVWR: 10,000 lb Payload Package|FX4 Off-Road Package|High Capacity Trailer Tow Package|Transfer Case & Fuel Tank Skid Plates|Engine Block Heater|Dual Extra Heavy-Duty Alternators (Total 377-Amps)|5th Wheel/Gooseneck Hitch Prep Package|Tough Bed Spray-In Bedliner|110V/400W Outlet|All-Weather Floor Mats|Rapid-Heat Supplemental Cab Heater|Upfitter Switches (6)|Radio: B&O Sound System by Bang & Olufsen|SYNC 3 Communications & Entertainment System|SiriusXM Radio|Front & Rear Wheel Well Liners (Pre-Installed)|Vehicle Safe by Console Vault (Pre-Installed)|Unique FX4 Off-Road Box Decal|Hill Descent Control|Off-Road Specifically Tuned Shock Absorbers|Flow-Through Console|4-Wheel Disc Brakes|AppLink/Apple CarPlay and Android Auto|Emergency communication system: SYNC 3 911 Assist|Exterior Parking Camera Rear|AM/FM radio: SiriusXM|Compass|10 Speakers|Auto-dimming Rear-View mirror|Variably intermittent wipers|Turn signal indicator mirrors|Trip computer|Traction control|Tilt steering wheel|Telescoping steering wheel|Steering wheel mounted audio controls|Split folding rear seat|Speed control|Security system|Remote keyless entry|Rear window defroster|Rear step bumper|Rear seat center armrest|Rear reading lights|Radio data system|Power windows|Power steering|Power passenger seat|Power driver seat|Power door mirrors|Passenger vanity mirror|Passenger door bin|Panic alarm|Overhead console|Overhead airbag|Outside temperature display|Low tire pressure warning|Leather steering wheel|Illuminated entry|Heated door mirrors|Fully automatic headlights|Front reading lights|Front fog lights|Front dual zone A/C|Front anti-roll bar|Dual front side impact airbags|Dual front impact airbags|Driver vanity mirror|Driver door bin|Delay-off headlights|Brake assist|Automatic temperature control|Alloy wheels|Adjustable pedals|Adjustable head restraints: driver and passenger w/tilt|ABS brakes|Tachometer|Rear Parking Sensors|Front Center Armrest|Front Bucket Seats|Electronic Stability Control|Air Conditioning",
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2019-Ford-Super-Duty-F-250-SRW-49dfd34bac183112485ab91613e94562.htm",
       "slug": "2019-ford-f-250sd-platinum-d34304",
       "firstSeenAt": "2026-10-16T17:09:11.667Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1FTEW1C8XHFC04454",
@@ -464,7 +464,7 @@
       "sourceUrl": null,
       "slug": "2017-ford-f-150-xlt-c04454",
       "firstSeenAt": "2026-10-25T16:56:35.043Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1FTFW1E57PKE62234",
@@ -509,7 +509,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2023-Ford-F-150-9cf1b192ac18152ec7ee5973e3093223.htm",
       "slug": "2023-ford-f-150-xl-e62234",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1FTFW1RG2SFB70861",
@@ -554,7 +554,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Ford/2025-Ford-F-150-6f393a6fac1813b262e6ac10db1cbed9.htm",
       "slug": "2025-ford-f-150-raptor-b70861",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1G1FY6EV3VF124013",
@@ -599,7 +599,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Bolt-95a0b24aac185bc6fc1af9b529dc5b91.htm",
       "slug": "2027-chevrolet-bolt-ev-lt-124013",
       "firstSeenAt": "2026-10-02T10:01:14.520Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1G1YV2D55V5302456",
@@ -644,7 +644,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Corvette-Grand-Sport-76849e70ac185b7043adb35bb65f93be.htm",
       "slug": "2027-chevrolet-corvette-grand-sport-302456",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GC4KNEY6TF313370",
@@ -689,7 +689,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-92d81cf9ac1822a711278b17bde68f1f.htm",
       "slug": "2026-chevrolet-silverado-2500hd-lt-313370",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GC4KNEY9TF313380",
@@ -734,7 +734,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-92d820eaac18253135a6da027b71a5dd.htm",
       "slug": "2026-chevrolet-silverado-2500hd-lt-313380",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GC4KNEYXTF313355",
@@ -779,7 +779,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-8debee39ac181b1b4ac2fb7f235080f9.htm",
       "slug": "2026-chevrolet-silverado-2500hd-lt-313355",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GC4KNEYXTF313372",
@@ -824,7 +824,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-c6209457ac181e22457d1d2059868d4c.htm",
       "slug": "2026-chevrolet-silverado-2500hd-lt-313372",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GC4KPEY4TF292076",
@@ -869,7 +869,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-079cb3f9ac18162810ccf9e74972c336.htm",
       "slug": "2026-chevrolet-silverado-2500hd-ltz-292076",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GC4KPEY5TF309712",
@@ -914,7 +914,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-b71daf58ac182b914f32918687040db0.htm",
       "slug": "2026-chevrolet-silverado-2500hd-ltz-309712",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GC4KREY3TF308358",
@@ -959,7 +959,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-73f42f6bac183429101b921fdd26bc21.htm",
       "slug": "2026-chevrolet-silverado-2500hd-high-country-308358",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GC4KREY4TF303458",
@@ -1004,7 +1004,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-4fe95d90ac184db46fa63ee4ee05b681.htm",
       "slug": "2026-chevrolet-silverado-2500hd-high-country-303458",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GC4KREY5TF224736",
@@ -1049,7 +1049,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-75ecb22cac183eb7e49cde9ce0e34f08.htm",
       "slug": "2026-chevrolet-silverado-2500hd-high-country-224736",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GC4KTEY3TF355743",
@@ -1094,7 +1094,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-3500-HD-a3992807ac18083a2914417f62f6e5fe.htm",
       "slug": "2026-chevrolet-silverado-3500hd-lt-355743",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GC4KTEY8TF310880",
@@ -1139,7 +1139,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-3500-HD-8debeb55ac1829269b877107c7d7a216.htm",
       "slug": "2026-chevrolet-silverado-3500hd-lt-310880",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCGSBEA0L1108476",
@@ -1184,52 +1184,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2020-Chevrolet-Colorado-d37017b8ac184b985b31168a0168a01d.htm",
       "slug": "2020-chevrolet-colorado-work-truck-108476",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
-    },
-    {
-      "id": "1GCPABEK0SZ260642",
-      "vin": "1GCPABEK0SZ260642",
-      "stockNumber": "TZ485487A",
-      "condition": "used",
-      "year": 2025,
-      "make": "Chevrolet",
-      "model": "Silverado 1500",
-      "trim": "Custom",
-      "bodyStyle": "Truck",
-      "drivetrain": "RWD",
-      "transmission": "8-Speed Automatic",
-      "fuelType": "Gasoline",
-      "engine": "2.7L I4 Turbocharged DOHC 16V LEV3-SULEV30 310hp",
-      "exteriorColor": "Sterling Gray Metallic",
-      "interiorColor": "Black",
-      "doors": null,
-      "mileage": 20706,
-      "availability": null,
-      "dealer": null,
-      "sourcePrice": 33555,
-      "sourceMsrp": null,
-      "price": 33555,
-      "markupRate": 0,
-      "images": [
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/a6b7df5d-810b-4074-86fb-80db31029483.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/b062bd46-b366-42ed-b620-5c73e033d559.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/f8c4e9ce-a837-42af-bb41-322a48fa3e98.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/31c4d1df-d76d-4b19-8f63-8b49edea52bc.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/453084d8-3a43-4fb2-a98a-b3ac3674fe09.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/f158902d-45fe-451e-ad29-733cd2a72eea.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/c7af4fa1-26dd-4d5d-b0cc-180e838ab262.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/fdcae1c5-356f-4d7e-8ec2-bf4964b9d569.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/af432442-6f88-40fb-bc7f-a8e5ed40ee20.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/b90fdf22-1ec2-4c3e-bb82-07e01b10ff4b.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/4b710b78-87b0-41f0-9bc9-cad575b9cdf9.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/5999dae1-4821-402d-b267-fd7473a4f81e.jpg"
-      ],
-      "features": [],
-      "description": "Meet the 2025 Chevrolet Silverado 1500 Custom—a capable crew cab designed to handle your work and weekend adventures. This gray Crew Cab Short Bed combines proven durability with modern convenience, delivering a dependable truck that's ready for the job ahead. With just over 20,000 miles, this like-new truck offers excellent value and plenty of life ahead.- 2.7L I4 Turbocharged Engine with 310 hp- 8-Speed Automatic Transmission- Chevrolet Infotainment 3 System with Apple CarPlay and Android Auto- ChevyTec Spray-On Black Bedliner- 20\" High Gloss Black Aluminum Wheels- Automatic Emergency Braking with Forward Collision Alert- Lane Keep Assist with Lane Departure Warning- 10-Way Power Driver Seat with Lumbar Support- Remote Vehicle Starter System- HD Rear Vision CameraThis Silverado is equipped with practical features that enhance both comfort and capability. The cloth interior with 40/20/40 split-bench seating keeps crews comfortable, while the power windows, locks, and remote keyless entry add daily convenience. You'll appreciate the integrated safety technology, including automatic emergency braking and rear vision camera, plus SiriusXM trial subscription and Bluetooth connectivity to stay connected on the road.Come by the dealership today to see this well-maintained Silverado 1500 Custom in person and take it for a test drive. Features:Custom Convenience Package|Custom Value Package|High Capacity Suspension Package|Preferred Equipment Group 1CX|Trailering Package|6 Speakers|6-Speaker Audio System|AM/FM radio: SiriusXM|Dual Rear USB Ports (Charge Only)|Premium audio system: Chevrolet Infotainment 3|Radio data system|Radio: Chevrolet Infotainment 3 System|SiriusXM Trial Subscription|Air Conditioning|Electric Rear-Window Defogger|Rear window defroster|120-Volt Bed Mounted Power Outlet|120-Volt Interior Power Outlet|Bluetooth® For Phone|EZ Lift Power Lock & Release Tailgate|Power driver seat|Power Front Windows w/Driver Express Up/Down|Power Front Windows w/Passenger Express Down|Power Rear Windows w/Express Down|Power steering|Power windows|Remote Keyless Entry|Remote keyless entry|Remote Vehicle Starter System|Tire Pressure Monitoring System|Manual Tilt Wheel Steering Column|Speed-sensing steering|Traction control|4-Wheel Disc Brakes|ABS brakes|Dual front impact airbags|Dual front side impact airbags|Emergency communication system: OnStar|Front anti-roll bar|Front wheel independent suspension|Low tire pressure warning|Occupant sensing airbag|Overhead airbag|Brake assist|Electronic Stability Control|Auto High-beam Headlights|Delay-off headlights|Fully automatic headlights|Panic alarm|Security system|Theft Deterrent System (Unauthorized Entry)|Electronic Cruise Control|Speed control|Bumpers: body-color|Chevytec Spray-On Black Bedliner|Heated door mirrors|IntelliBeam Automatic High Beam On/Off|LED Cargo Area Lighting|Power door mirrors|Rear step bumper|Rear Wheelhouse Liners|Standard Tailgate|3.5\" Monochromatic Display Driver Info Center|Apple CarPlay/Android Auto|Automatic Emergency Braking|Cloth Seat Trim|Color-Keyed Carpeting Floor Covering|Compass|Driver door bin|Driver vanity mirror|Following Distance Indicator|Forward Collision Alert|Front Pedestrian Braking|Front reading lights|Front Rubberized Vinyl Floor Mats|HD Rear Vision Camera|Illuminated entry|Lane Keep Assist w/Lane Departure Warning|OnStar Services Capable|Outside temperature display|Overhead console|Passenger vanity mirror|Rear reading lights|Rear Rubberized-Vinyl Floor Mats|Tachometer|Teen Driver|Tilt steering wheel|Trip computer|Voltmeter|Wi-Fi Hot Spot Capable|10-Way Power Driver Seat w/Lumbar|40/20/40 Front Split-Bench Seat|Rear 60/40 Folding Bench Seat (Folds Up)|Split folding rear seat|Front Center Armrest w/Storage|Passenger door bin|Front Frame-Mounted Black Recovery Hooks|Hitch Guidance|Alloy wheels|Wheels: 20\" x 9\" Bright Silver Painted Aluminum|Wheels: 20\" x 9\" High Gloss Black Painted Alum|Deep-Tinted Glass|Variably intermittent wipers|3.42 Rear Axle Ratio",
-      "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Silverado-1500-0191ea3fac1831418a026fd33ad02b26.htm",
-      "slug": "2025-chevrolet-silverado-1500-custom-260642",
-      "firstSeenAt": "2026-10-03T16:56:32.827Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPADE89TZ439053",
@@ -1274,7 +1229,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-56592ddaac180d0fb6e73ed9ca4c7e5a.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-439053",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPAFE83TZ463103",
@@ -1319,7 +1274,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-d299acf2ac183327c49f3a7e037dbb46.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-463103",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPKBEK6TZ395171",
@@ -1364,7 +1319,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Silverado-1500-791b9940ac182bd95ba357c711189384.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-395171",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPKBEK7SZ199951",
@@ -1407,7 +1362,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Silverado-1500-5430bce0ac183d94c87e59735f6eeccb.htm",
       "slug": "2025-chevrolet-silverado-1500-custom-199951",
       "firstSeenAt": "2026-10-21T17:50:41.192Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPKDEK3TZ444628",
@@ -1452,7 +1407,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-7ad2cc82ac1825bc039c152781ed8753.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-444628",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPKDEK3TZ447268",
@@ -1497,7 +1452,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-8f6bddceac1839ba6a4280d567be6645.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-447268",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPKDEK4TZ444623",
@@ -1542,7 +1497,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-7ad2cb76ac1804b19b597a951d64ad27.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-444623",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSBEK4T1300380",
@@ -1587,7 +1542,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-c2800d44ac1809a92caa6c0763da3895.htm",
       "slug": "2026-chevrolet-colorado-work-truck-300380",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSBEK9T1327851",
@@ -1632,7 +1587,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-d89589e8ac1822ed3b294cb05cfd8c14.htm",
       "slug": "2026-chevrolet-colorado-work-truck-327851",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK1T1268431",
@@ -1677,7 +1632,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-c133ff12ac1803025b1c582c51c2872d.htm",
       "slug": "2026-chevrolet-colorado-lt-268431",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK1T1323394",
@@ -1722,7 +1677,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-9a8fdcc0ac1849e6c966ea6ff83e0850.htm",
       "slug": "2026-chevrolet-colorado-lt-323394",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK2T1317653",
@@ -1767,7 +1722,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-52b12787ac185c308f227df7c06bb363.htm",
       "slug": "2026-chevrolet-colorado-lt-317653",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK3T1107112",
@@ -1812,7 +1767,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-23cc4639ac18501b4ea5d13e079f12a2.htm",
       "slug": "2026-chevrolet-colorado-lt-107112",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK3T1282380",
@@ -1857,7 +1812,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-d299ae09ac1813b9d062c368aab9a482.htm",
       "slug": "2026-chevrolet-colorado-lt-282380",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK3T1318441",
@@ -1902,7 +1857,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-6c722b8fac184bccd6d58c5b5639d630.htm",
       "slug": "2026-chevrolet-colorado-lt-318441",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK5T1317680",
@@ -1947,7 +1902,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-52b12e28ac1844a9f44e1f60e79745b9.htm",
       "slug": "2026-chevrolet-colorado-lt-317680",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK6T1274340",
@@ -1992,7 +1947,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-daf3f678ac185eec877513051bb65859.htm",
       "slug": "2026-chevrolet-colorado-lt-274340",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK6T1317199",
@@ -2037,7 +1992,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-6714b953ac18112af6f1abec16cd1af9.htm",
       "slug": "2026-chevrolet-colorado-lt-317199",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK7T1107260",
@@ -2082,7 +2037,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-23cc1b7cac1818a2b497fae5566da980.htm",
       "slug": "2026-chevrolet-colorado-lt-107260",
       "firstSeenAt": "2026-10-07T19:11:03.415Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK7T1295374",
@@ -2127,7 +2082,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-b344b417ac18065879bcb5eb3a67ab3f.htm",
       "slug": "2026-chevrolet-colorado-lt-295374",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK8T1295738",
@@ -2172,7 +2127,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-b8331e17ac1809a22d742423a7e12509.htm",
       "slug": "2026-chevrolet-colorado-lt-295738",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK9T1290712",
@@ -2217,7 +2172,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-7ad2cebcac18083a2914417f4d751122.htm",
       "slug": "2026-chevrolet-colorado-lt-290712",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEK9T1318444",
@@ -2262,7 +2217,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-6714c6e9ac1806566e6ba94969fd3e16.htm",
       "slug": "2026-chevrolet-colorado-lt-318444",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPSCEKXT1304360",
@@ -2307,7 +2262,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-004c31c5ac185c3035c89e239fcca61b.htm",
       "slug": "2026-chevrolet-colorado-lt-304360",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPTCEK8T1216551",
@@ -2352,7 +2307,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-8d7cdd92ac1822a711278b176f5103dd.htm",
       "slug": "2026-chevrolet-colorado-lt-216551",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPTCEK9T1331045",
@@ -2397,7 +2352,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-e806a146ac180e9912b4aee88d30f213.htm",
       "slug": "2026-chevrolet-colorado-lt-331045",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPTDE1XG1298995",
@@ -2440,7 +2395,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2016-Chevrolet-Colorado-9a8f7cf8ac18004e1d0db14e1af08a9c.htm",
       "slug": "2016-chevrolet-colorado-z71-298995",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPTDEK3T1308740",
@@ -2485,7 +2440,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-33ce8bd4ac185c30e41528d4c51780b7.htm",
       "slug": "2026-chevrolet-colorado-z71-308740",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPTDEK4S1246473",
@@ -2530,7 +2485,7 @@
       "sourceUrl": null,
       "slug": "2025-chevrolet-colorado-z71-246473",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPTDEK8S1227652",
@@ -2573,7 +2528,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Colorado-b48986a3ac185e19df2a9b9264c0da44.htm",
       "slug": "2025-chevrolet-colorado-z71-227652",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPTEEK5T1323598",
@@ -2618,7 +2573,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-9a8fd977ac183f8e6f12a6e3b9d8ce0a.htm",
       "slug": "2026-chevrolet-colorado-trail-boss-323598",
       "firstSeenAt": "2026-10-07T19:11:03.415Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPTFEK2T1322513",
@@ -2663,7 +2618,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Colorado-ce0f4bb3ac185b5f61b2aa7906980132.htm",
       "slug": "2026-chevrolet-colorado-zr2-322513",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCPTFEK9T1108196",
@@ -2708,7 +2663,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Colorado-da861723ac185d4ec22c0a386c17d25d.htm",
       "slug": "2026-chevrolet-colorado-zr2-108196",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUACE83TZ481814",
@@ -2753,7 +2708,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-2e70ac3aac185a95ef3e7a70526a8ba3.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-481814",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUACE85TZ478509",
@@ -2798,7 +2753,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1a0dab6bac180771c28b0c0e3be9baaf.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-478509",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUACE87TZ478608",
@@ -2843,7 +2798,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1a0dada3ac181da0dd1bebc3ca9929a0.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-478608",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUDEED7NZ524022",
@@ -2886,7 +2841,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Silverado-1500-f77b09fcac184d71689b1a51c2dea4ca.htm",
       "slug": "2022-chevrolet-silverado-1500-rst-524022",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUDEEL6RZ254553",
@@ -2931,7 +2886,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Silverado-1500-3965923dac185bde89873740aef0ff81.htm",
       "slug": "2024-chevrolet-silverado-1500-rst-254553",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUDGED8NZ530861",
@@ -2976,7 +2931,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Silverado-1500-af2b5573ac1812be80b66b4f613c323c.htm",
       "slug": "2022-chevrolet-silverado-1500-ltz-530861",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUDJEL7PZ330920",
@@ -3021,7 +2976,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Silverado-1500-fe623a33ac1823d859b5afaed07f261d.htm",
       "slug": "2023-chevrolet-silverado-1500-high-country-330920",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUKDE81TZ422506",
@@ -3066,7 +3021,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-042b6288ac1817a20da93820939e5d33.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-422506",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUKDED2TZ463532",
@@ -3111,7 +3066,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-d751befdac1820f392fe2f00396c5331.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-463532",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUKDED6TZ452047",
@@ -3156,7 +3111,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-ae1c51acac18065879bcb5eb217f48d6.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-452047",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUKDEDXTZ461690",
@@ -3201,7 +3156,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-d299b077ac1856a98c1d5bcf3406b911.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-461690",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUKEED7TZ426191",
@@ -3246,7 +3201,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1a442502ac185abe565e24b0bab3e46d.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-426191",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUKEEL1TZ475605",
@@ -3291,7 +3246,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1f02bbb8ac181bbdf7ea827070f43f0f.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-475605",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUKEEL2TZ431807",
@@ -3336,7 +3291,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-2d268e8cac183768508a175fb932ed15.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-431807",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUKJE81TZ445427",
@@ -3381,7 +3336,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-9e7223fcac1851c1f80656ffbd42feed.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-445427",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUKJE87TZ473331",
@@ -3426,7 +3381,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-054043f7ac180706beba79985cade5fc.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-473331",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUKJEL2TZ439740",
@@ -3471,7 +3426,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-6638bdc9ac1804b19b597a95de1ddd85.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-439740",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUKJELXTZ334847",
@@ -3516,7 +3471,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-2f857e73ac18107eb3503fd10e755a26.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-334847",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUYEED8MZ446336",
@@ -3559,7 +3514,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2021-Chevrolet-Silverado-1500-259d7475ac185f3ac5185ec48d4e7a81.htm",
       "slug": "2021-chevrolet-silverado-1500-rst-446336",
       "firstSeenAt": "2026-10-10T17:36:30.954Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUYEEDXMZ440750",
@@ -3594,7 +3549,7 @@
       "sourceUrl": null,
       "slug": "2021-chevrolet-silverado-1500-rst-440750",
       "firstSeenAt": "2026-10-25T16:56:35.043Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCUYHEL7LZ290104",
@@ -3639,7 +3594,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2020-Chevrolet-Silverado-1500-b975fa13ac1817c99dfd0f5c9b8434ba.htm",
       "slug": "2020-chevrolet-silverado-1500-high-country-290104",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GCVKPEH3JZ323267",
@@ -3682,7 +3637,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2018-Chevrolet-Silverado-1500-f77b0b51ac185289c130f4e67338a31b.htm",
       "slug": "2018-chevrolet-silverado-1500-custom-323267",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GKENRKS3RJ167295",
@@ -3727,7 +3682,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2024-GMC-Acadia-fe95ccbbac18131a5dcf4e6a01c17760.htm",
       "slug": "2024-gmc-acadia-denali-167295",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GKS2BKD1MR124508",
@@ -3772,7 +3727,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2021-GMC-Yukon-00f0bbf7ac185c3035c89e23af8a2a91.htm",
       "slug": "2021-gmc-yukon-slt-124508",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GKS2GRD2SR251722",
@@ -3817,7 +3772,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2025-GMC-Yukon-XL-b975f90dac185e19df2a9b92a897e2fd.htm",
       "slug": "2025-gmc-yukon-xl-elevation-251722",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS0VJ158429",
@@ -3862,7 +3817,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-d8958b09ac184b985b31168a8e6dcba2.htm",
       "slug": "2027-chevrolet-traverse-lt-158429",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS0VJ165896",
@@ -3907,7 +3862,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-fca17cfcac1815078c926033075aca17.htm",
       "slug": "2027-chevrolet-traverse-lt-165896",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS2VJ117025",
@@ -3952,7 +3907,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-dc3ed00eac18341fab2e75cb0509c71e.htm",
       "slug": "2027-chevrolet-traverse-lt-117025",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS2VJ160537",
@@ -3997,7 +3952,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-ed2cfa6bac181583ff0e791a19ceb1c8.htm",
       "slug": "2027-chevrolet-traverse-lt-160537",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS3TJ115765",
@@ -4042,7 +3997,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Traverse-4e35a943ac181d0a4090da90a23dae49.htm",
       "slug": "2026-chevrolet-traverse-lt-115765",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS3TJ128774",
@@ -4087,7 +4042,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Traverse-b2d4e636ac183c5b5fb7bc259748afa7.htm",
       "slug": "2026-chevrolet-traverse-lt-128774",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS3TJ274608",
@@ -4132,7 +4087,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-traverse-lt-274608",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS3VJ117678",
@@ -4177,7 +4132,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-e68de695ac180771dd7429cb32f2da29.htm",
       "slug": "2027-chevrolet-traverse-lt-117678",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS4VJ118368",
@@ -4222,7 +4177,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2027-Chevrolet-Traverse-e68ddf8cac1849ee428c30af5cf2286c.htm",
       "slug": "2027-chevrolet-traverse-lt-118368",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS5TJ175319",
@@ -4267,7 +4222,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Traverse-7506eedcac181c46cdfd0dfeddb2894e.htm",
       "slug": "2026-chevrolet-traverse-lt-175319",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS6VJ168754",
@@ -4312,7 +4267,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-166494fcac1831418a026fd3191149e0.htm",
       "slug": "2027-chevrolet-traverse-lt-168754",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS7TJ132973",
@@ -4357,7 +4312,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Traverse-a37302daac182114930ff9948649709c.htm",
       "slug": "2026-chevrolet-traverse-lt-132973",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS7VJ117019",
@@ -4402,7 +4357,7 @@
       "sourceUrl": null,
       "slug": "2027-chevrolet-traverse-lt-117019",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS8VJ158405",
@@ -4447,7 +4402,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-d8957c4cac180e99e8df5097992bc8ee.htm",
       "slug": "2027-chevrolet-traverse-lt-158405",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS9TJ390489",
@@ -4492,7 +4447,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-traverse-lt-390489",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKS9VJ117698",
@@ -4537,7 +4492,7 @@
       "sourceUrl": null,
       "slug": "2027-chevrolet-traverse-lt-117698",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKSXVJ158308",
@@ -4582,7 +4537,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-d8958595ac184b985b31168a9aa4c0d6.htm",
       "slug": "2027-chevrolet-traverse-lt-158308",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERGKSXVJ165212",
@@ -4627,7 +4582,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-fca17bd5ac182086a01a5166c970ff1c.htm",
       "slug": "2027-chevrolet-traverse-lt-165212",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERLKS1VJ157556",
@@ -4672,7 +4627,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-d8959099ac183e1692c7be5945272035.htm",
       "slug": "2027-chevrolet-traverse-rs-157556",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNERLKS2RJ163999",
@@ -4715,7 +4670,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Traverse-5eebe59bac18284abf2bf8e8c3e607cd.htm",
       "slug": "2024-chevrolet-traverse-rs-163999",
       "firstSeenAt": "2026-10-21T17:50:41.192Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNEVJKS7VJ159974",
@@ -4760,7 +4715,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-d8959902ac185b5f61b2aa793dbb064f.htm",
       "slug": "2027-chevrolet-traverse-z71-159974",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNEVJKS9VJ170295",
@@ -4805,7 +4760,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-166493bdac18250c48c621df2e62e74b.htm",
       "slug": "2027-chevrolet-traverse-z71-170295",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNEVJKSXVJ160259",
@@ -4850,7 +4805,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Traverse-d89588bbac180e99e8df5097b84b87f0.htm",
       "slug": "2027-chevrolet-traverse-z71-160259",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNEVLKS6RJ212276",
@@ -4893,7 +4848,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Traverse-d37019f3ac185fa6e5f523fcdbd06c4f.htm",
       "slug": "2024-chevrolet-traverse-rs-212276",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5BKD1VR123581",
@@ -4938,7 +4893,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Suburban-f252756fac18126d7bdb382da1118103.htm",
       "slug": "2027-chevrolet-suburban-ls-123581",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5CKD5TR450231",
@@ -4983,7 +4938,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-suburban-lt-450231",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5EKD6TR450508",
@@ -5028,7 +4983,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-suburban-rst-450508",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5FKD0TR354508",
@@ -5073,7 +5028,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-215b2f40ac1807a071b3d78d8745c202.htm",
       "slug": "2026-chevrolet-suburban-premier-354508",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5FKD9TR472377",
@@ -5118,7 +5073,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-62261d44ac182022507f28bf29e9d4ad.htm",
       "slug": "2026-chevrolet-suburban-premier-472377",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5FRD9SR409316",
@@ -5163,7 +5118,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-7c58ecd6ac182ff5053b2af1d6710785.htm",
       "slug": "2025-chevrolet-suburban-premier-409316",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5GKL8TR450707",
@@ -5208,7 +5163,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-f63aa9e5ac180512e887ce9cb1975a5f.htm",
       "slug": "2026-chevrolet-suburban-high-country-450707",
       "firstSeenAt": "2026-10-06T18:44:43.036Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5GKLXTR376920",
@@ -5253,7 +5208,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-8db45eb0ac183919421268d74d5ab43c.htm",
       "slug": "2026-chevrolet-suburban-high-country-376920",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5MKD1TR464164",
@@ -5298,7 +5253,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-2e70af6eac183e12886ddde56d79f0a9.htm",
       "slug": "2026-chevrolet-tahoe-ls-464164",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5MKD5VR104219",
@@ -5343,7 +5298,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Tahoe-907df301ac180486dccee4df0c7ff044.htm",
       "slug": "2027-chevrolet-tahoe-ls-104219",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5MKD7VR107445",
@@ -5388,7 +5343,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Tahoe-9a8fdf11ac185bc6fc1af9b5127db1f8.htm",
       "slug": "2027-chevrolet-tahoe-ls-107445",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5NKD5VR116232",
@@ -5433,7 +5388,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Tahoe-d895a1e4ac1804e508f25d87d7b5d737.htm",
       "slug": "2027-chevrolet-tahoe-lt-116232",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKD1VR102083",
@@ -5478,7 +5433,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Tahoe-907e029fac180edff824bb3b8faa3232.htm",
       "slug": "2027-chevrolet-tahoe-premier-102083",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKD4TR360739",
@@ -5523,7 +5478,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-2ba4c1a8ac18535243d143727f5b8fba.htm",
       "slug": "2026-chevrolet-tahoe-premier-360739",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKD5TR105646",
@@ -5568,7 +5523,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-a7b2a1dfac185b54f99274c2cfae77af.htm",
       "slug": "2026-chevrolet-tahoe-premier-105646",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKD6TR113237",
@@ -5613,7 +5568,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-a28f3a62ac18383f9fb5848f667f8382.htm",
       "slug": "2026-chevrolet-tahoe-premier-113237",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKD6VR115900",
@@ -5658,7 +5613,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Tahoe-ce0f4560ac185bc0410e180b7763d3e6.htm",
       "slug": "2027-chevrolet-tahoe-premier-115900",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKD8VR106826",
@@ -5703,7 +5658,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Tahoe-9a8fd664ac1849e6c966ea6fcecbf775.htm",
       "slug": "2027-chevrolet-tahoe-premier-106826",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKL2TR461320",
@@ -5748,7 +5703,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-2e70ad49ac185a95ef3e7a7056aa38ab.htm",
       "slug": "2026-chevrolet-tahoe-premier-461320",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKL2TR464153",
@@ -5793,7 +5748,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-33ce885eac181da0dd1bebc32ad0f8ac.htm",
       "slug": "2026-chevrolet-tahoe-premier-464153",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKL2TR464878",
@@ -5838,7 +5793,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-33ce8ab8ac180b4132bfb57139c924b3.htm",
       "slug": "2026-chevrolet-tahoe-premier-464878",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKL3TR452111",
@@ -5883,7 +5838,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-fb25455fac185c3035c89e23dec6ea4b.htm",
       "slug": "2026-chevrolet-tahoe-premier-452111",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKL3TR453680",
@@ -5928,7 +5883,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-004c3323ac18003fe20877a2615cbf82.htm",
       "slug": "2026-chevrolet-tahoe-premier-453680",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SKL6TR461238",
@@ -5973,7 +5928,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-33ce8966ac18090da9ed9f9da11df276.htm",
       "slug": "2026-chevrolet-tahoe-premier-461238",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5SRL2SR176234",
@@ -6018,7 +5973,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Tahoe-a93035ceac1833326061e30c63db4295.htm",
       "slug": "2025-chevrolet-tahoe-premier-176234",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5TKL0TR101517",
@@ -6063,7 +6018,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-54a02b89ac184db46fa63ee4ed7ae19c.htm",
       "slug": "2026-chevrolet-tahoe-high-country-101517",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5TKL1TR348187",
@@ -6108,7 +6063,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-fd842e6eac1828a5147488390c65d78c.htm",
       "slug": "2026-chevrolet-tahoe-high-country-348187",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS5TKL8TR450439",
@@ -6153,7 +6108,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-fb254e67ac18341fab2e75cb4aa16905.htm",
       "slug": "2026-chevrolet-tahoe-high-country-450439",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6BKD7VR116373",
@@ -6198,7 +6153,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Suburban-ce0f4aa7ac181a98f5666e531a8b0fae.htm",
       "slug": "2027-chevrolet-suburban-ls-116373",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6CKD9TR430366",
@@ -6243,7 +6198,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-suburban-lt-430366",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6ERL6SR205961",
@@ -6288,7 +6243,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-a40c0545ac1837f53f8606c6ae4c5c15.htm",
       "slug": "2025-chevrolet-suburban-rst-205961",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6FKD4TR372510",
@@ -6333,7 +6288,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-73f42b4bac185c10b24baea3c8ae2493.htm",
       "slug": "2026-chevrolet-suburban-premier-372510",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6FKDXTR371958",
@@ -6378,7 +6333,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-73f42d71ac1808e420067eb1879a3cc4.htm",
       "slug": "2026-chevrolet-suburban-premier-371958",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6FKL7TR451905",
@@ -6423,7 +6378,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-f5fedc70ac180936a0a72ed879ea118d.htm",
       "slug": "2026-chevrolet-suburban-premier-451905",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6FRD4SR178919",
@@ -6468,7 +6423,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-6299760cac181a931376e49a4e943524.htm",
       "slug": "2025-chevrolet-suburban-premier-178919",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6FRD5SR311347",
@@ -6513,7 +6468,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Suburban-6b604fa4ac1824b1018118ba7c7068fe.htm",
       "slug": "2025-chevrolet-suburban-premier-311347",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6FRD5SR363254",
@@ -6558,7 +6513,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-9cb7d361ac181a3dcd6e49c36847a37f.htm",
       "slug": "2025-chevrolet-suburban-premier-363254",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6FRDXSR411489",
@@ -6603,7 +6558,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-629974f0ac182ff5053b2af17a9e0570.htm",
       "slug": "2025-chevrolet-suburban-premier-411489",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6FRL0SR379207",
@@ -6648,7 +6603,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-51a51b8eac183dd22c32649ecf56084c.htm",
       "slug": "2025-chevrolet-suburban-premier-379207",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6FRL5SR256017",
@@ -6693,7 +6648,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Suburban-629973c8ac1857715e05f4fd73a4349b.htm",
       "slug": "2025-chevrolet-suburban-premier-256017",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6GKL3TR455214",
@@ -6738,7 +6693,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-1a0dac91ac181fb201976db0fce300e0.htm",
       "slug": "2026-chevrolet-suburban-high-country-455214",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6GKL3TR455438",
@@ -6783,7 +6738,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-38f57f9cac181da0dd1bebc3efd34364.htm",
       "slug": "2026-chevrolet-suburban-high-country-455438",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6GKL3VR123003",
@@ -6828,7 +6783,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Suburban-f2527358ac18102d29ca7f4b9a93bc4b.htm",
       "slug": "2027-chevrolet-suburban-high-country-123003",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6GKL5TR141435",
@@ -6873,7 +6828,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Suburban-c4722f4cac18162841248f68053f258c.htm",
       "slug": "2026-chevrolet-suburban-high-country-141435",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6GKL5VR120149",
@@ -6918,7 +6873,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Suburban-ddbc10cdac185bc0410e180bc686cdaa.htm",
       "slug": "2027-chevrolet-suburban-high-country-120149",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6GRL7SR159908",
@@ -6963,7 +6918,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Suburban-b4897dc8ac1812d29292c3deb6d60359.htm",
       "slug": "2025-chevrolet-suburban-high-country-159908",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6MKD3TR253738",
@@ -7008,7 +6963,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-3856a5d5ac18160793fbd89082ae2946.htm",
       "slug": "2026-chevrolet-tahoe-ls-253738",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6NKD0VR117754",
@@ -7053,7 +7008,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Tahoe-d8957d57ac183e1692c7be594310254b.htm",
       "slug": "2027-chevrolet-tahoe-lt-117754",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6NKD8TR451379",
@@ -7098,7 +7053,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-f5fedb2aac1849ee428c30af1ccfac8a.htm",
       "slug": "2026-chevrolet-tahoe-lt-451379",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6RK80TR423358",
@@ -7143,7 +7098,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-75e64ed3ac181c46cdfd0dfe4cb8bc35.htm",
       "slug": "2026-chevrolet-tahoe-rst-423358",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6SK89TR449612",
@@ -7188,7 +7143,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-fb2548ffac18003fe20877a2d617fd5b.htm",
       "slug": "2026-chevrolet-tahoe-premier-449612",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6SKD0VR101925",
@@ -7233,7 +7188,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Tahoe-907e03cfac1849e6c966ea6f90db15e3.htm",
       "slug": "2027-chevrolet-tahoe-premier-101925",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6SKD9TR161070",
@@ -7278,7 +7233,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Tahoe-78ae2ba4ac184f05db6a4dab418d1215.htm",
       "slug": "2026-chevrolet-tahoe-premier-161070",
       "firstSeenAt": "2026-10-21T17:50:41.192Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6SRL3SR371255",
@@ -7323,7 +7278,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Tahoe-7d07a449ac184139e850d70d6c51371f.htm",
       "slug": "2025-chevrolet-tahoe-premier-371255",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6TKL0TR379945",
@@ -7368,52 +7323,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-92d81e03ac1829269b877107bf781f61.htm",
       "slug": "2026-chevrolet-tahoe-high-country-379945",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
-    },
-    {
-      "id": "1GNS6TKL2TR453754",
-      "vin": "1GNS6TKL2TR453754",
-      "stockNumber": "TR453754",
-      "condition": "new",
-      "year": 2026,
-      "make": "Chevrolet",
-      "model": "Tahoe",
-      "trim": "High Country",
-      "bodyStyle": "SUV",
-      "drivetrain": "4WD",
-      "transmission": "10-Speed Automatic with Overdrive",
-      "fuelType": "Gasoline",
-      "engine": "EcoTec3 6.2L V8",
-      "exteriorColor": "Polar White",
-      "interiorColor": "Jet Black/Mocha",
-      "doors": null,
-      "mileage": 6,
-      "availability": null,
-      "dealer": null,
-      "sourcePrice": 83435,
-      "sourceMsrp": null,
-      "price": 86435,
-      "markupRate": 0,
-      "images": [
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/f87a7108-876a-46b5-99af-ee37f7e28010.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/46b8c791-b0a2-4c0e-8116-fedfa62e8b37.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/df5e85f4-3624-444b-b0f0-962939a25110.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/86a8e464-61df-42f6-a66b-b8a9f738bf45.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/f91fe7c3-c5d6-4e7a-acae-77e3879b235e.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/c4acafa6-9351-469e-b20d-ab7928e1e957.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/0fb4fd0b-6f17-42a0-8a4c-0d6b35af1f7a.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/13d09d8d-3e51-46c5-98ea-f1f6deb28c8e.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/523fb83b-12ed-49e1-8c84-fe419217d1a4.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/177fb2a2-1123-468b-bc63-a962dcd9b1f9.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/63aed716-dea2-4014-a5d7-3c15e8f18098.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/eb6897c0-26c3-49d7-ad3d-fcf7b1693d28.jpg"
-      ],
-      "features": [],
-      "description": "Polar White Tricoat 2026 Chevrolet Tahoe High Country 4WD 10-Speed Automatic with Overdrive EcoTec3 6.2L V8 4WD, Jet Black/Mocha Leather.Awards: * Car and Driver 10 Best Trucks and SUVs Car and Driver Editors' ChoiceCar and Driver, January 2017.Check out all these great option's Advanced Trailering Package (Blind Zone Steering Assist with Trailering, Hitch View with Pan/Zoom Image Adjustment, and Smart Trailer Integration Indicator), Max Trailering Package (2-Speed Active Electronic AutoTrac Transfer Case, Hill Descent Control, and Integrated Trailer Brake Controller), Preferred Equipment Group 3LZ (15\" Diagonal Multi-Color Head-Up Display, 1st and 2nd Row Color-Keyed Carpeted Floor Mats, 3-Spoke Wrapped Steering Wheel, 3rd Row 60/40 Power-Folding Split-Bench Seat, Bose 10-Speaker Centerpoint Surround Audio System Feature, Bright Front and Rear Door Sill Plates, Chrome Door Handles with Body-Color Strip, Color-Keyed Carpeting Floor Covering, Dual Exhaust System, Floor Console, Front Bucket Seats, Front LED Fog Lamps, Frontal Driver and Outboard Passenger Airbags, Heated 2nd Row Outboard Seats, Heated Steering Wheel, Inside Rearview Auo-Dimming Rear Camera Mirror, Interior Camera, Key Card, LED Headlamps with LED Daytime Running Lamps, LED Tail Lamps, Magnetic Ride Control Suspension, Memory Settings, Outside Heated Power-Adjustable Mirrors, Power Release 2nd Row Bucket Seats, Power Tilt and Telescopic Steering Column, Rear Power Liftgate, Remote Start, Set of 4 Wheel Locks, SiriusXM with 360L Trial Subscription, Universal Home Remote, Wheels: 22\" x 9\" Bright Machined Aluminum, and Wireless Phone Charging), Sun and Tow Package (Dual-Pane Power Panoramic Sunroof), 4WD, Jet Black/Mocha Leather, 10 Speakers, 3.23 Rear Axle Ratio, 3rd row seats: split-bench, 4-Way Power Driver Lumbar Seat Adjuster, 4-Way Power Front Passenger Lumbar Seat Adjuster, 4-Wheel Disc Brakes, 8-Way Power Driver Seat Adjuster, 8-Way Power Front Passenger Seat Adjuster, ABS brakes, Adaptive suspension, Air Conditioning, Alloy wheels, AM/FM radio: SiriusXM with 360L, Apple CarPlay/Android Auto, Auto High-beam Headlights, Auto-dimming door mirrors, Auto-dimming Rear-View mirror, Auto-leveling suspension, Automatic temperature control, Brake assist, Bumpers: body-color, Compass, Delay-off headlights, Driver and Front Passenger Heated and Ventilated Seats, Driver door bin, Driver vanity mirror, Dual front impact airbags, Dual front side impact airbags, Electronic Stability Control, Emergency communication system: OnStar and Chevrolet connected services capable, Exterior Parking Camera Rear, Extra Capacity Cooling System, Four wheel independent suspension, Front anti-roll bar, Front Center Armrest, Front dual zone A/C, Front fog lights, Front reading lights, Fully automatic headlights, Garage door transmitter, Heads-Up Display, Heated door mirrors, Heated Driver and Front Passenger Seats, Heated front seats, Heated rear seats, Heated steering wheel, Illuminated entry, Low tire pressure warning, Memory seat, Navigation system: Google built-in compatibility (select service plan required, terms and limitations apply), Occupant sensing airbag, Outside temperature display, Overhead airbag, Overhead console, Panic alarm, Passenger door bin, Passenger vanity mirror, Perforated Leather Seat Trim, Power door mirrors, Power driver seat, Power Liftgate, Power passenger seat, Power steering, Power windows, Premium audio system: Chevrolet Infotainment 3 Premium, Radio data system, Radio: 17.7\" Diagonal Advanced Color LCD Display, Rain sensing wipers, Rear air conditioning, Rear anti-roll bar, Rear reading lights, Rear window defroster, Rear window wiper, Remote keyless entry, Security system, Speed control, Speed-sensing steering, Split folding rear seat, Spoiler, Steering wheel memory, Steering wheel mounted audio controls, Super Cruise, Tachometer, Telescoping steering wheel, Tilt steering wheel, Traction control, Trip computer, Turn signal indicator mirrors, Var Features:Preferred Equipment Group 3LZ|8-Way Power Driver Seat Adjuster|Memory Settings|8-Way Power Front Passenger Seat Adjuster|3rd Row 60/40 Power-Folding Split-Bench Seat|Frontal Driver and Outboard Passenger Airbags|Power Release 2nd Row Bucket Seats|4-Way Power Driver Lumbar Seat Adjuster|4-Way Power Front Passenger Lumbar Seat Adjuster|Chrome Door Handles with Body-Color Strip|Color-Keyed Carpeting Floor Covering|1st and 2nd Row Color-Keyed Carpeted Floor Mats|Remote Start|Bright Front and Rear Door Sill Plates|Dual-Pane Power Panoramic Sunroof|Floor Console|Inside Rearview Auo-Dimming Rear Camera Mirror|Outside Heated Power-Adjustable Mirrors|3.23 Rear Axle Ratio|Hill Descent Control|Integrated Trailer Brake Controller|Wireless Phone Charging|Heated Driver and Front Passenger Seats|Heated 2nd Row Outboard Seats|Key Card|Heated Steering Wheel|Driver and Front Passenger Heated and Ventilated Seats|Dual Exhaust System|Power Tilt and Telescopic Steering Column|3-Spoke Wrapped Steering Wheel|Max Trailering Package|2-Speed Active Electronic AutoTrac Transfer Case|Sun and Tow Package|Hitch View with Pan/Zoom Image Adjustment|Wheels: 22\" x 9\" Bright Machined Aluminum|Set of 4 Wheel Locks|Perforated Leather Seat Trim|Front LED Fog Lamps|LED Tail Lamps|Rear Power Liftgate|LED Headlamps with LED Daytime Running Lamps|SiriusXM with 360L Trial Subscription|Interior Camera|Smart Trailer Integration Indicator|Universal Home Remote|Super Cruise|Blind Zone Steering Assist with Trailering|Bose 10-Speaker Centerpoint Surround Audio System Feature|Radio: 17.7\" Diagonal Advanced Color LCD Display|15\" Diagonal Multi-Color Head-Up Display|Extra Capacity Cooling System|Magnetic Ride Control Suspension|Advanced Trailering Package|4-Wheel Disc Brakes|Navigation system: Google built-in compatibility (select service plan required, terms and limitations apply)|Apple CarPlay/Android Auto|Premium audio system: Chevrolet Infotainment 3 Premium|Emergency communication system: OnStar and Chevrolet connected services capable|AM/FM radio: SiriusXM with 360L|Auto High-beam Headlights|Exterior Parking Camera Rear|Compass|Heads-Up Display|10 Speakers|Auto-dimming Rear-View mirror|Ventilated front seats|Variably intermittent wipers|Turn signal indicator mirrors|Trip computer|Traction control|Tilt steering wheel|Telescoping steering wheel|Steering wheel mounted audio controls|Steering wheel memory|Split folding rear seat|Speed-sensing steering|Speed control|Security system|Remote keyless entry|Rear window wiper|Rear window defroster|Rear reading lights|Rear anti-roll bar|Rear air conditioning|Rain sensing wipers|Radio data system|Power windows|Power steering|Power passenger seat|Power driver seat|Power door mirrors|Passenger vanity mirror|Passenger door bin|Panic alarm|Overhead console|Overhead airbag|Outside temperature display|Occupant sensing airbag|Memory seat|Low tire pressure warning|Illuminated entry|Heated steering wheel|Heated rear seats|Heated front seats|Heated door mirrors|Garage door transmitter|Fully automatic headlights|Front reading lights|Front fog lights|Front dual zone A/C|Front anti-roll bar|Four wheel independent suspension|Dual front side impact airbags|Dual front impact airbags|Driver vanity mirror|Driver door bin|Delay-off headlights|Bumpers: body-color|Brake assist|Automatic temperature control|Auto-leveling suspension|Auto-dimming door mirrors|Alloy wheels|Adjustable head restraints: driver and passenger w/tilt|Adaptive suspension|ABS brakes|3rd row seats: split-bench|Voltmeter|Tachometer|Spoiler|Power Liftgate|Front Center Armrest|Front Bucket Seats|Electronic Stability Control|Air Conditioning",
-      "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-004c3427ac18341fab2e75cb88e7fa8d.htm",
-      "slug": "2026-chevrolet-tahoe-high-country-453754",
-      "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6TKL4TR417029",
@@ -7458,7 +7368,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-5b7e5525ac180898774eb9b5c1142b54.htm",
       "slug": "2026-chevrolet-tahoe-high-country-417029",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6TKL8TR333246",
@@ -7503,7 +7413,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-bf7f35b7ac184c418849c2b5496a498b.htm",
       "slug": "2026-chevrolet-tahoe-high-country-333246",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6TKL8TR450213",
@@ -7548,7 +7458,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-f5fed98eac185184d8a067b1e7cb5de8.htm",
       "slug": "2026-chevrolet-tahoe-high-country-450213",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6TKL9TR449622",
@@ -7593,7 +7503,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Tahoe-fb254d2fac180936a0a72ed8514d832e.htm",
       "slug": "2026-chevrolet-tahoe-high-country-449622",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNS6TKLXVR105557",
@@ -7638,7 +7548,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Tahoe-9a8fe032ac1811a5b94575c6713cfa68.htm",
       "slug": "2027-chevrolet-tahoe-high-country-105557",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNSCHKC4FR274884",
@@ -7683,7 +7593,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2015-Chevrolet-Suburban-7198687eac181ba235d0c042567fc206.htm",
       "slug": "2015-chevrolet-suburban-ls-274884",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNSKCKD6MR142494",
@@ -7720,7 +7630,7 @@
       "sourceUrl": null,
       "slug": "2021-chevrolet-suburban-lt-142494",
       "firstSeenAt": "2026-10-22T17:50:20.346Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNSKEKD1RR120373",
@@ -7755,7 +7665,7 @@
       "sourceUrl": null,
       "slug": "2024-chevrolet-suburban-rst-120373",
       "firstSeenAt": "2026-10-15T17:34:09.310Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNSKFKD3NR199495",
@@ -7800,7 +7710,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Suburban-dfb07795ac180d900968ba8ef988adf9.htm",
       "slug": "2022-chevrolet-suburban-premier-199495",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNSKPKDXPR530517",
@@ -7843,7 +7753,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Tahoe-5eebe94bac184bf928a511ab7783cb8c.htm",
       "slug": "2023-chevrolet-tahoe-z71-530517",
       "firstSeenAt": "2026-10-21T17:50:41.192Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNSKPKL5PR390934",
@@ -7888,7 +7798,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Tahoe-eda24d00ac18028b91c6a7b6bd7fe53e.htm",
       "slug": "2023-chevrolet-tahoe-z71-390934",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNSKRKD5RR274933",
@@ -7933,7 +7843,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Tahoe-f7ef3ca9ac185184d8a067b1553638bd.htm",
       "slug": "2024-chevrolet-tahoe-rst-274933",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNSKRKD6MR368330",
@@ -7976,7 +7886,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2021-Chevrolet-Tahoe-f77b0c93ac182dab8fe58866d72e28f6.htm",
       "slug": "2021-chevrolet-tahoe-rst-368330",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GNSKTKL6PR558749",
@@ -8021,7 +7931,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Tahoe-9cb7a649ac18475ffbc3f7c735fe9b4e.htm",
       "slug": "2023-chevrolet-tahoe-high-country-558749",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GT49PEY5RF417526",
@@ -8066,7 +7976,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2024-GMC-Sierra-2500-HD-dc097cf5ac18388e567ff3a86175ca85.htm",
       "slug": "2024-gmc-sierra-2500hd-at4-417526",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GT4UREYXSF282771",
@@ -8109,7 +8019,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2025-GMC-Sierra-2500-HD-3a6f02d8ac18087bd469199285d7f777.htm",
       "slug": "2025-gmc-sierra-2500hd-denali-282771",
       "firstSeenAt": "2026-10-15T17:34:09.310Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GTUUGE86SZ327062",
@@ -8154,7 +8064,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2025-GMC-Sierra-1500-eb7ab946ac184a64f5d1c0fec03ec9fa.htm",
       "slug": "2025-gmc-sierra-1500-denali-327062",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1GTUUGEDXRZ158736",
@@ -8199,7 +8109,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/GMC/2024-GMC-Sierra-1500-50fc5b4aac180898774eb9b5d955bdeb.htm",
       "slug": "2024-gmc-sierra-1500-denali-158736",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "1N4BL4CV4NN414476",
@@ -8234,7 +8144,7 @@
       "sourceUrl": null,
       "slug": "2022-nissan-altima-2-5-sr-414476",
       "firstSeenAt": "2026-10-25T16:56:35.043Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2C3CDZFJ3NH117276",
@@ -8279,7 +8189,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Dodge/2022-Dodge-Challenger-bd58fb27ac1809a22d742423aa7d50ac.htm",
       "slug": "2022-dodge-challenger-r-t-scat-pack-117276",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2G1105S37K9111946",
@@ -8310,11 +8220,11 @@
         "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/96954d78-4e25-4af1-98cc-6809ee89514c.jpg"
       ],
       "features": [],
-      "description": "Check out all these great option's Preferred Equipment Group 2LZ, 11 Speakers, 4-Wheel Disc Brakes, 8-Way Power Driver Seat Adjuster, 8-Way Power Front Passenger Seat Adjuster, 8\" Diagonal Color Infotainment Display, ABS brakes, Air Conditioning, Alloy wheels, AM/FM radio: SiriusXM, Apple CarPlay/Android Auto, Automatic temperature control, Bodyside moldings, Bose Centerpoint Surround Sound Premium System, Brake assist, Bumpers: body-color, Compass, Delay-off headlights, Driver door bin, Driver Power Lumbar Seat Adjuster, Driver vanity mirror, Dual front impact airbags, Dual front side impact airbags, Electronic Stability Control, Emergency communication system: OnStar and Chevrolet connected services capable, Exterior Parking Camera Rear, Four wheel independent suspension, Front anti-roll bar, Front Bucket Seats, Front Center Armrest, Front dual zone A/C, Front License Plate Bracket, Front Passenger Power Lumbar Seat Adjuster, Front reading lights, Fully automatic headlights, Garage door transmitter, Heated door mirrors, Heated Driver & Front Passenger Seats, Heated front seats, High-Intensity Discharge Headlights, Illuminated entry, Knee airbag, Low tire pressure warning, Navigation System, Occupant sensing airbag, Overhead airbag, Overhead console, Panic alarm, Passenger door bin, Passenger vanity mirror, Perforated Leather-Appointed Seat Trim, Power door mirrors, Power driver seat, Power passenger seat, Power steering, Power windows, Radio data system, Radio: Chevrolet Infotainment System w/Navigation, Rear anti-roll bar, Rear reading lights, Rear seat center armrest, Rear side impact airbag, Rear window defroster, Remote CD player, Remote keyless entry, Security system, Single-Slot CD/MP3 Player, SiriusXM Radio, Speed control, Speed-sensing steering, Split folding rear seat, Steering wheel mounted audio controls, Tachometer, Telescoping steering wheel, Tilt steering wheel, Traction control, Trip computer, Turn signal indicator mirrors, USB Port, Variably intermittent wipers, and Wheels: 19\" Machined-Face Aluminum. Due to our amazing pricing, please call before coming down to ensure the vehicle is still available!Odometer is 4833 miles below market average! Features:Preferred Equipment Group 2LZ|Wheels: 19\" Machined-Face Aluminum|Perforated Leather-Appointed Seat Trim|Radio: Chevrolet Infotainment System w/Navigation|Front License Plate Bracket|8-Way Power Driver Seat Adjuster|8-Way Power Front Passenger Seat Adjuster|Driver Power Lumbar Seat Adjuster|Front Passenger Power Lumbar Seat Adjuster|Heated Driver & Front Passenger Seats|USB Port|Single-Slot CD/MP3 Player|SiriusXM Radio|8\" Diagonal Color Infotainment Display|Bose Centerpoint Surround Sound Premium System|4-Wheel Disc Brakes|Apple CarPlay/Android Auto|Emergency communication system: OnStar and Chevrolet connected services capable|Exterior Parking Camera Rear|AM/FM radio: SiriusXM|Compass|High-Intensity Discharge Headlights|11 Speakers|Variably intermittent wipers|Turn signal indicator mirrors|Trip computer|Traction control|Tilt steering wheel|Telescoping steering wheel|Steering wheel mounted audio controls|Split folding rear seat|Speed-sensing steering|Speed control|Security system|Remote keyless entry|Remote CD player|Rear window defroster|Rear side impact airbag|Rear seat center armrest|Rear reading lights|Rear anti-roll bar|Radio data system|Power windows|Power steering|Power passenger seat|Power driver seat|Power door mirrors|Passenger vanity mirror|Passenger door bin|Panic alarm|Overhead console|Overhead airbag|Occupant sensing airbag|Low tire pressure warning|Knee airbag|Illuminated entry|Heated front seats|Heated door mirrors|Garage door transmitter|Fully automatic headlights|Front reading lights|Front dual zone A/C|Front anti-roll bar|Four wheel independent suspension|Dual front side impact airbags|Dual front impact airbags|Driver vanity mirror|Driver door bin|Delay-off headlights|Bumpers: body-color|Brake assist|Bodyside moldings|Automatic temperature control|Alloy wheels|Adjustable head restraints: driver and passenger w/tilt|ABS brakes|Tachometer|Navigation System|Front Center Armrest|Front Bucket Seats|Electronic Stability Control|Air Conditioning",
+      "description": "Check out all these great option's Preferred Equipment Group 2LZ, 11 Speakers, 4-Wheel Disc Brakes, 8-Way Power Driver Seat Adjuster, 8-Way Power Front Passenger Seat Adjuster, 8\" Diagonal Color Infotainment Display, ABS brakes, Air Conditioning, Alloy wheels, AM/FM radio: SiriusXM, Apple CarPlay/Android Auto, Automatic temperature control, Bodyside moldings, Bose Centerpoint Surround Sound Premium System, Brake assist, Bumpers: body-color, Compass, Delay-off headlights, Driver door bin, Driver Power Lumbar Seat Adjuster, Driver vanity mirror, Dual front impact airbags, Dual front side impact airbags, Electronic Stability Control, Emergency communication system: OnStar and Chevrolet connected services capable, Exterior Parking Camera Rear, Four wheel independent suspension, Front anti-roll bar, Front Bucket Seats, Front Center Armrest, Front dual zone A/C, Front License Plate Bracket, Front Passenger Power Lumbar Seat Adjuster, Front reading lights, Fully automatic headlights, Garage door transmitter, Heated door mirrors, Heated Driver & Front Passenger Seats, Heated front seats, High-Intensity Discharge Headlights, Illuminated entry, Knee airbag, Low tire pressure warning, Navigation System, Occupant sensing airbag, Overhead airbag, Overhead console, Panic alarm, Passenger door bin, Passenger vanity mirror, Perforated Leather-Appointed Seat Trim, Power door mirrors, Power driver seat, Power passenger seat, Power steering, Power windows, Radio data system, Radio: Chevrolet Infotainment System w/Navigation, Rear anti-roll bar, Rear reading lights, Rear seat center armrest, Rear side impact airbag, Rear window defroster, Remote CD player, Remote keyless entry, Security system, Single-Slot CD/MP3 Player, SiriusXM Radio, Speed control, Speed-sensing steering, Split folding rear seat, Steering wheel mounted audio controls, Tachometer, Telescoping steering wheel, Tilt steering wheel, Traction control, Trip computer, Turn signal indicator mirrors, USB Port, Variably intermittent wipers, and Wheels: 19\" Machined-Face Aluminum. Due to our amazing pricing, please call before coming down to ensure the vehicle is still available!Odometer is 7466 miles below market average! Features:Preferred Equipment Group 2LZ|Wheels: 19\" Machined-Face Aluminum|Perforated Leather-Appointed Seat Trim|Radio: Chevrolet Infotainment System w/Navigation|Front License Plate Bracket|8-Way Power Driver Seat Adjuster|8-Way Power Front Passenger Seat Adjuster|Driver Power Lumbar Seat Adjuster|Front Passenger Power Lumbar Seat Adjuster|Heated Driver & Front Passenger Seats|USB Port|Single-Slot CD/MP3 Player|SiriusXM Radio|8\" Diagonal Color Infotainment Display|Bose Centerpoint Surround Sound Premium System|4-Wheel Disc Brakes|Apple CarPlay/Android Auto|Emergency communication system: OnStar and Chevrolet connected services capable|Exterior Parking Camera Rear|AM/FM radio: SiriusXM|Compass|High-Intensity Discharge Headlights|11 Speakers|Variably intermittent wipers|Turn signal indicator mirrors|Trip computer|Traction control|Tilt steering wheel|Telescoping steering wheel|Steering wheel mounted audio controls|Split folding rear seat|Speed-sensing steering|Speed control|Security system|Remote keyless entry|Remote CD player|Rear window defroster|Rear side impact airbag|Rear seat center armrest|Rear reading lights|Rear anti-roll bar|Radio data system|Power windows|Power steering|Power passenger seat|Power driver seat|Power door mirrors|Passenger vanity mirror|Passenger door bin|Panic alarm|Overhead console|Overhead airbag|Occupant sensing airbag|Low tire pressure warning|Knee airbag|Illuminated entry|Heated front seats|Heated door mirrors|Garage door transmitter|Fully automatic headlights|Front reading lights|Front dual zone A/C|Front anti-roll bar|Four wheel independent suspension|Dual front side impact airbags|Dual front impact airbags|Driver vanity mirror|Driver door bin|Delay-off headlights|Bumpers: body-color|Brake assist|Bodyside moldings|Automatic temperature control|Alloy wheels|Adjustable head restraints: driver and passenger w/tilt|ABS brakes|Tachometer|Navigation System|Front Center Armrest|Front Bucket Seats|Electronic Stability Control|Air Conditioning",
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2019-Chevrolet-Impala-63a29e30ac180c8acdceba1cfeeed3f4.htm",
       "slug": "2019-chevrolet-impala-premier-111946",
       "firstSeenAt": "2026-10-24T16:25:06.471Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4AMEY6T1203343",
@@ -8359,7 +8269,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-6ecd5d38ac185f04cd770b9f227aba4c.htm",
       "slug": "2026-chevrolet-silverado-2500hd-custom-203343",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4KME70T1151308",
@@ -8404,7 +8314,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Silverado-2500-HD-e7d06d83ac183f99147218d10ef3ec12.htm",
       "slug": "2026-chevrolet-silverado-2500hd-custom-151308",
       "firstSeenAt": "2026-10-08T19:07:15.942Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4KME71T1234083",
@@ -8449,7 +8359,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-b4881054ac1851979897d88653ca8e4b.htm",
       "slug": "2026-chevrolet-silverado-2500hd-custom-234083",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4KMEY4T1204259",
@@ -8494,7 +8404,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-78e549bcac182edcb3e07e9629375063.htm",
       "slug": "2026-chevrolet-silverado-2500hd-custom-204259",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4KMEY5T1200270",
@@ -8539,7 +8449,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-2ba4ba3dac183f2ca9d7d4814ce153e1.htm",
       "slug": "2026-chevrolet-silverado-2500hd-custom-200270",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4KNE71S1184046",
@@ -8584,7 +8494,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Silverado-2500-HD-85590248ac183734b94f3a4a3e893a45.htm",
       "slug": "2025-chevrolet-silverado-2500hd-lt-184046",
       "firstSeenAt": "2026-10-02T10:01:14.520Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4KNE72T1241159",
@@ -8629,7 +8539,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-ddf21dd2ac181a98f5666e53237907f4.htm",
       "slug": "2026-chevrolet-silverado-2500hd-lt-241159",
       "firstSeenAt": "2026-10-21T17:50:41.192Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4KNEY5T1141131",
@@ -8674,7 +8584,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-a678ce3dac180732d0125ed4276ff34d.htm",
       "slug": "2026-chevrolet-silverado-2500hd-lt-141131",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4KPE74T1227517",
@@ -8719,7 +8629,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-0540465eac180512e887ce9cfff31425.htm",
       "slug": "2026-chevrolet-silverado-2500hd-ltz-227517",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4KPEY2S1215938",
@@ -8764,7 +8674,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2025-Chevrolet-Silverado-2500-HD-51a51f66ac180995da141b64e981bdfe.htm",
       "slug": "2025-chevrolet-silverado-2500hd-ltz-215938",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4KREY3T1203066",
@@ -8809,7 +8719,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-8db45b96ac182108bf40a726abbb944a.htm",
       "slug": "2026-chevrolet-silverado-2500hd-high-country-203066",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4KREYXT1201718",
@@ -8854,7 +8764,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-2500-HD-54d62c15ac18449e036c6424deaa3f9e.htm",
       "slug": "2026-chevrolet-silverado-2500hd-high-country-201718",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4YME76R1194249",
@@ -8897,7 +8807,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Silverado-2500-HD-67158202ac184bccd6d58c5bf3ed98b7.htm",
       "slug": "2024-chevrolet-silverado-2500hd-custom-194249",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GC4YPEY0N1219943",
@@ -8942,7 +8852,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Silverado-2500-HD-93ececa8ac184d2b5dd6c1628aa69308.htm",
       "slug": "2022-chevrolet-silverado-2500hd-ltz-219943",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GCUDEED2R1269049",
@@ -8978,7 +8888,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2024-Chevrolet-Silverado-1500-6dee33fcac180c02c6000394093985a6.htm",
       "slug": "2024-chevrolet-silverado-1500-rst-269049",
       "firstSeenAt": "2026-10-22T17:50:20.346Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GCUKDED1T1191712",
@@ -9023,7 +8933,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-bf7f36d7ac1845457ae37be8f09e568e.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-191712",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GCUKDED2T1214107",
@@ -9068,7 +8978,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-094f4458ac1848577d092645b9629572.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-214107",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2GCUKDEDXT1217658",
@@ -9113,7 +9023,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-8b8f0e0dac180aac8449eac6d66ac099.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-217658",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2HKRS3H25RH313893",
@@ -9158,7 +9068,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Honda/2024-Honda-CR-V-50fc596cac1814b5a599b79d53abfbdc.htm",
       "slug": "2024-honda-cr-v-lx-313893",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "2T3C1RFV8RC279080",
@@ -9203,7 +9113,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2024-Toyota-RAV4-61efb437ac1830f8c0647a55e95e2925.htm",
       "slug": "2024-toyota-rav4-xle-premium-279080",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCPDBEK9PG212331",
@@ -9246,7 +9156,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Silverado-1500-0191e80fac180d50c4c90ee103a5f61f.htm",
       "slug": "2023-chevrolet-silverado-1500-custom-212331",
       "firstSeenAt": "2026-10-03T16:56:32.827Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCPDCED2NG616060",
@@ -9291,7 +9201,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Silverado-1500-1b8c22e2ac183210c430dfaa2ff2508b.htm",
       "slug": "2022-chevrolet-silverado-1500-custom-trail-boss-616060",
       "firstSeenAt": "2026-10-04T17:15:05.584Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCPWDEDXMG124827",
@@ -9336,7 +9246,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2021-Chevrolet-Silverado-1500-5430ba4eac18073c13b32549f7d7f492.htm",
       "slug": "2021-chevrolet-silverado-1500-rst-124827",
       "firstSeenAt": "2026-10-21T17:50:41.192Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUDFED5PG200284",
@@ -9381,7 +9291,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Silverado-1500-b975fb4bac1812d225eec517fbc5ef4a.htm",
       "slug": "2023-chevrolet-silverado-1500-lt-trail-boss-200284",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKCED8TG419481",
@@ -9426,7 +9336,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1e8bf0f1ac181b397f50d7acb70ee48b.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-trail-boss-419481",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKCED9TG483500",
@@ -9471,7 +9381,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-054047d5ac185184d8a067b1a2651105.htm",
       "slug": "2026-chevrolet-silverado-1500-custom-trail-boss-483500",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKDE82TG481435",
@@ -9516,7 +9426,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-054041a1ac180512e887ce9ce98bd339.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-481435",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKEELXTG319899",
@@ -9561,7 +9471,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-2503438eac1823e7f450582953b6582a.htm",
       "slug": "2026-chevrolet-silverado-1500-rst-319899",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKFE80TG431970",
@@ -9606,7 +9516,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-3cce36c0ac182381677b0ba9119e699c.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-431970",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKFEL0TG507580",
@@ -9651,7 +9561,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-8d43be0fac184d75e32c2e1088fd88c7.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-507580",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKFEL3TG314291",
@@ -9696,7 +9606,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-738e65c0ac182ff5053b2af11c3c5852.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-314291",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKFEL3TG442840",
@@ -9741,7 +9651,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-56592b2aac182381677b0ba93de80bbf.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-442840",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKFEL9TG507576",
@@ -9786,7 +9696,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-8d43bab3ac185b7043adb35b2817dfaa.htm",
       "slug": "2026-chevrolet-silverado-1500-lt-trail-boss-507576",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHE83TG458995",
@@ -9831,7 +9741,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-a8bcdf50ac184b2fa8c895f9243d3061.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-458995",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHE87TG457560",
@@ -9876,7 +9786,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-a399293cac184d2b5dd6c1624ea2787c.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-457560",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHE88TG454912",
@@ -9921,7 +9831,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-851ebbc6ac1814e012e1fffc17cf519c.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-454912",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHEL0TG342027",
@@ -9966,7 +9876,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-8bcde218ac1852f701569dec9f8b69d4.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-342027",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHEL3TG364250",
@@ -10011,7 +9921,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-e9598a63ac18162841248f687716b21d.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-364250",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHEL3TG475493",
@@ -10056,7 +9966,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-e12e7c61ac185c8404187ace827e6324.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-475493",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHEL3TG476482",
@@ -10101,7 +10011,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-fb2547b4ac18490df7541314c8edde0f.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-476482",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHEL5TG318063",
@@ -10146,7 +10056,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-25a58239ac185bde89873740289f403d.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-318063",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHEL8TG435426",
@@ -10191,7 +10101,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-429a214fac18541152113ed63094e9ac.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-435426",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHEL9TG341135",
@@ -10236,7 +10146,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-a09b8e0eac184c418849c2b558cf011d.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-341135",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHEL9TG476776",
@@ -10281,7 +10191,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-054042d6ac18490df75413147aa0b37e.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-476776",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKHELXTG291457",
@@ -10326,7 +10236,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-c3600e6cac1807bdc045851112fbbecf.htm",
       "slug": "2026-chevrolet-silverado-1500-zr2-291457",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKJE81TG497141",
@@ -10371,7 +10281,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-2423a2a4ac1826798ad94e3bf0b7002e.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-497141",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKJE86TG497152",
@@ -10416,7 +10326,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Silverado-1500-1f02be05ac1840bc3dde7e439e0a1de5.htm",
       "slug": "2026-chevrolet-silverado-1500-high-country-497152",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GCUKREC3JG159207",
@@ -10459,7 +10369,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2018-Chevrolet-Silverado-1500-5eebe6d6ac1805848fb2b8711d8610df.htm",
       "slug": "2018-chevrolet-silverado-1500-lt-159207",
       "firstSeenAt": "2026-10-21T17:50:41.192Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARHEG1VL163028",
@@ -10504,7 +10414,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-8666c577ac1849bfafd15ef5d33ce86c.htm",
       "slug": "2027-chevrolet-equinox-lt-163028",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARHEG2VL196071",
@@ -10549,7 +10459,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-8666c416ac183d20eebe8ad11e32029b.htm",
       "slug": "2027-chevrolet-equinox-lt-196071",
       "firstSeenAt": "2026-10-02T10:01:14.520Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARHEG3VL180283",
@@ -10594,7 +10504,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-8d43c05cac185ca9e7e2cb7f18b9d65d.htm",
       "slug": "2027-chevrolet-equinox-lt-180283",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARHEG3VL185676",
@@ -10639,7 +10549,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-62261877ac183e4132cdba36b033b0ec.htm",
       "slug": "2027-chevrolet-equinox-lt-185676",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARHEG4VL148314",
@@ -10684,7 +10594,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-a512c4d4ac183203311d4ef2df13038a.htm",
       "slug": "2027-chevrolet-equinox-lt-148314",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARHEG4VL179496",
@@ -10729,52 +10639,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-8d43bf47ac180d993dc0cf5d6e0ef2f4.htm",
       "slug": "2027-chevrolet-equinox-lt-179496",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
-    },
-    {
-      "id": "3GNARHEG4VL209127",
-      "vin": "3GNARHEG4VL209127",
-      "stockNumber": "VL209127",
-      "condition": "new",
-      "year": 2027,
-      "make": "Chevrolet",
-      "model": "Equinox",
-      "trim": "LT",
-      "bodyStyle": "SUV",
-      "drivetrain": "FWD",
-      "transmission": "8-Speed Automatic",
-      "fuelType": "Gasoline",
-      "engine": "1.5L DOHC",
-      "exteriorColor": "Black Metallic",
-      "interiorColor": "Black",
-      "doors": null,
-      "mileage": 24,
-      "availability": null,
-      "dealer": null,
-      "sourcePrice": 27540,
-      "sourceMsrp": null,
-      "price": 30540,
-      "markupRate": 0,
-      "images": [
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/224d5554-4425-46c5-ac0a-0c5cc84b6914.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/ca6e6c8d-b31b-45b9-84f0-de154ffc28fa.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/17688e68-9151-4f3e-af44-de0ca1583d64.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/df137b6a-d2ec-4476-8271-74c3690a20cd.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/0e644af0-b739-4cc1-8877-4ee26d041c36.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/f548f263-c17d-4092-912c-064521b6ed82.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/783646e8-7262-4b4c-b139-5fcafe85ef82.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/54aac1ae-4086-4418-8e4e-420a9fabcd8a.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/e800381b-79a2-4aa6-b4f7-890f4e88a252.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/c861f29c-a749-4920-b26d-71756c932dc8.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/002ce52d-5aed-4098-8ba4-94d03defbf52.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/74db38c8-ee71-4bdb-8da8-75a8dd51fb33.jpg"
-      ],
-      "features": [],
-      "description": "Mosaic Black Metallic 2027 Chevrolet Equinox LT FWD 8-Speed Automatic 1.5L DOHCCheck out all these great option's Midnight Edition (Black Roof Rails, High Gloss Black Mirror Caps, and Wheels: 19\" Black Painted Aluminum), Preferred Equipment Group 1LT (Carpeted Front Floor Mats and Carpeted Rear Floor Mats), 3.47 Final Drive Axle Ratio, 4-Wheel Disc Brakes, 5G Vehicle Connectivity, 6 Speakers, ABS brakes, Air Conditioning, Alloy wheels, AM/FM radio: SiriusXM, Auto High-beam Headlights, Brake assist, Bumpers: body-color, Cloth Seat Trim, Compass, Delay-off headlights, Driver 6-Way Manual Seat Adjuster, Driver door bin, Driver vanity mirror, Dual front impact airbags, Dual front side impact airbags, Electronic Stability Control, Emergency communication system: OnStar and Chevrolet connected services capable, Four wheel independent suspension, Front anti-roll bar, Front Bucket Seats, Front Center Armrest, Front Passenger 4-Way Manual Seat Adjuster, Front reading lights, Fully automatic headlights, Heated door mirrors, Heated Driver and Front Passenger Seats, Heated front seats, Heated steering wheel, High Infotainment, Illuminated entry, Low tire pressure warning, Navigation System, Occupant sensing airbag, Outside temperature display, Overhead airbag, Overhead console, Panic alarm, Passenger door bin, Passenger vanity mirror, Power door mirrors, Power steering, Power windows, Premium audio system: Chevrolet Infotainment 3, Radio data system, Radio: 11.3\" Diagonal Advanced Color LCD Display, Rear anti-roll bar, Rear reading lights, Rear seat center armrest, Rear window defroster, Rear window wiper, Remote keyless entry, Security system, SiriusXM with 360L Trial Subscription, Speed control, Speed-sensing steering, Split folding rear seat, Spoiler, Steering wheel mounted audio controls, Tachometer, Telescoping steering wheel, Tilt steering wheel, Traction control, Trip computer, Variably intermittent wipers, Wheels: 17\" Grazen Metallic Machined-Face Aluminum, and Wireless Apple CarPlay/Wireless Android Auto. Features:Preferred Equipment Group 1LT|Driver 6-Way Manual Seat Adjuster|Front Passenger 4-Way Manual Seat Adjuster|Carpeted Front Floor Mats|Carpeted Rear Floor Mats|High Gloss Black Mirror Caps|3.47 Final Drive Axle Ratio|High Infotainment|Heated Driver and Front Passenger Seats|Wheels: 19\" Black Painted Aluminum|Wireless Apple CarPlay/Wireless Android Auto|Wheels: 17\" Grazen Metallic Machined-Face Aluminum|Cloth Seat Trim|SiriusXM with 360L Trial Subscription|5G Vehicle Connectivity|Radio: 11.3\" Diagonal Advanced Color LCD Display|Black Roof Rails|Midnight Edition|4-Wheel Disc Brakes|Premium audio system: Chevrolet Infotainment 3|Emergency communication system: OnStar and Chevrolet connected services capable|Auto High-beam Headlights|AM/FM radio: SiriusXM|Compass|Front beverage holders|Variably intermittent wipers|Trip computer|Traction control|Tilt steering wheel|Telescoping steering wheel|Steering wheel mounted audio controls|Split folding rear seat|Speed-sensing steering|Speed control|Security system|Remote keyless entry|Rear window wiper|Rear window defroster|Rear seat center armrest|Rear reading lights|Rear anti-roll bar|Radio data system|Power windows|Power steering|Power door mirrors|Passenger vanity mirror|Passenger door bin|Panic alarm|Overhead console|Overhead airbag|Outside temperature display|Occupant sensing airbag|Low tire pressure warning|Illuminated entry|Heated steering wheel|Heated front seats|Heated door mirrors|Fully automatic headlights|Front reading lights|Front anti-roll bar|Four wheel independent suspension|Dual front side impact airbags|Dual front impact airbags|Driver vanity mirror|Driver door bin|Delay-off headlights|Bumpers: body-color|Brake assist|Alloy wheels|ABS brakes|Tachometer|Spoiler|Navigation System|Front Center Armrest|Front Bucket Seats|Electronic Stability Control|Air Conditioning|6 Speakers",
-      "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-907dfd60ac184a05714d921d4ac11ddb.htm",
-      "slug": "2027-chevrolet-equinox-lt-209127",
-      "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARHEG7VL160845",
@@ -10819,7 +10684,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-cddb5369ac183e1692c7be59b1c63c73.htm",
       "slug": "2027-chevrolet-equinox-lt-160845",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARHEG8VL184765",
@@ -10864,7 +10729,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-d8958d29ac181130db090a6857a3172b.htm",
       "slug": "2027-chevrolet-equinox-lt-184765",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARHEG9VL184757",
@@ -10909,7 +10774,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-907dff7dac182c22af3c57ca7602b658.htm",
       "slug": "2027-chevrolet-equinox-lt-184757",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARHEG9VL197864",
@@ -10954,7 +10819,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-01c7c106ac1806945ded6275f9fa1210.htm",
       "slug": "2027-chevrolet-equinox-lt-197864",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARHEG9VL208765",
@@ -10999,7 +10864,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-b4880ca2ac1811a58638d0734b36ec17.htm",
       "slug": "2027-chevrolet-equinox-lt-208765",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARKEG5VL198149",
@@ -11044,7 +10909,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-8d43c653ac18112a41dc78aedd382c85.htm",
       "slug": "2027-chevrolet-equinox-activ-198149",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNARKEGXVL198888",
@@ -11089,7 +10954,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2027-Chevrolet-Equinox-8d43c96fac1813b262e6ac10b8948b49.htm",
       "slug": "2027-chevrolet-equinox-activ-198888",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNAXHEG0PL182355",
@@ -11134,7 +10999,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Equinox-ddbc3e34ac18317c333ce9bd125a3d12.htm",
       "slug": "2023-chevrolet-equinox-ls-182355",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNAXHEGXTL360069",
@@ -11177,52 +11042,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Equinox-f251e335ac185554d25bbe28719599ab.htm",
       "slug": "2026-chevrolet-equinox-lt-360069",
       "firstSeenAt": "2026-10-10T17:36:30.954Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
-    },
-    {
-      "id": "3GNAXHEGXTL503392",
-      "vin": "3GNAXHEGXTL503392",
-      "stockNumber": "TL503392",
-      "condition": "new",
-      "year": 2026,
-      "make": "Chevrolet",
-      "model": "Equinox",
-      "trim": "LT",
-      "bodyStyle": "SUV",
-      "drivetrain": "FWD",
-      "transmission": "CVT",
-      "fuelType": "Gasoline",
-      "engine": "1.5L DOHC",
-      "exteriorColor": "Radiant Red",
-      "interiorColor": "Black",
-      "doors": null,
-      "mileage": 16,
-      "availability": null,
-      "dealer": null,
-      "sourcePrice": 29289,
-      "sourceMsrp": null,
-      "price": 32289,
-      "markupRate": 0,
-      "images": [
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/a451f052-24bd-4c2a-b8fb-965cc127fe4b.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/4d1658c1-d18e-4042-be32-a5c20f56b369.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/e6a14307-f9a8-4144-9705-64b0447f7d16.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/05169080-9c26-4a4f-9b09-91daaad7c4e8.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/4734db68-4df6-420c-b628-71e9f1e31061.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/b4a8786c-e13d-43a4-8aff-3d19d540802d.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/266036cb-9dd6-46cc-995f-2d5a9a1008e8.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/27d8187d-98a6-4162-ae5e-615112790981.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/63a6fdea-49b8-4e25-83b1-43e2a3a73920.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/67e34d78-d0e4-4611-b26c-73fdda24e6d3.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/2d0217ca-f6ce-4778-97ae-d9ea73d38ecc.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/24f6e773-8edf-4d61-8889-8fee8c0e85e3.jpg"
-      ],
-      "features": [],
-      "description": "Radiant Red Tintcoat 2026 Chevrolet Equinox LT FWD CVT 1.5L DOHCCheck out all these great option's Preferred Equipment Group 1LT, 4-Wheel Disc Brakes, 5.81 Final Drive Axle Ratio, 6 Speakers, ABS brakes, Air Conditioning, Alloy wheels, AM/FM radio: SiriusXM, Auto High-beam Headlights, Brake assist, Bumpers: body-color, Cloth Seat Trim, Compass, Delay-off headlights, Driver 6-Way Manual Seat Adjuster, Driver door bin, Driver vanity mirror, Dual front impact airbags, Dual front side impact airbags, Electronic Stability Control, Emergency communication system: OnStar and Chevrolet connected services capable, Four wheel independent suspension, Front anti-roll bar, Front Bucket Seats, Front Center Armrest, Front Passenger 4-Way Manual Seat Adjuster, Front reading lights, Fully automatic headlights, Heated door mirrors, Heated Driver and Front Passenger Seats, Heated front seats, Heated steering wheel, Illuminated entry, Low tire pressure warning, Navigation System, Occupant sensing airbag, Outside temperature display, Overhead airbag, Overhead console, Panic alarm, Passenger door bin, Passenger vanity mirror, Power door mirrors, Power steering, Power windows, Premium audio system: Chevrolet Infotainment 3, Radio data system, Radio: 11.3\" Diagonal Advanced Color LCD Display, Rear anti-roll bar, Rear reading lights, Rear seat center armrest, Rear window defroster, Rear window wiper, Remote keyless entry, Security system, SiriusXM with 360L Trial Subscription, Speed control, Speed-sensing steering, Split folding rear seat, Spoiler, Steering wheel mounted audio controls, Tachometer, Telescoping steering wheel, Tilt steering wheel, Traction control, Trip computer, Variably intermittent wipers, and Wheels: 17\" Grazen Metallic Machined-Face Aluminum. Features:Preferred Equipment Group 1LT|Driver 6-Way Manual Seat Adjuster|Front Passenger 4-Way Manual Seat Adjuster|5.81 Final Drive Axle Ratio|Heated Driver and Front Passenger Seats|Wheels: 17\" Grazen Metallic Machined-Face Aluminum|Cloth Seat Trim|SiriusXM with 360L Trial Subscription|Radio: 11.3\" Diagonal Advanced Color LCD Display|4-Wheel Disc Brakes|Premium audio system: Chevrolet Infotainment 3|Emergency communication system: OnStar and Chevrolet connected services capable|Auto High-beam Headlights|AM/FM radio: SiriusXM|Compass|Front beverage holders|Variably intermittent wipers|Trip computer|Traction control|Tilt steering wheel|Telescoping steering wheel|Steering wheel mounted audio controls|Split folding rear seat|Speed-sensing steering|Speed control|Security system|Remote keyless entry|Rear window wiper|Rear window defroster|Rear seat center armrest|Rear reading lights|Rear anti-roll bar|Radio data system|Power windows|Power steering|Power door mirrors|Passenger vanity mirror|Passenger door bin|Panic alarm|Overhead console|Overhead airbag|Outside temperature display|Occupant sensing airbag|Low tire pressure warning|Illuminated entry|Heated steering wheel|Heated front seats|Heated door mirrors|Fully automatic headlights|Front reading lights|Front anti-roll bar|Four wheel independent suspension|Dual front side impact airbags|Dual front impact airbags|Driver vanity mirror|Driver door bin|Delay-off headlights|Bumpers: body-color|Brake assist|Alloy wheels|ABS brakes|Tachometer|Spoiler|Navigation System|Front Center Armrest|Front Bucket Seats|Electronic Stability Control|Air Conditioning|6 Speakers",
-      "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Equinox-dc0cd785ac18028bdbc4543e4556c6dd.htm",
-      "slug": "2026-chevrolet-equinox-lt-503392",
-      "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNAXKEG6TL432124",
@@ -11267,7 +11087,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Equinox-e20f3219ac18168603616055dd835e86.htm",
       "slug": "2026-chevrolet-equinox-activ-432124",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNKBCR43TS197602",
@@ -11312,7 +11132,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Blazer-af2aaf0aac1804415d9b37e092ecd986.htm",
       "slug": "2026-chevrolet-blazer-lt-197602",
       "firstSeenAt": "2026-10-23T17:40:00.304Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNKBCR4XNS121636",
@@ -11357,7 +11177,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2022-Chevrolet-Blazer-7506f151ac183586ac64e56a1c9b0c9a.htm",
       "slug": "2022-chevrolet-blazer-lt-121636",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNKBCR4XSS225409",
@@ -11402,7 +11222,7 @@
       "sourceUrl": null,
       "slug": "2025-chevrolet-blazer-lt-225409",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNKBDR46TS199916",
@@ -11447,7 +11267,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Blazer-d8958c10ac18317c333ce9bd41213618.htm",
       "slug": "2026-chevrolet-blazer-lt-199916",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNKBER48TS197803",
@@ -11492,7 +11312,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Blazer-62261e4aac182022507f28bf1bcbb653.htm",
       "slug": "2026-chevrolet-blazer-rs-197803",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3GNKBER49TS197485",
@@ -11537,7 +11357,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Blazer-8d43bcfbac183d20eebe8ad15ead8d71.htm",
       "slug": "2026-chevrolet-blazer-rs-197485",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3MW43CM05S8F33925",
@@ -11573,7 +11393,7 @@
       "sourceUrl": null,
       "slug": "2025-bmw-2-series-m240i-f33925",
       "firstSeenAt": "2026-10-25T16:56:35.043Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "3TMDZ5BN1NM128927",
@@ -11618,7 +11438,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2022-Toyota-Tacoma-4WD-20f683b6ac18265cf4ccf20091a1f4c1.htm",
       "slug": "2022-toyota-tacoma-trd-sport-128927",
       "firstSeenAt": "2026-10-09T18:37:43.053Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "4S4BTAPC5P3214234",
@@ -11663,7 +11483,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Subaru/2023-Subaru-Outback-9492b555ac1851c1f80656ff03a9ab32.htm",
       "slug": "2023-subaru-outback-touring-214234",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "5FNRL6H74KB074965",
@@ -11698,7 +11518,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Honda/2019-Honda-Odyssey-63a29c4eac18224eefc6e7deae6e6917.htm",
       "slug": "2019-honda-odyssey-ex-l-074965",
       "firstSeenAt": "2026-10-22T17:50:20.346Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "5FNYG2H71SB009547",
@@ -11743,7 +11563,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Honda/2025-Honda-Pilot-0191e926ac18551004d3805de86f465e.htm",
       "slug": "2025-honda-pilot-touring-009547",
       "firstSeenAt": "2026-10-03T16:56:32.827Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "5NMJE3DE9RH342525",
@@ -11788,7 +11608,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Hyundai/2024-Hyundai-Tucson-ddbc3b72ac185fa6e5f523fc01dbad3c.htm",
       "slug": "2024-hyundai-tucson-limited-342525",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "5TFDY5F19JX679962",
@@ -11833,7 +11653,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2018-Toyota-Tundra-4WD-61efb0a0ac180b7620d871ae7a268ae6.htm",
       "slug": "2018-toyota-tundra-sr5-679962",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "5TFLA5DB2PX073858",
@@ -11878,7 +11698,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2023-Toyota-Tundra-4WD-b48987b2ac1812d29292c3de9287e1d0.htm",
       "slug": "2023-toyota-tundra-sr5-073858",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "5TFUM5F12KX081628",
@@ -11921,7 +11741,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2019-Toyota-Tundra-4WD-5eebeb8eac182632e7c2077b661b88d7.htm",
       "slug": "2019-toyota-tundra-sr-081628",
       "firstSeenAt": "2026-10-21T17:50:41.192Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "5XYP64GC1SG647038",
@@ -11966,7 +11786,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Kia/2025-Kia-Telluride-8d0d0a0fac182baebfa1745179f58915.htm",
       "slug": "2025-kia-telluride-s-647038",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "JN8AT2MT5HW406574",
@@ -12011,7 +11831,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Nissan/2017-Nissan-Rogue-2fb6d805ac18575e6445583a14be9194.htm",
       "slug": "2017-nissan-rogue-sl-406574",
       "firstSeenAt": "2026-10-15T17:34:09.310Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "JN8AY2DB1P9830243",
@@ -12056,7 +11876,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Nissan/2023-Nissan-Armada-9a8f803fac18431504067597532eb2c0.htm",
       "slug": "2023-nissan-armada-platinum-830243",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "JN8BT3BA3RW353645",
@@ -12101,7 +11921,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Nissan/2024-Nissan-Rogue-b4898457ac182087478a8765540e4772.htm",
       "slug": "2024-nissan-rogue-sv-353645",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "JTDACAAJXT3039402",
@@ -12146,7 +11966,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2026-Toyota-Crown-Signia-3e19bd38ac180b4132bfb5714dc7190e.htm",
       "slug": "2026-toyota-crown-signia-limited-039402",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "JTEVA5BR3S5064742",
@@ -12191,7 +12011,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Toyota/2025-Toyota-4Runner-1b8c1f1bac1806945ded6275707fc73b.htm",
       "slug": "2025-toyota-4runner-sr5-064742",
       "firstSeenAt": "2026-10-07T19:11:03.415Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LFEP6SC287910",
@@ -12234,7 +12054,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2025-Chevrolet-Trax-3f9501d8ac18408556963d5e30286bc9.htm",
       "slug": "2025-chevrolet-trax-ls-287910",
       "firstSeenAt": "2026-10-13T19:43:16.829Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LGEP1TC253008",
@@ -12279,52 +12099,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-7684a05fac1806568f439d17fa79c915.htm",
       "slug": "2026-chevrolet-trax-1rs-253008",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
-    },
-    {
-      "id": "KL77LGEP4TC226031",
-      "vin": "KL77LGEP4TC226031",
-      "stockNumber": "TC226031",
-      "condition": "new",
-      "year": 2026,
-      "make": "Chevrolet",
-      "model": "Trax",
-      "trim": "1RS",
-      "bodyStyle": "SUV",
-      "drivetrain": "FWD",
-      "transmission": "6-Speed Automatic",
-      "fuelType": "Gasoline",
-      "engine": "ECOTEC 1.2L Turbo",
-      "exteriorColor": "Summit White",
-      "interiorColor": "Jet Black/Gray With Red Accents",
-      "doors": null,
-      "mileage": 19,
-      "availability": null,
-      "dealer": null,
-      "sourcePrice": 25357,
-      "sourceMsrp": null,
-      "price": 28357,
-      "markupRate": 0,
-      "images": [
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/b4c4c2a8-2667-4e80-aeaa-ce7fe8b82592.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/82d4693e-c54c-4ce8-97b5-e8f921d3b48e.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/04cd6920-0df6-4f8a-88d1-cb96a6cca59d.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/bbd9fdba-01ca-42b5-a5ec-55b87789149d.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/b3d92707-ad23-4170-9806-c76b3d8dd8db.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/b9f594bd-df76-4e6d-801e-f76f3c62b253.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/7b4630c0-1a18-48b6-a4ca-f2bb73663ddd.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/2ec283c2-489e-439c-8ab4-2d7b1c99f808.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/55ac20bf-1c4b-4656-94ed-caf5afd4f780.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/8b79999c-f09f-4004-a93e-85c06ea4d811.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/14f3b8e3-e618-4a15-ab3e-7e43acb1d264.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/943b89a6-6887-45df-b907-5a4f147d3d05.jpg"
-      ],
-      "features": [],
-      "description": "Summit White 2026 Chevrolet Trax 1RS FWD 6-Speed Automatic ECOTEC 1.2L TurboAwards: * Car and Driver 10 Best Trucks and SUVs Car and Driver Editors' ChoiceCar and Driver, January 2017.Check out all these great option's Driver Confidence Package (Lane Change Alert with Side Blind Zone Alert, Rear Cross Traffic Alert, and Rear Park Assist), Preferred Equipment Group 1RS, 2-Way Adjustable Front Head Restraints, 3.50 Final Drive Axle Ratio, 4 Speakers, 4-Speaker Audio System Feature, 4-Way Manual Front Passenger Seat Adjuster, 4-Wheel Disc Brakes, 6-Way Manual Driver Seat Adjuster, ABS brakes, Air Conditioning, Alloy wheels, AM/FM radio: SiriusXM, Auto High-beam Headlights, Brake assist, Bumpers: body-color, Cloth Seat Trim, Compass, Delay-off headlights, Driver door bin, Driver vanity mirror, Dual front impact airbags, Dual front side impact airbags, Electronic Stability Control, Emergency communication system: OnStar One Essentials, Exterior Parking Camera Rear, Front and Rear Jet Black All-Weather Floor Liners, Front anti-roll bar, Front Bucket Seats, Front Center Armrest, Front reading lights, Front wheel independent suspension, Fully automatic headlights, Heated door mirrors, Heated Driver and Front Passenger Seats, Heated front seats, Heated steering wheel, Illuminated entry, Leather steering wheel, Low tire pressure warning, Occupant sensing airbag, Outside temperature display, Overhead airbag, Overhead console, Panic alarm, Passenger door bin, Passenger vanity mirror, Power door mirrors, Power steering, Power windows, Premium audio system: Chevrolet Infotainment 3, Radio data system, Radio: Chevrolet Infotainment 3 System with AM/FM, Rear window defroster, Rear window wiper, Remote keyless entry, Security system, SiriusXM Trial Subscription, Speed control, Split folding rear seat, Spoiler, Sport steering wheel, Steering wheel mounted audio controls, Tachometer, Telescoping steering wheel, Tilt steering wheel, Traction control, Trip computer, Variably intermittent wipers, Wheels: 18\" Black-Painted Machined Aluminum, and Wireless Apple CarPlay/Wireless Android Auto. Features:Preferred Equipment Group 1RS|6-Way Manual Driver Seat Adjuster|4-Way Manual Front Passenger Seat Adjuster|2-Way Adjustable Front Head Restraints|3.50 Final Drive Axle Ratio|Radio: Chevrolet Infotainment 3 System with AM/FM|Heated Driver and Front Passenger Seats|Wireless Apple CarPlay/Wireless Android Auto|Front and Rear Jet Black All-Weather Floor Liners|Wheels: 18\" Black-Painted Machined Aluminum|Cloth Seat Trim|SiriusXM Trial Subscription|Rear Park Assist|Rear Cross Traffic Alert|Lane Change Alert with Side Blind Zone Alert|4-Speaker Audio System Feature|Driver Confidence Package|4 Speakers|Emergency communication system: OnStar One Essentials|Premium audio system: Chevrolet Infotainment 3|Auto High-beam Headlights|Exterior Parking Camera Rear|AM/FM radio: SiriusXM|Compass|Front beverage holders|Variably intermittent wipers|Trip computer|Traction control|Tilt steering wheel|Telescoping steering wheel|Steering wheel mounted audio controls|Sport steering wheel|Split folding rear seat|Speed control|Security system|Remote keyless entry|Rear window wiper|Rear window defroster|Radio data system|Power windows|Power steering|Power door mirrors|Passenger vanity mirror|Passenger door bin|Panic alarm|Overhead console|Overhead airbag|Outside temperature display|Occupant sensing airbag|Low tire pressure warning|Leather steering wheel|Illuminated entry|Heated steering wheel|Heated front seats|Heated door mirrors|Fully automatic headlights|Front wheel independent suspension|Front reading lights|Front anti-roll bar|Dual front side impact airbags|Dual front impact airbags|Driver vanity mirror|Driver door bin|Delay-off headlights|Bumpers: body-color|Brake assist|Alloy wheels|ABS brakes|Tachometer|Spoiler|Front Center Armrest|Front Bucket Seats|Electronic Stability Control|Air Conditioning|4-Wheel Disc Brakes",
-      "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-b344a7ccac184067335a66becf7eadba.htm",
-      "slug": "2026-chevrolet-trax-1rs-226031",
-      "firstSeenAt": "2026-10-11T17:53:09.686Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LGEP4TC253584",
@@ -12369,7 +12144,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76849b45ac185ca9e7e2cb7f4d47e484.htm",
       "slug": "2026-chevrolet-trax-1rs-253584",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LGEP7TC253174",
@@ -12414,7 +12189,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb7605ac18112a917d9609eedce448.htm",
       "slug": "2026-chevrolet-trax-1rs-253174",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LHEP5TC257889",
@@ -12459,7 +12234,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb7508ac1806568f439d1704a330fb.htm",
       "slug": "2026-chevrolet-trax-lt-257889",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LHEP6TC148048",
@@ -12504,7 +12279,7 @@
       "sourceUrl": null,
       "slug": "2026-chevrolet-trax-lt-148048",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LHEP8TC232825",
@@ -12549,7 +12324,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-b344ad34ac184b2fa8c895f9214db17f.htm",
       "slug": "2026-chevrolet-trax-lt-232825",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LHEPXTC148084",
@@ -12594,7 +12369,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-d9e2b3eaac1802a42ccf9a90ef7bd8a7.htm",
       "slug": "2026-chevrolet-trax-lt-148084",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LJEP1TC232477",
@@ -12639,7 +12414,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-c7a7ec8aac183c5b5fb7bc255c1a9575.htm",
       "slug": "2026-chevrolet-trax-2rs-232477",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LJEP2TC255122",
@@ -12684,7 +12459,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-6714c02cac1813b262e6ac10a56d6035.htm",
       "slug": "2026-chevrolet-trax-2rs-255122",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LJEP3TC255520",
@@ -12729,52 +12504,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb7a10ac183b721f3e0223745cb4f5.htm",
       "slug": "2026-chevrolet-trax-2rs-255520",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
-    },
-    {
-      "id": "KL77LJEP4TC233204",
-      "vin": "KL77LJEP4TC233204",
-      "stockNumber": "TC233204",
-      "condition": "new",
-      "year": 2026,
-      "make": "Chevrolet",
-      "model": "Trax",
-      "trim": "2RS",
-      "bodyStyle": "SUV",
-      "drivetrain": "FWD",
-      "transmission": "6-Speed Automatic",
-      "fuelType": "Gasoline",
-      "engine": "ECOTEC 1.2L Turbo",
-      "exteriorColor": "Black Metallic",
-      "interiorColor": "Jet Black With Red Accents",
-      "doors": null,
-      "mileage": 23,
-      "availability": null,
-      "dealer": null,
-      "sourcePrice": 23530,
-      "sourceMsrp": null,
-      "price": 26530,
-      "markupRate": 0,
-      "images": [
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/e1543088-621b-4b6f-86c8-a7dffe482121.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/7223c975-cc38-429d-b00f-5d1c50524e39.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/69e96d3e-a644-4776-92e2-4b6d2ba4a44a.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/a34a62e8-a921-4ae9-8df3-9c609b0fba45.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/05bb21fe-f9a5-4e1c-b146-c7bc3e3ef976.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/7aa6fd01-8e73-409b-8bf8-86f3fb7bbc85.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/7eeaf3b1-fa87-4471-8dac-c2ad8ea34ae5.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/57631897-e20f-4490-a510-5e52fd49a1c9.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/9631843f-312a-4d66-a096-0eb04cefc521.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/9cb4cfc1-62d7-4b60-88c4-4c42f75dd9c2.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/f0a52e50-20f5-4664-8d26-0b75e56ec57a.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/73676c57-b720-4bfe-b136-daab145acdc1.jpg"
-      ],
-      "features": [],
-      "description": "Mosaic Black Metallic 2026 Chevrolet Trax 2RS FWD 6-Speed Automatic ECOTEC 1.2L TurboAwards: * Car and Driver 10 Best Trucks and SUVs Car and Driver Editors' ChoiceCar and Driver, January 2017.Check out all these great option's Driver Confidence Package (Adaptive Cruise Control, Lane Change Alert with Side Blind Zone Alert, Rear Cross Traffic Alert, and Rear Park Assist), License Plate Front Mounting Package, Preferred Equipment Group 2RS, 2-Way Adjustable Front Head Restraints, 2-Way Power Driver Lumbar Seat Adjuster, 3.50 Final Drive Axle Ratio, 4-Way Manual Front Passenger Seat Adjuster, 4-Wheel Disc Brakes, 6 Speakers, 6-Speaker Audio System Feature, 8-Way Power Driver Seat Adjuster, ABS brakes, Air Conditioning, Alloy wheels, AM/FM radio: SiriusXM, Auto High-beam Headlights, Automatic temperature control, Brake assist, Bumpers: body-color, Compass, Delay-off headlights, Driver door bin, Driver vanity mirror, Dual front impact airbags, Dual front side impact airbags, Electronic Stability Control, Emergency communication system: OnStar One Essentials, Evotex Seat Trim, Exterior Parking Camera Rear, Front anti-roll bar, Front Bucket Seats, Front Center Armrest, Front reading lights, Front wheel independent suspension, Fully automatic headlights, Heated door mirrors, Heated Driver and Front Passenger Seats, Heated front seats, Heated steering wheel, Illuminated entry, Leather steering wheel, Low tire pressure warning, Occupant sensing airbag, Outside temperature display, Overhead airbag, Overhead console, Panic alarm, Passenger door bin, Passenger vanity mirror, Power door mirrors, Power driver seat, Power steering, Power windows, Premium audio system: Chevrolet Infotainment 3, Radio data system, Radio: AM/FM Stereo Audio System, Rear window defroster, Rear window wiper, Remote keyless entry, Security system, SiriusXM Trial Subscription, Speed control, Split folding rear seat, Spoiler, Sport steering wheel, Steering wheel mounted audio controls, Tachometer, Telescoping steering wheel, Tilt steering wheel, Traction control, Trip computer, Variably intermittent wipers, Wheels: 19\" Black-Painted Machined Aluminum, and Wireless Apple CarPlay/Wireless Android Auto. Features:Preferred Equipment Group 2RS|8-Way Power Driver Seat Adjuster|4-Way Manual Front Passenger Seat Adjuster|2-Way Adjustable Front Head Restraints|2-Way Power Driver Lumbar Seat Adjuster|3.50 Final Drive Axle Ratio|Radio: AM/FM Stereo Audio System|Heated Driver and Front Passenger Seats|Adaptive Cruise Control|Wireless Apple CarPlay/Wireless Android Auto|Wheels: 19\" Black-Painted Machined Aluminum|Evotex Seat Trim|SiriusXM Trial Subscription|Rear Park Assist|Rear Cross Traffic Alert|Lane Change Alert with Side Blind Zone Alert|6-Speaker Audio System Feature|License Plate Front Mounting Package|Driver Confidence Package|4-Wheel Disc Brakes|Emergency communication system: OnStar One Essentials|Premium audio system: Chevrolet Infotainment 3|Auto High-beam Headlights|Exterior Parking Camera Rear|AM/FM radio: SiriusXM|Compass|Front beverage holders|Variably intermittent wipers|Trip computer|Traction control|Tilt steering wheel|Telescoping steering wheel|Steering wheel mounted audio controls|Sport steering wheel|Split folding rear seat|Speed control|Security system|Remote keyless entry|Rear window wiper|Rear window defroster|Radio data system|Power windows|Power steering|Power driver seat|Power door mirrors|Passenger vanity mirror|Passenger door bin|Panic alarm|Overhead console|Overhead airbag|Outside temperature display|Occupant sensing airbag|Low tire pressure warning|Leather steering wheel|Illuminated entry|Heated steering wheel|Heated front seats|Heated door mirrors|Fully automatic headlights|Front wheel independent suspension|Front reading lights|Front anti-roll bar|Dual front side impact airbags|Dual front impact airbags|Driver vanity mirror|Driver door bin|Delay-off headlights|Bumpers: body-color|Brake assist|Automatic temperature control|Alloy wheels|ABS brakes|Tachometer|Spoiler|Front Center Armrest|Front Bucket Seats|Electronic Stability Control|Air Conditioning|6 Speakers",
-      "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-b344b52bac1834a791521c6bd426cbf0.htm",
-      "slug": "2026-chevrolet-trax-2rs-233204",
-      "firstSeenAt": "2026-10-25T16:56:35.043Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LJEP6TC233785",
@@ -12819,7 +12549,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-b344a594ac18065879bcb5eb1215c9a8.htm",
       "slug": "2026-chevrolet-trax-2rs-233785",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LJEP7TC255231",
@@ -12864,7 +12594,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-6714c271ac183b721f3e022385bc3b55.htm",
       "slug": "2026-chevrolet-trax-2rs-255231",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LJEP8TC256629",
@@ -12909,52 +12639,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-6714b833ac183b721f3e0223dff3cfce.htm",
       "slug": "2026-chevrolet-trax-2rs-256629",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
-    },
-    {
-      "id": "KL77LJEP9TC256705",
-      "vin": "KL77LJEP9TC256705",
-      "stockNumber": "TC256705",
-      "condition": "new",
-      "year": 2026,
-      "make": "Chevrolet",
-      "model": "Trax",
-      "trim": "2RS",
-      "bodyStyle": "SUV",
-      "drivetrain": "FWD",
-      "transmission": "6-Speed Automatic",
-      "fuelType": "Gasoline",
-      "engine": "ECOTEC 1.2L Turbo",
-      "exteriorColor": "Black Metallic",
-      "interiorColor": "Jet Black With Red Accents",
-      "doors": null,
-      "mileage": 12,
-      "availability": null,
-      "dealer": null,
-      "sourcePrice": 22695,
-      "sourceMsrp": null,
-      "price": 25695,
-      "markupRate": 0,
-      "images": [
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/82661a99-64b9-4db8-b90c-880c8e2de189.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/dda48d55-7fdc-4a3d-969a-2743b2616f06.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/9bb9af81-13d1-4e3f-826e-5a2aa050f667.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/1af9a780-d2a1-4170-9237-407be7dab2c3.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/f18626de-032a-439d-b47f-8b4249b091ad.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/6d1875fe-b13f-48f0-90d5-2fc2be57887e.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/bc11241c-574c-4fb5-aa58-63188e7b00bc.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/d70bb6ce-6e0e-477c-949e-5affc552ceb4.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/e8e49879-3866-4bd9-aba3-137817143d78.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/476774c1-ebb4-4c1b-a8e6-e7b5fa7b4977.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/eca02761-03b1-4cf1-87cf-bd816ce230b0.jpg",
-        "https://assets.cai-media-management.com/resize/1024x1024/common-vehicle-media/edb6bea6-36ec-4830-b3a2-498c81e5aebb.jpg"
-      ],
-      "features": [],
-      "description": "Mosaic Black Metallic 2026 Chevrolet Trax 2RS FWD 6-Speed Automatic ECOTEC 1.2L TurboAwards: * Car and Driver 10 Best Trucks and SUVs Car and Driver Editors' ChoiceCar and Driver, January 2017.Check out all these great option's Preferred Equipment Group 2RS, 2-Way Adjustable Front Head Restraints, 2-Way Power Driver Lumbar Seat Adjuster, 3.50 Final Drive Axle Ratio, 4-Way Manual Front Passenger Seat Adjuster, 4-Wheel Disc Brakes, 6 Speakers, 6-Speaker Audio System Feature, 8-Way Power Driver Seat Adjuster, ABS brakes, Air Conditioning, Alloy wheels, AM/FM radio: SiriusXM, Auto High-beam Headlights, Automatic temperature control, Brake assist, Bumpers: body-color, Compass, Delay-off headlights, Driver door bin, Driver vanity mirror, Dual front impact airbags, Dual front side impact airbags, Electronic Stability Control, Emergency communication system: OnStar One Essentials, Evotex Seat Trim, Exterior Parking Camera Rear, Front anti-roll bar, Front Bucket Seats, Front Center Armrest, Front reading lights, Front wheel independent suspension, Fully automatic headlights, Heated door mirrors, Heated Driver and Front Passenger Seats, Heated front seats, Heated steering wheel, Illuminated entry, Leather steering wheel, Low tire pressure warning, Occupant sensing airbag, Outside temperature display, Overhead airbag, Overhead console, Panic alarm, Passenger door bin, Passenger vanity mirror, Power door mirrors, Power driver seat, Power steering, Power windows, Premium audio system: Chevrolet Infotainment 3, Radio data system, Radio: AM/FM Stereo Audio System, Rear window defroster, Rear window wiper, Remote keyless entry, Security system, SiriusXM Trial Subscription, Speed control, Split folding rear seat, Spoiler, Sport steering wheel, Steering wheel mounted audio controls, Tachometer, Telescoping steering wheel, Tilt steering wheel, Traction control, Trip computer, Variably intermittent wipers, Wheels: 19\" Black-Painted Machined Aluminum, and Wireless Apple CarPlay/Wireless Android Auto. Features:Preferred Equipment Group 2RS|8-Way Power Driver Seat Adjuster|4-Way Manual Front Passenger Seat Adjuster|2-Way Adjustable Front Head Restraints|2-Way Power Driver Lumbar Seat Adjuster|3.50 Final Drive Axle Ratio|Radio: AM/FM Stereo Audio System|Heated Driver and Front Passenger Seats|Wireless Apple CarPlay/Wireless Android Auto|Wheels: 19\" Black-Painted Machined Aluminum|Evotex Seat Trim|SiriusXM Trial Subscription|6-Speaker Audio System Feature|4-Wheel Disc Brakes|Emergency communication system: OnStar One Essentials|Premium audio system: Chevrolet Infotainment 3|Auto High-beam Headlights|Exterior Parking Camera Rear|AM/FM radio: SiriusXM|Compass|Front beverage holders|Variably intermittent wipers|Trip computer|Traction control|Tilt steering wheel|Telescoping steering wheel|Steering wheel mounted audio controls|Sport steering wheel|Split folding rear seat|Speed control|Security system|Remote keyless entry|Rear window wiper|Rear window defroster|Radio data system|Power windows|Power steering|Power driver seat|Power door mirrors|Passenger vanity mirror|Passenger door bin|Panic alarm|Overhead console|Overhead airbag|Outside temperature display|Occupant sensing airbag|Low tire pressure warning|Leather steering wheel|Illuminated entry|Heated steering wheel|Heated front seats|Heated door mirrors|Fully automatic headlights|Front wheel independent suspension|Front reading lights|Front anti-roll bar|Dual front side impact airbags|Dual front impact airbags|Driver vanity mirror|Driver door bin|Delay-off headlights|Bumpers: body-color|Brake assist|Automatic temperature control|Alloy wheels|ABS brakes|Tachometer|Spoiler|Front Center Armrest|Front Bucket Seats|Electronic Stability Control|Air Conditioning|6 Speakers",
-      "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-62261532ac18460669bf321077847b49.htm",
-      "slug": "2026-chevrolet-trax-2rs-256705",
-      "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LKEP2TC253439",
@@ -12999,7 +12684,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb7e31ac1838ffae3a022a320038a0.htm",
       "slug": "2026-chevrolet-trax-activ-253439",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LKEP6TC039750",
@@ -13042,7 +12727,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2026-Chevrolet-Trax-c0d66d13ac1837d0dfe2868dcc391566.htm",
       "slug": "2026-chevrolet-trax-activ-039750",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL77LKEP9TC253499",
@@ -13087,7 +12772,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trax-76bb73f5ac1806568f439d17f7496fd8.htm",
       "slug": "2026-chevrolet-trax-activ-253499",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MMSL2TB277054",
@@ -13132,7 +12817,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c72251eac18112a917d960949c550aa.htm",
       "slug": "2026-chevrolet-trailblazer-ls-277054",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MMSL3TB251501",
@@ -13177,7 +12862,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-7f8a9f44ac18083a2914417f64aaecfe.htm",
       "slug": "2026-chevrolet-trailblazer-ls-251501",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MMSL7TB280970",
@@ -13222,7 +12907,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c722779ac180e99be2ff67dff6d1d30.htm",
       "slug": "2026-chevrolet-trailblazer-ls-280970",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MMSL7TB288776",
@@ -13267,7 +12952,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-95a0b045ac183203311d4ef2f540b22d.htm",
       "slug": "2026-chevrolet-trailblazer-ls-288776",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSL0TB278446",
@@ -13312,7 +12997,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-8d43c878ac181ba235d0c042285c7506.htm",
       "slug": "2026-chevrolet-trailblazer-lt-278446",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSL3TB241276",
@@ -13357,7 +13042,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-94922780ac182bafa05e7feef3bf3f8c.htm",
       "slug": "2026-chevrolet-trailblazer-lt-241276",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSL3TB291417",
@@ -13402,7 +13087,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6714c3a4ac185b7043adb35b447cda21.htm",
       "slug": "2026-chevrolet-trailblazer-lt-291417",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSL3TB294432",
@@ -13447,7 +13132,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c722677ac185ca9e7e2cb7f0fd3364d.htm",
       "slug": "2026-chevrolet-trailblazer-lt-294432",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSL4TB285531",
@@ -13492,7 +13177,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c722a7eac180e99be2ff67df565bc21.htm",
       "slug": "2026-chevrolet-trailblazer-lt-285531",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSL4TB287876",
@@ -13537,7 +13222,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-62261770ac18518ba815d9f2d2cea356.htm",
       "slug": "2026-chevrolet-trailblazer-lt-287876",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSL4TB288297",
@@ -13582,7 +13267,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-8d43c327ac1849bfafd15ef5231a14d3.htm",
       "slug": "2026-chevrolet-trailblazer-lt-288297",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSL4TB290132",
@@ -13627,7 +13312,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6714bb80ac18155969bd56a954cc4347.htm",
       "slug": "2026-chevrolet-trailblazer-lt-290132",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSL4TB294892",
@@ -13672,7 +13357,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c722876ac180e99be2ff67dcd6aeac4.htm",
       "slug": "2026-chevrolet-trailblazer-lt-294892",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSL6TB281528",
@@ -13717,7 +13402,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-9ac7f518ac1851979897d8865ff7f74e.htm",
       "slug": "2026-chevrolet-trailblazer-lt-281528",
       "firstSeenAt": "2026-09-30T21:49:45.081Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSL6TB283781",
@@ -13762,7 +13447,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c722412ac1813b262e6ac10801eb805.htm",
       "slug": "2026-chevrolet-trailblazer-lt-283781",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MPSLXTB296310",
@@ -13807,7 +13492,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6714c5cdac184d75e32c2e10e924982e.htm",
       "slug": "2026-chevrolet-trailblazer-lt-296310",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MTSL1TB296902",
@@ -13852,7 +13537,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/new/Chevrolet/2026-Chevrolet-Trailblazer-6c72297dac1849bfafd15ef576cd11e6.htm",
       "slug": "2026-chevrolet-trailblazer-rs-296902",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     },
     {
       "id": "KL79MTSL4PB117225",
@@ -13895,7 +13580,7 @@
       "sourceUrl": "https://www.escudechevrolet.com/used/Chevrolet/2023-Chevrolet-Trailblazer-9a8f7bd6ac180452357e7dbbe1a14439.htm",
       "slug": "2023-chevrolet-trailblazer-rs-117225",
       "firstSeenAt": "2026-09-26T15:40:04.891Z",
-      "lastSeenAt": "2026-10-25T16:56:35.043Z"
+      "lastSeenAt": "2026-10-26T18:59:52.754Z"
     }
   ]
 }
