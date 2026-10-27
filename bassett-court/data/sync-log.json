@@ -1,5 +1,96 @@
 [
   {
+    "at": "2026-10-27T18:31:45.520Z",
+    "adapter": "shiftly",
+    "fetched": 313,
+    "published": 313,
+    "added": [
+      "1G1YB2D51V5103607",
+      "1G1YF2D36V5601207",
+      "1GCUYEED4KZ239102",
+      "1GNERJKX3KJ193616",
+      "1GNEVHKW1NJ111267",
+      "3GCUKREC9JG462993",
+      "4S4BTGUD4N3183071",
+      "5LM5J6XC7RGL01853",
+      "5NMJA3DE8RH392229",
+      "WDDZF6EB2JA399241"
+    ],
+    "removed": [
+      "1GNSKEKD1RR120373",
+      "JN8AT2MT5HW406574"
+    ],
+    "repriced": [
+      {
+        "id": "1FTEW1C8XHFC04454",
+        "from": 13980,
+        "to": 14950
+      },
+      {
+        "id": "1GCGSBEA0L1108476",
+        "from": 19500,
+        "to": 18998
+      },
+      {
+        "id": "1GCPTFEK9T1108196",
+        "from": 45380,
+        "to": 45337
+      },
+      {
+        "id": "1GCUYHEL7LZ290104",
+        "from": 43000,
+        "to": 41819
+      },
+      {
+        "id": "1GCVKPEH3JZ323267",
+        "from": 22000,
+        "to": 21890
+      },
+      {
+        "id": "1GKENRKS3RJ167295",
+        "from": 46289,
+        "to": 45998
+      },
+      {
+        "id": "1GKS2BKD1MR124508",
+        "from": 33109,
+        "to": 32890
+      },
+      {
+        "id": "1GNEVLKS6RJ212276",
+        "from": 45328,
+        "to": 44980
+      },
+      {
+        "id": "1GNSKFKD3NR199495",
+        "from": 37425,
+        "to": 36994
+      },
+      {
+        "id": "1GNSKRKD5RR274933",
+        "from": 59470,
+        "to": 59185
+      },
+      {
+        "id": "3GCUDFED5PG200284",
+        "from": 35311,
+        "to": 34704
+      },
+      {
+        "id": "3MW43CM05S8F33925",
+        "from": 49998,
+        "to": 51590
+      },
+      {
+        "id": "5NMJE3DE9RH342525",
+        "from": 27306,
+        "to": 27118
+      }
+    ],
+    "unchanged": 290,
+    "ok": true
+  },
+  {
     "at": "2026-10-26T18:59:52.754Z",
     "adapter": "shiftly",
     "fetched": 305,
