@@ -1,5 +1,50 @@
 [
   {
+    "at": "2026-10-28T18:37:35.159Z",
+    "adapter": "shiftly",
+    "fetched": 315,
+    "published": 315,
+    "added": [
+      "1GNEVJKS0VJ140960",
+      "1GNSKRKL7PR542529",
+      "3GCPDBEK2PG119831",
+      "3VV2C7B29SM083050"
+    ],
+    "removed": [
+      "1GNSKPKDXPR530517",
+      "5XYP64GC1SG647038"
+    ],
+    "repriced": [
+      {
+        "id": "1C4RJKBG8N8583114",
+        "from": 24370,
+        "to": 23290
+      },
+      {
+        "id": "1FTFW1E57PKE62234",
+        "from": 33612,
+        "to": 32647
+      },
+      {
+        "id": "1GNERGKS3TJ115765",
+        "from": 36590,
+        "to": 36294
+      },
+      {
+        "id": "1GNS6SKD9TR161070",
+        "from": 74561,
+        "to": 71977
+      },
+      {
+        "id": "3GCPWDEDXMG124827",
+        "from": 27973,
+        "to": 27375
+      }
+    ],
+    "unchanged": 306,
+    "ok": true
+  },
+  {
     "at": "2026-10-27T18:31:45.520Z",
     "adapter": "shiftly",
     "fetched": 313,
