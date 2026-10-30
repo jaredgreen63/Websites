@@ -1,5 +1,19 @@
 [
   {
+    "at": "2026-10-30T18:22:52.254Z",
+    "adapter": "shiftly",
+    "fetched": 358,
+    "published": 358,
+    "added": [],
+    "removed": [
+      "1GCPTFEK2T1322513",
+      "1GTUUGE86SZ327062"
+    ],
+    "repriced": [],
+    "unchanged": 358,
+    "ok": true
+  },
+  {
     "at": "2026-10-29T18:46:36.227Z",
     "adapter": "shiftly",
     "fetched": 360,
