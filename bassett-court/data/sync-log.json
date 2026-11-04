@@ -1,5 +1,86 @@
 [
   {
+    "at": "2026-11-04T20:14:25.787Z",
+    "adapter": "shiftly",
+    "fetched": 365,
+    "published": 365,
+    "added": [
+      "1FMCU0HDXJUD54638",
+      "1GCPDBEK1PZ193631",
+      "1GCUYDED9KZ161734"
+    ],
+    "removed": [],
+    "repriced": [
+      {
+        "id": "1FMCU0J94HUF10284",
+        "from": 11789,
+        "to": 11780
+      },
+      {
+        "id": "1FT7W2BT3KED34304",
+        "from": 52224,
+        "to": 51998
+      },
+      {
+        "id": "1FTEW1C8XHFC04454",
+        "from": 14950,
+        "to": 14790
+      },
+      {
+        "id": "1GCPKBEK6TZ395171",
+        "from": 40000,
+        "to": 39987
+      },
+      {
+        "id": "1GCUYEED8MZ446336",
+        "from": 33000,
+        "to": 32980
+      },
+      {
+        "id": "1GCUYEEDXMZ440750",
+        "from": 35361,
+        "to": 34890
+      },
+      {
+        "id": "1GKENRKS3RJ167295",
+        "from": 45998,
+        "to": 45695
+      },
+      {
+        "id": "1GKS2BKD1MR124508",
+        "from": 32890,
+        "to": 32650
+      },
+      {
+        "id": "1GNEVHKW1NJ111267",
+        "from": 24581,
+        "to": 24395
+      },
+      {
+        "id": "1GNSKRKD5RR274933",
+        "from": 59185,
+        "to": 58860
+      },
+      {
+        "id": "1N4BL4CV4NN414476",
+        "from": 17590,
+        "to": 17128
+      },
+      {
+        "id": "3GCUKREC9JG462993",
+        "from": 24111,
+        "to": 23428
+      },
+      {
+        "id": "5TFUM5F12KX081628",
+        "from": 22000,
+        "to": 21257
+      }
+    ],
+    "unchanged": 349,
+    "ok": true
+  },
+  {
     "at": "2026-11-03T19:56:14.009Z",
     "adapter": "shiftly",
     "fetched": 362,
