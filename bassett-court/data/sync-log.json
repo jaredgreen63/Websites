@@ -1,5 +1,37 @@
 [
   {
+    "at": "2026-11-13T20:15:29.419Z",
+    "adapter": "shiftly",
+    "fetched": 342,
+    "published": 342,
+    "added": [
+      "1G1FH3D7XL0118324",
+      "1GCPSCEK2T1343394",
+      "2GC4KNE75T1231970",
+      "3GCUKJE83TG497271",
+      "3GNAXKEV0NS105824"
+    ],
+    "removed": [
+      "1FT7W2BT3KED34304",
+      "1GNS6TKL4TR454159",
+      "1N6AD0ER7KN751020",
+      "3GCUKREC9JG462993",
+      "3GNARHEG2VL196071",
+      "3GNARHEG4VL148314",
+      "KL77LFEP6SC287910",
+      "KL77LHEP6TC148048"
+    ],
+    "repriced": [
+      {
+        "id": "2C3CDXHG5PH591710",
+        "from": 25348,
+        "to": 25492
+      }
+    ],
+    "unchanged": 336,
+    "ok": true
+  },
+  {
     "at": "2026-11-12T20:36:58.221Z",
     "adapter": "shiftly",
     "fetched": 345,
