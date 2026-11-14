@@ -1,5 +1,131 @@
 [
   {
+    "at": "2026-11-14T18:37:36.430Z",
+    "adapter": "shiftly",
+    "fetched": 340,
+    "published": 340,
+    "added": [
+      "1C6RR7LT9NS240758",
+      "1GCEC14WXXZ183222",
+      "1GCGSBEN5K1193817",
+      "3GNAXSEG4TL383005",
+      "KL4CJ2SB1KB803955"
+    ],
+    "removed": [
+      "1FMCU0HDXJUD54638",
+      "1FMCU0J94HUF10284",
+      "1G1FY6EV6VF127939",
+      "1GCUYHEL7LZ290104",
+      "1GNERGKS3VJ117678",
+      "2GCUKDEDXT1217658",
+      "3GNARHEG5VL225711"
+    ],
+    "repriced": [
+      {
+        "id": "1C4RJHBR1T8552515",
+        "from": 38890,
+        "to": 38369
+      },
+      {
+        "id": "1C4RJKAG7S8756599",
+        "from": 37163,
+        "to": 36786
+      },
+      {
+        "id": "1FTFW1E57PKE62234",
+        "from": 32520,
+        "to": 32198
+      },
+      {
+        "id": "1FTFW1RG2SFB70861",
+        "from": 74897,
+        "to": 74452
+      },
+      {
+        "id": "1GCPTEEK9T1276673",
+        "from": 38358,
+        "to": 37950
+      },
+      {
+        "id": "1GCUYEED8MZ446336",
+        "from": 32980,
+        "to": 32506
+      },
+      {
+        "id": "1GKENRKS3RJ167295",
+        "from": 45695,
+        "to": 45467
+      },
+      {
+        "id": "1GNERGKS4VJ118368",
+        "from": 37790,
+        "to": 37620
+      },
+      {
+        "id": "1GNS6GRL7SR159908",
+        "from": 74690,
+        "to": 74308
+      },
+      {
+        "id": "1GNS6SKD9TR161070",
+        "from": 71873,
+        "to": 71143
+      },
+      {
+        "id": "1GNSKPKL5PR390934",
+        "from": 52000,
+        "to": 51909
+      },
+      {
+        "id": "1GNSKRKD5RR274933",
+        "from": 58860,
+        "to": 58700
+      },
+      {
+        "id": "1GNSKRKL7PR542529",
+        "from": 46359,
+        "to": 45869
+      },
+      {
+        "id": "1GT4UREYXSF282771",
+        "from": 72854,
+        "to": 71279
+      },
+      {
+        "id": "1N6ED1EJ0PN667954",
+        "from": 27889,
+        "to": 27574
+      },
+      {
+        "id": "2GC4YME76R1194249",
+        "from": 45206,
+        "to": 44752
+      },
+      {
+        "id": "3GCPDBEK2PG119831",
+        "from": 27759,
+        "to": 27483
+      },
+      {
+        "id": "3GCUDFED5PG200284",
+        "from": 31311,
+        "to": 31699
+      },
+      {
+        "id": "KL77LKEP6TC039750",
+        "from": 24000,
+        "to": 23980
+      },
+      {
+        "id": "KL79MTSL4PB117225",
+        "from": 20389,
+        "to": 19980
+      }
+    ],
+    "unchanged": 315,
+    "ok": true
+  },
+  {
     "at": "2026-11-13T20:15:29.419Z",
     "adapter": "shiftly",
     "fetched": 342,
