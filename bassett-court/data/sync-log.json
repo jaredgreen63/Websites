@@ -1,5 +1,37 @@
 [
   {
+    "at": "2026-11-17T21:28:38.892Z",
+    "adapter": "shiftly",
+    "fetched": 334,
+    "published": 334,
+    "added": [
+      "1GCPKBEK7TZ440117"
+    ],
+    "removed": [
+      "1GCUYEEDXMZ440750",
+      "1GNS6SRD0SR317419"
+    ],
+    "repriced": [
+      {
+        "id": "1GC1KWEG3GF257118",
+        "from": 31724,
+        "to": 32071
+      },
+      {
+        "id": "1GCPTEEK9T1276673",
+        "from": 37950,
+        "to": 38514
+      },
+      {
+        "id": "1N6AA1EKXHN541408",
+        "from": 17900,
+        "to": 18980
+      }
+    ],
+    "unchanged": 330,
+    "ok": true
+  },
+  {
     "at": "2026-11-16T22:42:28.144Z",
     "adapter": "shiftly",
     "fetched": 335,
@@ -6622,17 +6654,6 @@
   },
   {
     "at": "2026-09-21T19:34:32.838Z",
-    "adapter": "demo",
-    "fetched": 54,
-    "published": 54,
-    "added": [],
-    "removed": [],
-    "repriced": [],
-    "unchanged": 54,
-    "ok": true
-  },
-  {
-    "at": "2026-09-21T19:34:16.818Z",
     "adapter": "demo",
     "fetched": 54,
     "published": 54,
