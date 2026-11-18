@@ -1,5 +1,24 @@
 [
   {
+    "at": "2026-11-18T21:03:39.159Z",
+    "adapter": "shiftly",
+    "fetched": 330,
+    "published": 330,
+    "added": [
+      "1GCUYGED5NZ167780"
+    ],
+    "removed": [
+      "1C4HJXDG8MW768702",
+      "1GC4KNE78TF408388",
+      "1GNERGKS2VJ117025",
+      "1GNSKTKL6PR558749",
+      "KL79MTSL1TB296902"
+    ],
+    "repriced": [],
+    "unchanged": 329,
+    "ok": true
+  },
+  {
     "at": "2026-11-17T21:28:38.892Z",
     "adapter": "shiftly",
     "fetched": 334,
@@ -6650,17 +6669,6 @@
       }
     ],
     "unchanged": 2,
-    "ok": true
-  },
-  {
-    "at": "2026-09-21T19:34:32.838Z",
-    "adapter": "demo",
-    "fetched": 54,
-    "published": 54,
-    "added": [],
-    "removed": [],
-    "repriced": [],
-    "unchanged": 54,
     "ok": true
   }
 ]
