@@ -1,5 +1,26 @@
 [
   {
+    "at": "2026-11-20T20:53:35.899Z",
+    "adapter": "shiftly",
+    "fetched": 326,
+    "published": 326,
+    "added": [
+      "1GNERGKS2VJ117025"
+    ],
+    "removed": [
+      "3GCUKCED6TG508580"
+    ],
+    "repriced": [
+      {
+        "id": "JTDACAAJXT3039402",
+        "from": 46129,
+        "to": 46000
+      }
+    ],
+    "unchanged": 324,
+    "ok": true
+  },
+  {
     "at": "2026-11-19T21:08:24.931Z",
     "adapter": "shiftly",
     "fetched": 326,
@@ -6411,17 +6432,5 @@
     "repriced": [],
     "unchanged": 0,
     "ok": true
-  },
-  {
-    "at": "2026-09-26T15:36:40.097Z",
-    "adapter": "shiftly",
-    "fetched": 0,
-    "published": 54,
-    "added": [],
-    "removed": [],
-    "repriced": [],
-    "unchanged": 54,
-    "ok": false,
-    "note": "shiftly: endpoint returned no content."
   }
 ]
