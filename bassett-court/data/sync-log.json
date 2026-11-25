@@ -1,5 +1,112 @@
 [
   {
+    "at": "2026-11-25T22:06:14.389Z",
+    "adapter": "shiftly",
+    "fetched": 342,
+    "published": 342,
+    "added": [
+      "1GC4KMEY3TF310341",
+      "1GCRCSE09DZ228938",
+      "1N6AA1E60KN509304",
+      "2T3ZF33V29W016482",
+      "3C6UR5CL4JG418835",
+      "3GCPWCED1LG277167",
+      "3GCUKREC4GG329700"
+    ],
+    "removed": [
+      "1FTFW1E57PKE62234",
+      "1GCPTFEK0T1327287",
+      "1GKENRKS3RJ167295",
+      "3GCUKCED8TG419481",
+      "5TFUM5F12KX081628",
+      "KL77LHEPXTC295764"
+    ],
+    "repriced": [
+      {
+        "id": "1C4RJKAG7S8756599",
+        "from": 36786,
+        "to": 35917
+      },
+      {
+        "id": "1FTEX2KP3SKD15664",
+        "from": 37699,
+        "to": 36244
+      },
+      {
+        "id": "1GCPTEEKXS1226041",
+        "from": 38497,
+        "to": 37297
+      },
+      {
+        "id": "1GCUDEED9RZ406074",
+        "from": 42632,
+        "to": 40790
+      },
+      {
+        "id": "1GCUYEED8MZ446336",
+        "from": 32506,
+        "to": 31980
+      },
+      {
+        "id": "1GNERGKS3TJ128774",
+        "from": 36421,
+        "to": 35805
+      },
+      {
+        "id": "1GNERLKS2RJ163999",
+        "from": 40595,
+        "to": 39990
+      },
+      {
+        "id": "1GNS6GRL7SR159908",
+        "from": 74308,
+        "to": 73617
+      },
+      {
+        "id": "1GNSKRKD6MR368330",
+        "from": 44767,
+        "to": 43991
+      },
+      {
+        "id": "1GT4UREYXSF282771",
+        "from": 71279,
+        "to": 69578
+      },
+      {
+        "id": "2GC4KNE71S1184046",
+        "from": 52558,
+        "to": 52235
+      },
+      {
+        "id": "3GCUDGEL4RG168752",
+        "from": 45558,
+        "to": 45295
+      },
+      {
+        "id": "3MW43CM05S8F33925",
+        "from": 49585,
+        "to": 47989
+      },
+      {
+        "id": "5FNRL6H74KB074965",
+        "from": 21497,
+        "to": 21227
+      },
+      {
+        "id": "5TFDY5F19JX679962",
+        "from": 30590,
+        "to": 30516
+      },
+      {
+        "id": "5UX53GP05T9379619",
+        "from": 45908,
+        "to": 45305
+      }
+    ],
+    "unchanged": 319,
+    "ok": true
+  },
+  {
     "at": "2026-11-24T22:53:16.614Z",
     "adapter": "shiftly",
     "fetched": 341,
@@ -5873,28 +5980,6 @@
     "published": 345,
     "added": [],
     "removed": [],
-    "repriced": [],
-    "unchanged": 345,
-    "ok": true
-  },
-  {
-    "at": "2026-10-02T15:35:28.114Z",
-    "adapter": "shiftly",
-    "fetched": 526,
-    "published": 345,
-    "added": [],
-    "removed": [
-      "1GC3YLE77RF396659",
-      "1GCPSBEK7T1285213",
-      "1GCPTEEK5T1323598",
-      "1GNS6DKD4TR444407",
-      "1GNS6TKL4TR454159",
-      "3GCUDEED2NG580384",
-      "3GCUKCED2TG464741",
-      "3GNAXSEG6VL139777",
-      "5TFCZ5ANXLX228271",
-      "KL77LKEP3TC253546"
-    ],
     "repriced": [],
     "unchanged": 345,
     "ok": true
