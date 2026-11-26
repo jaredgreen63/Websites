@@ -1,5 +1,41 @@
 [
   {
+    "at": "2026-11-26T22:04:45.330Z",
+    "adapter": "shiftly",
+    "fetched": 339,
+    "published": 339,
+    "added": [
+      "1C4HJXFN2MW684077",
+      "1GKS1CKJ3FR582049"
+    ],
+    "removed": [
+      "1GCUYHEL2KZ119257",
+      "1GNERGKS3VJ183650",
+      "1GNS6GKL4VR116433",
+      "3GNARHEG4VL179496",
+      "3GNARHEG8VL196768"
+    ],
+    "repriced": [
+      {
+        "id": "1C4RJHBR1T8552515",
+        "from": 38369,
+        "to": 35909
+      },
+      {
+        "id": "2T3C1RFV8RC279080",
+        "from": 31332,
+        "to": 29708
+      },
+      {
+        "id": "3C6UR5DL6RG239027",
+        "from": 46219,
+        "to": 48189
+      }
+    ],
+    "unchanged": 334,
+    "ok": true
+  },
+  {
     "at": "2026-11-25T22:06:14.389Z",
     "adapter": "shiftly",
     "fetched": 342,
@@ -5971,17 +6007,6 @@
       }
     ],
     "unchanged": 117,
-    "ok": true
-  },
-  {
-    "at": "2026-10-02T16:16:44.890Z",
-    "adapter": "shiftly",
-    "fetched": 526,
-    "published": 345,
-    "added": [],
-    "removed": [],
-    "repriced": [],
-    "unchanged": 345,
     "ok": true
   }
 ]
